@@ -1,0 +1,64 @@
+<map name="地下之城" category="-50325" id="-50327" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_327</bgm>
+	</music>
+	<entities>
+	<npc id="-5032701" resId="Prefabs/Pet_280" type="prefab" name="沙罗希瓦" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="280" level="43">
+							<loopSkill>20183,10782,20343,10783</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032702" resId="Prefabs/Pet_280" type="prefab" name="沙罗希瓦" size="2.5,2.5" pos="-2.3,1.7" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="280" level="42">
+							<loopSkill>20183,10782,20343,10783</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032703" resId="Prefabs/Pet_278" type="prefab" name="沙顿" size="2.5,2.5" pos="2.49,-2.845" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="278" level="15">
+							<loopSkill>10780,20270,10420</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="暮色之城" pos="-7.27,-0.53" targetMapId="-50326"/>
+	</entities>		
+</map>

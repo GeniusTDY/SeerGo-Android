@@ -1,0 +1,18 @@
+<map name="试炼之塔" category="-100" id="-50600" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>1,4</initialPoint>
+	<music category="-100">
+		<bgm>BGM_500</bgm>
+	</music>
+	<entities>
+		<npc id="-1000000" resId="-5000000" type="sprite"  sort="3" size="1,1" pos="-4.29,-2.05" rotation="0,0,0" color="255,255,255,255">
+			<description>精灵背包</description>
+			<eventHandler>
+				<button type="click">
+					<action>openPetBag</action>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="教官办公室" pos="4.55,-2.07" targetMapId="-50101"/>
+	</entities>		
+</map>

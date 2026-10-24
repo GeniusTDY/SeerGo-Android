@@ -1,0 +1,48 @@
+<map name="火山星深处" category="-50015" id="-50017" weather="3">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-1,0</initialPoint>
+	<music category="-2">
+		<bgm>BGM_015</bgm>
+	</music>
+	<entities>
+		<npc id="-5002201" resId="Prefabs/NPC_-50017_1" type="prefab"  sort="2" size="1.8,1.8" pos="6,2" rotation="0,0,0" color="255,255,255,255">
+			<description>里奥斯挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="42" level="35">
+							<status>
+								<hp>400</hp>
+							</status>
+							<loopSkill>10098,20051,10099,20052</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>905</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【里奥斯】已经放入精灵仓库</param>
+							<param>item_icon=pet[-42]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="火山星山洞" pos="-6.61,1.9" targetMapId="-50016"/>
+	</entities>
+</map>

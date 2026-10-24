@@ -1,0 +1,144 @@
+<map name="海洋星深水区" category="-50020" id="-50021" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>3.2,1</initialPoint>
+	<music category="-2">
+		<bgm>BGM_020</bgm>
+	</music>
+	<entities>
+	<npc id="-5002101"  resId="Prefabs/Pet_95" type="prefab" name="尼布" size="2,2" pos="0,0" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="95" level="15">
+							<loopSkill>10157,10011,20125,10024</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		
+		<npc id="-5002103"  resId="Prefabs/Pet_108" type="prefab" name="布鲁" size="2,2" pos="0,2" namePos="0,0"  rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="108" level="16">
+							<loopSkill>10001,20004,20125,10316</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+			</npc>
+		<npc id="-5002103"  resId="Prefabs/Pet_357" type="prefab" name="布林" size="2.2,2.2" pos="2.64,1.87" namePos="0,0"  rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="357" level="16">
+							<loopSkill>10883,10878,20004,10006</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+			</npc>
+		<npc id="-5002104" resId="Prefabs/Pet_33" type="prefab" name="利牙鱼" size="1,1" pos="-1,-1" namePos="0,0"  active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="33" level="15">
+							<loopSkill>10011,20018,10074,20039</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1001" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+			</npc>
+		<npc id="-5002105" resId="Prefabs/Pet_33" type="prefab" name="利牙鱼" size="1,1" pos="1,-1" namePos="0,0"  active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="33" level="15">
+							<loopSkill>10011,20018,10074,20039</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1001" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+			</npc>
+		<npc id="-5002104" resId="Prefabs/Pet_170" type="prefab" name="利齿鱼" size="1,1" pos="-5.24,1.3" namePos="0,0"  rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="170" level="15">
+							<loopSkill>10011,20004,10074,20039</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1001" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_33" type="prefab" name="利牙鱼" size="1,1" pos="-2,-2.6" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="海洋星" pos="5.87,2.13" targetMapId="-50020"/>
+	<teleport id="2" name="海洋星海底" pos="-5.23,-3.26" targetMapId="-50022"/>
+	</entities>		
+</map>

@@ -1,0 +1,85 @@
+<map name="克洛斯林间" category="-50010" id="-50012" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>5.7,1</initialPoint>
+	<music category="-2">
+		<bgm>BGM_012</bgm>
+	</music>
+	<entities>
+	<npc id="-5001201"  resId="Prefabs/Pet_47" type="prefab" name="蘑菇怪" size="5,5" sort="3" pos="2.3,-2.9" namePos="9,-15">
+			<description>蘑菇怪挑战</description>
+			<battle>
+			<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="47" level="10">
+							<status>
+								<hp>100</hp>
+							</status>
+							<loopSkill>20020,10042,20004,10001</loopSkill>
+							<superSkill>-999374</superSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>46</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【蘑菇怪】已经放入精灵仓库</param>
+							<param>item_icon=pet[-47]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001103" resId="Prefabs/Pet_83" type="prefab" name="依依" size="2.5,2.5" pos="-6.79,0.65" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="83" level="13">
+							<loopSkill>10234,20020,20012</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001103" resId="Prefabs/Pet_442" type="prefab" name="闪光依依" size="2.5,2.5" pos="-6,1" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="442" level="13">
+							<loopSkill>10235,20012,20020,10234</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="克洛斯林间" pos="6.25,2.6" targetMapId="-50011"/>
+	</entities>		
+</map>

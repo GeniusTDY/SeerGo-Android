@@ -1,0 +1,10 @@
+<map name="船长室" category="-100" id="-50004" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>0,0</initialPoint>
+	<music category="-100">
+		<bgm>BGM_101</bgm>
+	</music>
+	<entities>
+		<teleport id="1" name="传送室" pos="-6.07,-0.13" targetMapId="-50001"/>
+	</entities>		
+</map>

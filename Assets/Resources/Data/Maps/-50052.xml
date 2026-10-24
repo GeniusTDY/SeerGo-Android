@@ -1,0 +1,47 @@
+<map name="斯诺星密林" category="-50051" id="-50052" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>4,0</initialPoint>
+	<music category="-2">
+		<bgm>BGM_051</bgm>
+	</music>
+	<entities>
+	<npc id="-5005201" resId="Prefabs/Pet_156" type="prefab" name="迪度" size="2.5,2.5" pos="2,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="156" level="20">
+							<loopSkill>10001,20117,10150,10476</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005202" resId="Prefabs/Pet_158" type="prefab" name="托尼" size="2.5,2.5" pos="0,-1" namePos="0,0" active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="158" level="18">
+							<loopSkill>10001,20062,10211,10204</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		
+	<teleport id="1" name="斯诺星岩洞" pos="6,-1.44" targetMapId="-50053"/>
+	</entities>
+</map>

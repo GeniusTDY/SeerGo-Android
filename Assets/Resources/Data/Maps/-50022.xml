@@ -1,0 +1,96 @@
+<map name="海洋星海底" category="-50020" id="-50022" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-3,0</initialPoint>
+	<music category="-2">
+		<bgm>BGM_020</bgm>
+	</music>
+	<entities>
+		<npc id="-5002201" resId="Prefabs/NPC_-50022_1" type="prefab"  sort="2" size="2,2" pos="7.22,3.25" rotation="0,0,0" color="255,255,255,255">
+			<description>钢牙鲨挑战</description>
+			<dialog>
+				<content><![CDATA[钢牙鲨很强大，确定要挑战它吗?]]></content>
+				<functionHandler>
+					<func type="click">
+						<description><![CDATA[对战]]></description>
+						<action>battle</action>
+						<param>default</param>
+					</func>
+				</functionHandler>
+			</dialog>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="34" level="25">
+							<status>
+								<hp>400</hp>
+							</status>
+							<loopSkill>10075,20011,20040,10015</loopSkill>
+							<superSkill>-999374</superSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>33</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【钢牙鲨】已经放入精灵仓库</param>
+							<param>item_icon=pet[33]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>openDialog</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005501" resId="Prefabs/Pet_198" type="prefab" name="小鳍鱼" size="2.5,2.5" pos="-3,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="198" level="14">
+							<loopSkill>10201,20249,10572</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005501" resId="Prefabs/Pet_198" type="prefab" name="小鳍鱼" size="2.5,2.5" pos="0,-1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="198" level="13">
+							<loopSkill>10201,20249,10572</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="海洋星深水区" pos="-5.49,3.79" targetMapId="-50021"/>
+	</entities>
+</map>

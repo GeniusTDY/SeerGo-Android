@@ -1,0 +1,111 @@
+<map name="光之城" category="-50060" id="-50061" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_060</bgm>
+	</music>
+	<entities>
+		<npc id="-50006100" resId="Prefabs/NPC_-50061_1" type="prefab"  sort="2" size="2.2,2.2" pos="-1.61,3.09" rotation="0,0,0" color="255,255,255,255">
+			<description>厄尔塞拉挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="421" level="120">
+							<status>
+								<hp>10000</hp>
+							</status>
+							<initBuff>
+								<buff id="30006"/>
+								<buff id="20004"/>
+								<buff id="20003"/>
+								<buff id="20046"/>
+								<buff id="20044" effectValue="0.0625"/>
+								<buff id="30009"/>
+							</initBuff>
+							<loopSkill>11140,20564,10632,20562</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>419</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【塞拉】已经放入精灵仓库</param>
+							<param>item_icon=pet[419]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<npc id="-5006101" resId="Prefabs/Pet_239" type="prefab" name="吉娜斯" size="2,2" pos="2.12,-2.22" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="239" level="48">
+							<loopSkill>20049,10186,20288,10629</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006102" resId="Prefabs/Pet_239" type="prefab" name="吉娜斯" size="2,2" pos="-2.8,-2.52" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="239" level="48">
+							<loopSkill>20049,10186,20288,10629</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006103" resId="Prefabs/Pet_237" type="prefab" name="吉宝" size="2,2" pos="5.94,-2.28" namePos="0,0" rate="35">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="237" level="15">
+							<loopSkill>10004,10669,20056</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="塔克星" pos="-7.28,-2.86" targetMapId="-50060"/>
+	<teleport id="1" name="沙漠窑洞入口" pos="6.28,-0.84" targetMapId="-50064"/>
+	</entities>		
+</map>

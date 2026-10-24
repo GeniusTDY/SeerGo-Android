@@ -1,0 +1,985 @@
+fileFormatVersion: 2
+guid: 7ad943fe98fe76d4e80ecf620853e94c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Symbol 8080000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c530ead1ebb2ed910800000000000000
+      internalID: 1863975391319688028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080001
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 431
+        width: 50
+        height: 81
+      alignment: 9
+      pivot: {x: 0, y: 1.0055555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9823066749bd9bc50800000000000000
+      internalID: 6681612952868500105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080002
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 433
+        width: 50
+        height: 79
+      alignment: 9
+      pivot: {x: 0, y: 1.0310127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be82b570c542097f0800000000000000
+      internalID: -607945972016011029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080003
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 435
+        width: 50
+        height: 77
+      alignment: 9
+      pivot: {x: 0, y: 1.0577922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c095136f6e24b50800000000000000
+      internalID: 6576072350978608282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080004
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 437
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0, y: 1.086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee15d46713f6ca20800000000000000
+      internalID: 3082418276783169258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080005
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 437
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0, y: 1.086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee0e35fecd023f60800000000000000
+      internalID: 8012481869574442721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080006
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 432
+        width: 50
+        height: 80
+      alignment: 9
+      pivot: {x: 0, y: 0.99312496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2d90fdb33434f0800000000000000
+      internalID: -849997538787513109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080007
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 428
+        width: 50
+        height: 84
+      alignment: 9
+      pivot: {x: 0, y: 0.9458333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42c6b4766b6fb70800000000000000
+      internalID: 8932527465699222730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080008
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 423
+        width: 50
+        height: 89
+      alignment: 9
+      pivot: {x: 0, y: 0.8926966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1f56411c65ca780800000000000000
+      internalID: -8670459795324145218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080009
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 420
+        width: 50
+        height: 92
+      alignment: 9
+      pivot: {x: 0, y: 0.85271734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487765e201757b8d0800000000000000
+      internalID: -2830698113770555516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 50
+        height: 97
+      alignment: 9
+      pivot: {x: 0, y: 0.80876285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad69e54b49ffe1120800000000000000
+      internalID: 2386625866699282138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080011
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 319
+        width: 50
+        height: 101
+      alignment: 9
+      pivot: {x: 0, y: 0.7767326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0abd2474ce074e0800000000000000
+      internalID: -1985827644861865764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080012
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 322
+        width: 50
+        height: 98
+      alignment: 9
+      pivot: {x: 0, y: 0.81071424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d40025620c28650800000000000000
+      internalID: 6233756105051229459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080013
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 325
+        width: 50
+        height: 95
+      alignment: 9
+      pivot: {x: 0, y: 0.83631575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0848b502c447aeba0800000000000000
+      internalID: -6058902478364375936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080014
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 329
+        width: 50
+        height: 91
+      alignment: 9
+      pivot: {x: 0, y: 0.8730769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadb90448cd884330800000000000000
+      internalID: 3695359385531956652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080015
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 332
+        width: 50
+        height: 88
+      alignment: 9
+      pivot: {x: 0, y: 0.91420454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd87b9676ed9ecec0800000000000000
+      internalID: -3544722243536062241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080016
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 336
+        width: 50
+        height: 84
+      alignment: 9
+      pivot: {x: 0, y: 0.95773804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2071d607eae7acd60800000000000000
+      internalID: 7911274983105304322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080017
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 338
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ec408ca6c751fa0800000000000000
+      internalID: -5830617344497103317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080018
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 339
+        width: 50
+        height: 81
+      alignment: 9
+      pivot: {x: 0, y: 1.0055555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6a7dc12400556a0800000000000000
+      internalID: -6461257806441371917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080019
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 340
+        width: 50
+        height: 80
+      alignment: 9
+      pivot: {x: 0, y: 1.0181249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e30cd6681683fa10800000000000000
+      internalID: 1942043303689847779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 50
+        height: 79
+      alignment: 9
+      pivot: {x: 0, y: 1.0310127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78aa2a1dc9ba5110800000000000000
+      internalID: 1250516137107171455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080021
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 241
+        width: 50
+        height: 78
+      alignment: 9
+      pivot: {x: 0, y: 1.0442307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cecb0aa189e39450800000000000000
+      internalID: 6094471463875366598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080022
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 242
+        width: 50
+        height: 77
+      alignment: 9
+      pivot: {x: 0, y: 1.0577922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee0fc37725c9bbb0800000000000000
+      internalID: -4919684344688210205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080023
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 50
+        height: 79
+      alignment: 9
+      pivot: {x: 0, y: 1.0310127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32943e76debcdbe00800000000000000
+      internalID: 1062229307639941411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080024
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 238
+        width: 50
+        height: 81
+      alignment: 9
+      pivot: {x: 0, y: 1.0055555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8e4791ad7f4f7a0800000000000000
+      internalID: -6344173458956162834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080025
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 237
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd66d8e394041baf0800000000000000
+      internalID: -382453810023536929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080026
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 237
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b6adf858d20b860800000000000000
+      internalID: 7543579427512937274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080027
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 237
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4273b7305d527e020800000000000000
+      internalID: 2370905325650523940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080028
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 237
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45be468335cc1a10800000000000000
+      internalID: 1881595569421333839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080029
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 237
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fa6f5114ea9adc0800000000000000
+      internalID: -3627176430305628372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306f269b8bec5ed50800000000000000
+      internalID: 6766041307973613059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080031
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d84d47896bfd590800000000000000
+      internalID: -7647192876340441721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080032
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b130505efb1db10800000000000000
+      internalID: 2004594299509087133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080033
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2c811954f38c9c0800000000000000
+      internalID: -3906803108724292944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080034
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a2d5d1000903200800000000000000
+      internalID: 157784317125012080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080035
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf84bbc072d5a3c60800000000000000
+      internalID: 7798648127044143356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080036
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f1f8411bbfcec40800000000000000
+      internalID: 5543081979358945112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080037
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6194d5ddf33fa2e0800000000000000
+      internalID: -2112412534906252947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 8080038
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 155
+        width: 50
+        height: 82
+      alignment: 9
+      pivot: {x: 0, y: 0.9932926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01126aa5c39f8f00800000000000000
+      internalID: 1121277309414936842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Symbol 8080000: 1863975391319688028
+      Symbol 8080001: 6681612952868500105
+      Symbol 8080002: -607945972016011029
+      Symbol 8080003: 6576072350978608282
+      Symbol 8080004: 3082418276783169258
+      Symbol 8080005: 8012481869574442721
+      Symbol 8080006: -849997538787513109
+      Symbol 8080007: 8932527465699222730
+      Symbol 8080008: -8670459795324145218
+      Symbol 8080009: -2830698113770555516
+      Symbol 8080010: 2386625866699282138
+      Symbol 8080011: -1985827644861865764
+      Symbol 8080012: 6233756105051229459
+      Symbol 8080013: -6058902478364375936
+      Symbol 8080014: 3695359385531956652
+      Symbol 8080015: -3544722243536062241
+      Symbol 8080016: 7911274983105304322
+      Symbol 8080017: -5830617344497103317
+      Symbol 8080018: -6461257806441371917
+      Symbol 8080019: 1942043303689847779
+      Symbol 8080020: 1250516137107171455
+      Symbol 8080021: 6094471463875366598
+      Symbol 8080022: -4919684344688210205
+      Symbol 8080023: 1062229307639941411
+      Symbol 8080024: -6344173458956162834
+      Symbol 8080025: -382453810023536929
+      Symbol 8080026: 7543579427512937274
+      Symbol 8080027: 2370905325650523940
+      Symbol 8080028: 1881595569421333839
+      Symbol 8080029: -3627176430305628372
+      Symbol 8080030: 6766041307973613059
+      Symbol 8080031: -7647192876340441721
+      Symbol 8080032: 2004594299509087133
+      Symbol 8080033: -3906803108724292944
+      Symbol 8080034: 157784317125012080
+      Symbol 8080035: 7798648127044143356
+      Symbol 8080036: 5543081979358945112
+      Symbol 8080037: -2112412534906252947
+      Symbol 8080038: 1121277309414936842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

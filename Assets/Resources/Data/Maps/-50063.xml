@@ -1,0 +1,64 @@
+<map name="月影花园" category="-50060" id="-50063" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_063</bgm>
+	</music>
+	<entities>
+	<npc id="-5006301" resId="Prefabs/Pet_430" type="prefab" name="鲁迪" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="430" level="17">
+							<loopSkill>20250,10572,20041,10064</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006302" resId="Prefabs/Pet_430" type="prefab" name="鲁迪" size="2.5,2.5" pos="-5.29,1.83" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="430" level="18">
+							<loopSkill>20250,10572,20041,10064</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006303" resId="Prefabs/Pet_445" type="prefab" name="兰妮" size="2.5,2.5" pos="2.08,0.35" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="445" level="12">
+							<loopSkill>10001,20234,10202</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="暗之城" pos="-6.86,-3" targetMapId="-50062"/>
+	</entities>		
+</map>

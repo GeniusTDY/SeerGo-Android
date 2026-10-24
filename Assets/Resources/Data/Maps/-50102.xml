@@ -1,0 +1,35 @@
+<map name="太空站" category="-100" id="-50102" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>0,0</initialPoint>
+	<music category="-100">
+		<bgm>BGM_102</bgm>
+	</music>
+	<entities>
+		<npc id="-5000102" resId="Prefabs/NPC_-50102_1" type="prefab" sort="2" size="1.5,1.5" pos="3.15,-0.82" rotation="0,0,0" color="255,255,255,255">
+			<description>暗黑武斗场（暂未开放）</description>	
+		</npc>
+
+		<npc id="-5010201" resId="-5010201" name="贾斯汀" size="1,1" pos="0,0" namePos="9,-15">
+			<description>贾斯汀</description>
+			<dialog>
+				<branch id="default" name="贾斯汀" icon="-5001101" size="119,91" pos="0,55">
+					<content><![CDATA[欢迎来到空间站]]></content>
+					<replyHandler>
+						<reply type="click">
+							<description><![CDATA[贾斯汀站长]]></description>
+							<action>openDialog</action>
+							<param>null</param>
+						</reply>
+					</replyHandler>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<button type="click">
+					<action>openDialog</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="太空站左翼" pos="-6.96,-2.12" targetMapId="-50108"/>
+	</entities>
+</map>

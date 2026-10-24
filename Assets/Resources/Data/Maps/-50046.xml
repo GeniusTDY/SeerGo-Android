@@ -1,0 +1,65 @@
+<map name="双子星海盗能源站" category="-50105" id="-50046" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-5.18,-1.43</initialPoint>
+	<music category="-2">
+		<bgm>BGM_046</bgm>
+	</music>
+	<entities>
+	<npc id="-5901601" resId="Prefabs/Pet_97" type="prefab" name="鲁克" size="2.5,2.5" pos="2,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="97" level="17">
+							<loopSkill>10001,20006,10171,20023</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901602" resId="Prefabs/Pet_97" type="prefab" name="鲁克" size="2.5,2.5" pos="0,-1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="97" level="18">
+							<loopSkill>10001,20006,10171,20023</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_354" type="prefab" name="克鲁" size="2.5,2.5" pos="2.05,2.13" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="354" level="16">
+							<loopSkill>10171,10873,20006,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="阿尔法星岩地" pos="-7.6,-1.49" targetMapId="-50106"/>
+	<teleport id="2" name="贝塔星荒原" pos="6.71,2.51" targetMapId="-50049"/>
+	</entities>
+</map>

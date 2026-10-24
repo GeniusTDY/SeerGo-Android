@@ -1,0 +1,2437 @@
+fileFormatVersion: 2
+guid: eab8be7538a227946a58c1539c674ed6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Symbol 7360000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2d6eb9faef0cb20800000000000000
+      internalID: 3152799769347674801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360001
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dc7c2b10f0400c0800000000000000
+      internalID: -4610543618551722594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360002
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1910fcd22a9810b0800000000000000
+      internalID: -5757682649066890977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360003
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1f05b8c5a9bb230800000000000000
+      internalID: 3655685244806295999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360004
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b930a97825c37a300800000000000000
+      internalID: 263245428384465819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360005
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0503dc32d2aa9a060800000000000000
+      internalID: 6965285409556082768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360006
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eefcf307033e1b30800000000000000
+      internalID: 4259898402763767520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360007
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 958
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac1694561b9bd410800000000000000
+      internalID: 1502965420868902060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfdcfe735bad8640800000000000000
+      internalID: 5083907929472294848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360009
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae324555acb6eda0800000000000000
+      internalID: -5915833642218537301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360010
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5131de98283acd450800000000000000
+      internalID: 6114942175117382421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360011
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5679bf169e2a4cc40800000000000000
+      internalID: 5531725365572769637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360012
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f39d313a6213cb0800000000000000
+      internalID: -4886081638865748158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360013
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7f38224122657d0800000000000000
+      internalID: -2930117037684164659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360014
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7758c3380e9c49080800000000000000
+      internalID: -9181491774189959817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360015
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 892
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1c3ae99cdb3bd0800000000000000
+      internalID: -2649281402159489895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8a3e0f20844c260800000000000000
+      internalID: 7116892488620812465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360017
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c54f3c0286ef330800000000000000
+      internalID: 3746546429954645081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360018
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b76161f8530e8980800000000000000
+      internalID: -8534880563278813262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360019
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19725a88eb164d50800000000000000
+      internalID: 6721090179464067356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360020
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63d8486365f5fa0800000000000000
+      internalID: -5809830202132580621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360021
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d942aadd8a7f770800000000000000
+      internalID: 8644563679756721418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360022
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5604000108b9aea10800000000000000
+      internalID: 1939533563862990949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360023
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 826
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d9cc6e070640ce0800000000000000
+      internalID: -1439919942826943194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c272c1a56027f900800000000000000
+      internalID: 718078286466544327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360025
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de48822d09f42fe60800000000000000
+      internalID: 7994539771955807469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360026
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33f9ee4eba2eead0800000000000000
+      internalID: -2671150532128017604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360027
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27759f3ec119cba0800000000000000
+      internalID: -6068299445377337553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360028
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51b556afd6da0d40800000000000000
+      internalID: 5551485746744242522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360029
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f21a0264efa703c0800000000000000
+      internalID: -4393349516044397836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360030
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f240c4046d664d50800000000000000
+      internalID: 6721179770240910069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360031
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 760
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2356654c995513fd0800000000000000
+      internalID: -2364014210480446158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360032
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550a2c246c215dc20800000000000000
+      internalID: 3230508950441074773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360033
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246e974a5a5cbe100800000000000000
+      internalID: 138421528784660034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360034
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746b792fdc83785f0800000000000000
+      internalID: -754571955371788729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360035
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7022b9ba700ef3570800000000000000
+      internalID: 8448717749518803463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360036
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fefd2012d643b690800000000000000
+      internalID: -7587643079160627471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360037
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073a0d964b2448c60800000000000000
+      internalID: 7819448195658851184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360038
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41127ccc805484fe0800000000000000
+      internalID: -1204636996223950572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360039
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 694
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c803a85262aa90800000000000000
+      internalID: -7304167512809616947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60b023fb390d9080800000000000000
+      internalID: -9179170312424476564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360041
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ad6afe7c7e894e0800000000000000
+      internalID: -1974573590696764890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360042
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5348ce8a00610b0800000000000000
+      internalID: -5758414348024007254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360043
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736cbd5fc9fdc64b0800000000000000
+      internalID: -5445731984165059017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360044
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3f4ad4fe3c00f30800000000000000
+      internalID: 4539843856956716009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360045
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab656170e44b4300800000000000000
+      internalID: 237359136132918186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360046
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21923745680d8fb0800000000000000
+      internalID: -4644046409669897939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360047
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 628
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9f3921c69d9ad40800000000000000
+      internalID: 5596243070175934958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360048
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822a02695e996ee70800000000000000
+      internalID: 9144165304767652392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360049
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc2b38bf3ac8e8e0800000000000000
+      internalID: -1663857687290761999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360050
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c731249d106d65b60800000000000000
+      internalID: 7734604713483703164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360051
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba13510011601730800000000000000
+      internalID: 3967777993083001529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360052
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20461dc4a1b11f00800000000000000
+      internalID: 1085844306546540591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360053
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042098c230072740800000000000000
+      internalID: 5127066918897853447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360054
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7443f0cdccc37cf50800000000000000
+      internalID: 6901551804531553351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360055
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 562
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302e20966107b2290800000000000000
+      internalID: -7914108678620126717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360056
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fbe6f92d34543a0800000000000000
+      internalID: -6681859900237234348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360057
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a08a53651f8a0a0800000000000000
+      internalID: -6869975878984004965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360058
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b140203abbc9dfb0800000000000000
+      internalID: -4622439541987327562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360059
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71cf73e8764550f0800000000000000
+      internalID: -1128918646559620738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360060
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1effed3b9174820800000000000000
+      internalID: 2902316745194725839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360061
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0239e95d39473cd50800000000000000
+      internalID: 6756372044278829856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360062
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054cf4ea200e448b0800000000000000
+      internalID: -5168760170195467184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360063
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 496
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b497d5023428fc510800000000000000
+      internalID: 1571618019793008971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360064
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bf85e8c6f9fc230800000000000000
+      internalID: 3661320310668983084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360065
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c629d2c93fab220800000000000000
+      internalID: 2502580395062750288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360066
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a33accc13f9a5780800000000000000
+      internalID: -8693461094447303774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360067
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977a22e7d22ebf4a0800000000000000
+      internalID: -6558399747317389447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360068
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50be93402c537d010800000000000000
+      internalID: 1213497732010470149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360069
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37482bb749f8fb20800000000000000
+      internalID: 3168556424333117243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360070
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f4010d66bbf760800000000000000
+      internalID: 7492782984345744553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360071
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 430
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8501629b44fe9b530800000000000000
+      internalID: 3871388433144746072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360072
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c06b8c55da221cd0800000000000000
+      internalID: -2588959739915575104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360073
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9cd48242e549710800000000000000
+      internalID: 1699086468813539772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360074
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2700788d536846060800000000000000
+      internalID: 6945824091136262258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360075
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5149912b2ef7acf90800000000000000
+      internalID: -6932588064756100075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360076
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314c54651f63decb0800000000000000
+      internalID: -4833146414936243181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360077
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2048fa8fa3ba25690800000000000000
+      internalID: -7614835750161382398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360078
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9f7eeb54958eec0800000000000000
+      internalID: -3537479351209035317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360079
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 364
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5114f802bbfcca5f0800000000000000
+      internalID: -743991435810881259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360080
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edddf02fcb2aa7a10800000000000000
+      internalID: 1908016324543503838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360081
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dd00504267589a0800000000000000
+      internalID: -6231444612322370151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360082
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2ec27d8340e38a0800000000000000
+      internalID: -6323612184606874902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360083
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15542820e5056a460800000000000000
+      internalID: 7252572614626002257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360084
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368047746f68e29c0800000000000000
+      internalID: -3950071430838482845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360085
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fa847715d601c70800000000000000
+      internalID: 8939765456991465229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360086
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfe3571ed1063f60800000000000000
+      internalID: 8013594640338120626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360087
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 298
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a05f1be89e387b10800000000000000
+      internalID: 1979400862729982116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360088
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a19489c8696f810800000000000000
+      internalID: 1798790631775607411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360089
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95638c02556e4efa0800000000000000
+      internalID: -5772235569085532583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360090
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa92cf20591333b0800000000000000
+      internalID: -5534051684918846813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360091
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d99db2ee248b6670800000000000000
+      internalID: 8533059255890975191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360092
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201894027e81c5c90800000000000000
+      internalID: -7179836324977213182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360093
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6dfeecf984db920800000000000000
+      internalID: 3007639977362183890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360094
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b231ac3b28280a6b0800000000000000
+      internalID: -5287082464659238101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360095
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 232
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfcdf348749c2400800000000000000
+      internalID: 300778519384674238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360096
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedcb6aca384a6c90800000000000000
+      internalID: -7175843638920098322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360097
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb41acbadbd5730800000000000000
+      internalID: 3989553390447541778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360098
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38474b626b6f9c850800000000000000
+      internalID: 6397916007850341507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360099
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90401e3ec986e2a60800000000000000
+      internalID: 7651167839996412937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360100
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea52c5b1e420d160800000000000000
+      internalID: 7048173968670481125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360101
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcf881e4403a1550800000000000000
+      internalID: 6132266915018112242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360102
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0825d048f57866a0800000000000000
+      internalID: -6455780356735555573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360103
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 166
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb94b8c3a95bf72f0800000000000000
+      internalID: -972859320443385410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Symbol 7360104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 115
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8f39240ba486b20800000000000000
+      internalID: 3127832062100502737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Symbol 7360000: 3152799769347674801
+      Symbol 7360001: -4610543618551722594
+      Symbol 7360002: -5757682649066890977
+      Symbol 7360003: 3655685244806295999
+      Symbol 7360004: 263245428384465819
+      Symbol 7360005: 6965285409556082768
+      Symbol 7360006: 4259898402763767520
+      Symbol 7360007: 1502965420868902060
+      Symbol 7360008: 5083907929472294848
+      Symbol 7360009: -5915833642218537301
+      Symbol 7360010: 6114942175117382421
+      Symbol 7360011: 5531725365572769637
+      Symbol 7360012: -4886081638865748158
+      Symbol 7360013: -2930117037684164659
+      Symbol 7360014: -9181491774189959817
+      Symbol 7360015: -2649281402159489895
+      Symbol 7360016: 7116892488620812465
+      Symbol 7360017: 3746546429954645081
+      Symbol 7360018: -8534880563278813262
+      Symbol 7360019: 6721090179464067356
+      Symbol 7360020: -5809830202132580621
+      Symbol 7360021: 8644563679756721418
+      Symbol 7360022: 1939533563862990949
+      Symbol 7360023: -1439919942826943194
+      Symbol 7360024: 718078286466544327
+      Symbol 7360025: 7994539771955807469
+      Symbol 7360026: -2671150532128017604
+      Symbol 7360027: -6068299445377337553
+      Symbol 7360028: 5551485746744242522
+      Symbol 7360029: -4393349516044397836
+      Symbol 7360030: 6721179770240910069
+      Symbol 7360031: -2364014210480446158
+      Symbol 7360032: 3230508950441074773
+      Symbol 7360033: 138421528784660034
+      Symbol 7360034: -754571955371788729
+      Symbol 7360035: 8448717749518803463
+      Symbol 7360036: -7587643079160627471
+      Symbol 7360037: 7819448195658851184
+      Symbol 7360038: -1204636996223950572
+      Symbol 7360039: -7304167512809616947
+      Symbol 7360040: -9179170312424476564
+      Symbol 7360041: -1974573590696764890
+      Symbol 7360042: -5758414348024007254
+      Symbol 7360043: -5445731984165059017
+      Symbol 7360044: 4539843856956716009
+      Symbol 7360045: 237359136132918186
+      Symbol 7360046: -4644046409669897939
+      Symbol 7360047: 5596243070175934958
+      Symbol 7360048: 9144165304767652392
+      Symbol 7360049: -1663857687290761999
+      Symbol 7360050: 7734604713483703164
+      Symbol 7360051: 3967777993083001529
+      Symbol 7360052: 1085844306546540591
+      Symbol 7360053: 5127066918897853447
+      Symbol 7360054: 6901551804531553351
+      Symbol 7360055: -7914108678620126717
+      Symbol 7360056: -6681859900237234348
+      Symbol 7360057: -6869975878984004965
+      Symbol 7360058: -4622439541987327562
+      Symbol 7360059: -1128918646559620738
+      Symbol 7360060: 2902316745194725839
+      Symbol 7360061: 6756372044278829856
+      Symbol 7360062: -5168760170195467184
+      Symbol 7360063: 1571618019793008971
+      Symbol 7360064: 3661320310668983084
+      Symbol 7360065: 2502580395062750288
+      Symbol 7360066: -8693461094447303774
+      Symbol 7360067: -6558399747317389447
+      Symbol 7360068: 1213497732010470149
+      Symbol 7360069: 3168556424333117243
+      Symbol 7360070: 7492782984345744553
+      Symbol 7360071: 3871388433144746072
+      Symbol 7360072: -2588959739915575104
+      Symbol 7360073: 1699086468813539772
+      Symbol 7360074: 6945824091136262258
+      Symbol 7360075: -6932588064756100075
+      Symbol 7360076: -4833146414936243181
+      Symbol 7360077: -7614835750161382398
+      Symbol 7360078: -3537479351209035317
+      Symbol 7360079: -743991435810881259
+      Symbol 7360080: 1908016324543503838
+      Symbol 7360081: -6231444612322370151
+      Symbol 7360082: -6323612184606874902
+      Symbol 7360083: 7252572614626002257
+      Symbol 7360084: -3950071430838482845
+      Symbol 7360085: 8939765456991465229
+      Symbol 7360086: 8013594640338120626
+      Symbol 7360087: 1979400862729982116
+      Symbol 7360088: 1798790631775607411
+      Symbol 7360089: -5772235569085532583
+      Symbol 7360090: -5534051684918846813
+      Symbol 7360091: 8533059255890975191
+      Symbol 7360092: -7179836324977213182
+      Symbol 7360093: 3007639977362183890
+      Symbol 7360094: -5287082464659238101
+      Symbol 7360095: 300778519384674238
+      Symbol 7360096: -7175843638920098322
+      Symbol 7360097: 3989553390447541778
+      Symbol 7360098: 6397916007850341507
+      Symbol 7360099: 7651167839996412937
+      Symbol 7360100: 7048173968670481125
+      Symbol 7360101: 6132266915018112242
+      Symbol 7360102: -6455780356735555573
+      Symbol 7360103: -972859320443385410
+      Symbol 7360104: 3127832062100502737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

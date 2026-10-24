@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<!-- 货币（无效果，仅作为通货） -->
+	<item id="1" name="赛尔豆" description="用于购买道具" type="money" price="0" useScope="OUTBATTLE" icon="item_money"/>
+	<item id="2" name="金豆" description="用于购买道具" type="money" price="0" useScope="OUTBATTLE" icon="item_money"/>
+
+	<!-- 经验类道具（注释保留，需要时取消注释即可） -->
+	<!--<item id="10" name="经验芯片·小" description="使用后为精灵增加100经验值" type="exp" sideEffect="101" sideEffectArg="100" effectValue="100" price="50" useScope="OUTBATTLE" icon="item_exp_small"/>
+	<item id="11" name="经验芯片·中" description="使用后为精灵增加300经验值" type="exp" sideEffect="101" sideEffectArg="300" effectValue="300" price="150" useScope="OUTBATTLE"  icon="item_exp_medium"/>
+	<item id="12" name="经验芯片·大" description="使用后为精灵增加500经验值" type="exp" sideEffect="101" sideEffectArg="500" effectValue="500" price="200" useScope="OUTBATTLE" icon="item_exp_large"/>
+	<item id="13" name="经验芯片·超" description="使用后为精灵增加1000经验值" type="exp" sideEffect="101" sideEffectArg="1000" effectValue="1000" price="400" useScope="OUTBATTLE" icon="item_exp_super"/>-->
+
+	<!-- 恢复HP道具：sideEffect=102, sideEffectArg="恢复量"（-1表示完全恢复） -->
+	<item id="101" name="初级体力药剂" description="恢复精灵20点HP" type="healHP" sideEffect="102" sideEffectArg="20" effectValue="20" price="20" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="101" purchaseMethod="SEER_BEAN"/>
+	<item id="102" name="中级体力药剂" description="恢复精灵50点HP" type="healHP" sideEffect="102" sideEffectArg="50" effectValue="50" price="40" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="102"  purchaseMethod="SEER_BEAN"/>
+	<item id="103" name="高级体力药剂" description="恢复精灵100点HP" type="healHP" sideEffect="102" sideEffectArg="100" effectValue="100" price="80" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="103"  purchaseMethod="SEER_BEAN"/>
+	<item id="104" name="超级体力药剂" description="恢复精灵150点HP" type="healHP" sideEffect="102" sideEffectArg="150" effectValue="150" price="200" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="104"  purchaseMethod="SEER_BEAN"/>
+	<item id="105" name="特级体力药剂" description="恢复精灵200点HP" type="healHP" sideEffect="102" sideEffectArg="200" effectValue="200" price="300" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="105"  purchaseMethod="SEER_BEAN"/>
+	
+	<!-- 恢复PP道具：sideEffect=103, sideEffectArg="恢复量" -->
+	<item id="106" name="初级活力药剂" description="恢复精灵技能使用次数5次" type="healPP" sideEffect="103" sideEffectArg="5" effectValue="5" price="30" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="106"  purchaseMethod="SEER_BEAN"/>
+	<item id="107" name="中级活力药剂" description="恢复精灵技能使用次数10次" type="healPP" sideEffect="103" sideEffectArg="10" effectValue="10" price="200" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="107"  purchaseMethod="SEER_BEAN"/>
+	<item id="108" name="高级活力药剂" description="恢复精灵技能使用次数20次" type="healPP" sideEffect="103" sideEffectArg="20" effectValue="20" price="100" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="108"  purchaseMethod="SEER_BEAN"/>
+	<item id="109" name="超级活力药剂" description="恢复精灵技能使用次数40次" type="healPP" sideEffect="103" sideEffectArg="40" effectValue="40" price="200" useScope="INBATTLE|OUTBATTLE|INPETBAG|INSHOP" icon="109"  purchaseMethod="SEER_BEAN"/>
+
+	<!-- 异常状态治疗（注释保留） -->
+	<!--<item id="201" name="解毒剂" description="解除精灵的中毒状态" type="cure" sideEffect="104" sideEffectArg="poison" effectArgs="poison" price="150" useScope="INBATTLE|OUTBATTLE" icon="item_cure_poison"/>
+	<item id="202" name="解冻剂" description="解除精灵的冰冻状态" type="cure" sideEffect="104" sideEffectArg="freeze" effectArgs="freeze" price="150" useScope="INBATTLE|OUTBATTLE" icon="item_cure_freeze"/>
+	<item id="203" name="解燃剂" description="解除精灵的烧伤状态" type="cure" sideEffect="104" sideEffectArg="burn" effectArgs="burn" price="150" useScope="INBATTLE|OUTBATTLE" icon="item_cure_burn"/>
+	<item id="204" name="万能药" description="解除精灵的所有异常状态" type="cure_all" sideEffect="105" sideEffectArg="" price="500" useScope="INBATTLE|OUTBATTLE" icon="item_cure_all"/>-->
+
+	<!-- 复活类道具（注释保留） -->
+	<!--<item id="301" name="复活水晶" description="复活已阵亡的精灵，并恢复50%HP" type="revive" sideEffect="106" sideEffectArg="50" effectValue="50" price="800" useScope="OUTBATTLE" icon="item_revive"/>
+	<item id="302" name="高级复活水晶" description="复活已阵亡的精灵，并完全恢复HP" type="revive" sideEffect="106" sideEffectArg="100" effectValue="100" price="1500" useScope="OUTBATTLE" icon="item_revive_full"/>-->
+
+	<!-- Buff类道具（注释保留） -->
+	<!--<item id="401" name="攻击强化药剂" description="使用后提升精灵攻击力20%，持续3回合" type="buff" sideEffect="107" sideEffectArg="1001" effectArgs="1001" price="300" useScope="INBATTLE" icon="item_buff_attack"/>
+	<item id="402" name="防御强化药剂" description="使用后提升精灵防御力20%，持续3回合" type="buff" sideEffect="107" sideEffectArg="1002" effectArgs="1002" price="300" useScope="INBATTLE" icon="item_buff_defense"/>
+	<item id="403" name="速度强化药剂" description="使用后提升精灵速度20%，持续3回合" type="buff" sideEffect="107" sideEffectArg="1003" effectArgs="1003" price="300" useScope="INBATTLE" icon="item_buff_speed"/>-->
+
+	<!-- 胶囊捕捉道具：sideEffect=108, sideEffectArg="捕捉倍率" -->
+	<item id="501" name="普通精灵胶囊" description="捕捉野外精灵" type="capsule" sideEffect="108" sideEffectArg="1" effectValue="1" price="200" useScope="INBATTLE|INSHOP" icon="501"  purchaseMethod="SEER_BEAN"/>
+	<item id="502" name="中级精灵胶囊" description="有效的捕捉野外精灵" type="capsule" sideEffect="108" sideEffectArg="1.5" effectValue="1.5" price="400" useScope="INBATTLE|INSHOP" icon="502"  purchaseMethod="SEER_BEAN"/>
+	<item id="503" name="高级精灵胶囊" description="更有效的捕捉野外精灵" type="capsule" sideEffect="108" sideEffectArg="2" effectValue="2" price="800" useScope="INBATTLE|INSHOP" icon="503"  purchaseMethod="SEER_BEAN"/>
+	<item id="504" name="超级精灵胶囊" description="非常有效的捕捉野外精灵" type="capsule" sideEffect="108" sideEffectArg="3" effectValue="3" price="2000" useScope="INBATTLE|INSHOP" icon="504"  purchaseMethod="SEER_BEAN"/>
+	<item id="506" name="无敌级精灵胶囊" description="百分之百捕捉到野外精灵" type="capsule" sideEffect="108" sideEffectArg="256" effectValue="256" price="5000" useScope="INBATTLE|INSHOP" icon="506"  purchaseMethod="GOLD_BEAN"/>
+
+	<!-- 重置全部学习力：sideEffect=109, sideEffectArg="" -->
+	<item id="600" name="学习力遗忘剂" description="重置精灵全部学习力" type="resetEV" sideEffect="109" sideEffectArg="" effectValue="5" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	
+	<!-- 增加学习力：sideEffect=110, sideEffectArg="属性名 增加值" -->
+	<item id="601" name="特攻学习力果实" description="增加特攻学习力255" type="addEV" sideEffect="110" sideEffectArg="SPATK 255" effectValue="255" effectArgs="SPATK" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	<item id="602" name="攻击学习力果实" description="增加攻击学习力255" type="addEV" sideEffect="110" sideEffectArg="ATK 255" effectValue="255" effectArgs="ATK" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	<item id="603" name="速度学习力果实" description="增加速度学习力255" type="addEV" sideEffect="110" sideEffectArg="SPD 255" effectValue="255" effectArgs="SPD" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	<item id="604" name="防御学习力果实" description="增加防御学习力255" type="addEV" sideEffect="110" sideEffectArg="DEF 255" effectValue="255" effectArgs="DEF" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	<item id="605" name="特防学习力果实" description="增加特防学习力255" type="addEV" sideEffect="110" sideEffectArg="SPDEF 255" effectValue="255" effectArgs="SPDEF" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	<item id="606" name="生命学习力果实" description="增加生命学习力255" type="addEV" sideEffect="110" sideEffectArg="HP 255" effectValue="255" effectArgs="HP" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+	
+	<!-- 重置单项学习力：sideEffect=111, sideEffectArg="属性名" -->
+	<item id="607" name="攻击学习力遗忘剂" description="重置精灵攻击学习力" type="resetEVStat" sideEffect="111" sideEffectArg="ATK" effectArgs="ATK" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	<item id="608" name="防御学习力遗忘剂" description="重置精灵防御学习力" type="resetEVStat" sideEffect="111" sideEffectArg="DEF" effectArgs="DEF" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	<item id="609" name="特攻学习力遗忘剂" description="重置精灵特攻学习力" type="resetEVStat" sideEffect="111" sideEffectArg="SPATK" effectArgs="SPATK" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	<item id="610" name="特防学习力遗忘剂" description="重置精灵特防学习力" type="resetEVStat" sideEffect="111" sideEffectArg="SPDEF" effectArgs="SPDEF" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	<item id="611" name="速度学习力遗忘剂" description="重置精灵速度学习力" type="resetEVStat" sideEffect="111" sideEffectArg="SPD" effectArgs="SPD" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	<item id="612" name="体力学习力遗忘剂" description="重置精灵体力学习力" type="resetEVStat" sideEffect="111" sideEffectArg="HP" effectArgs="HP" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="607"  purchaseMethod="SEER_BEAN"/>
+	
+	<!-- 特性重组：sideEffect=115, sideEffectArg="" -->
+	<item id="650" name="特性重组剂" description="随机重置精灵特性，无特性不可用" type="resetFeature" sideEffect="115" sideEffectArg="" effectValue="5" price="10000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="600"  purchaseMethod="SEER_BEAN"/>
+
+	<!-- 性格重置：sideEffect=112, sideEffectArg="" -->
+	<item id="700" name="性格重塑胶囊" description="随机重置精灵性格" type="resetPersonality" sideEffect="112" sideEffectArg="" effectValue="5" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="700"  purchaseMethod="SEER_BEAN"/>
+	
+	<!-- 个体值：sideEffect=113(重置)/114(增加), sideEffectArg="" -->
+	<item id="800" name="个体值重置药剂" description="随机重置精灵个体值" type="resetIV" sideEffect="113" sideEffectArg="" effectValue="5" price="300" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="800"  purchaseMethod="SEER_BEAN"/>
+	<item id="801" name="个体值+1" description="精灵个体值+1" type="addIV" sideEffect="114" sideEffectArg="1" effectValue="1" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="801"  purchaseMethod="SEER_BEAN"/>
+	<item id="802" name="个体值+5" description="精灵个体值+5" type="addIV" sideEffect="114" sideEffectArg="5" effectValue="5" price="1500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="802"  purchaseMethod="SEER_BEAN"/>
+
+	<!-- 精元（无具体效果，用于融合孵化系统） -->
+	<item id="900" name="阿克西亚精元" description="阿克西亚精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="900"/>
+	<item id="901" name="提亚斯精元" description="提亚斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="901"/>
+	<item id="902" name="雷伊精元" description="雷伊精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="902"/>
+	<item id="903" name="纳多雷精元" description="纳多雷精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="903"/>
+	<item id="904" name="雷纳多精元" description="雷纳多精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="904"/>
+	<item id="905" name="里奥斯精元" description="里奥斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="905"/>
+	<item id="906" name="尤纳斯精元" description="尤纳斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="906"/>
+	<item id="907" name="卡特斯精元" description="卡特斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="907"/>
+	<item id="908" name="魔牙鲨精元" description="魔牙鲨精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="908"/>
+	<item id="909" name="贝鲁基德精元" description="贝鲁基德精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="909"/>
+	<item id="910" name="巴弗洛精元" description="巴弗洛精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="910"/>
+	<item id="911" name="奇拉塔顿精元" description="奇拉塔顿精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="911"/>
+	<item id="912" name="魔狮迪露精元" description="魔狮迪露精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="912"/>
+	<item id="913" name="西萨拉斯精元" description="西萨拉斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="913"/>
+	<item id="914" name="克林卡修精元" description="克林卡修精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="914"/>
+	<item id="915" name="哈莫雷特精元" description="哈莫雷特精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="915"/>
+	<item id="916" name="卡库精元" description="卡库精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="916"/>
+	<item id="917" name="赫德卡精元" description="赫德卡精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="917"/>
+	<item id="918" name="伊兰罗尼精元" description="伊兰罗尼精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="918"/>
+	<item id="919" name="斯加尔卡精元" description="斯加尔卡精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="919"/>
+	<item id="920" name="布林克克精元" description="布林克克精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="920"/>
+	<item id="921" name="塔克林精元" description="塔克林精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="921"/>
+	<item id="922" name="塔西亚精元" description="塔西亚精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="922"/>
+	<item id="923" name="塞维尔精元" description="塞维尔精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="923"/>
+	<item id="924" name="魔花使者精元" description="魔花使者精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="924"/>
+	<item id="925" name="莫尔加斯精元" description="莫尔加斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="925"/>
+	<item id="926" name="莫萨诺拉斯精元" description="萨诺拉斯精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="926"/>
+	<item id="927" name="谱尼精元" description="谱尼精元" type="molecule" effectValue="5" useScope="INMOLECULE" icon="927"/>
+	
+	<!-- 矿物材料（无具体效果，用于融合系统） -->
+	<item id="1001" name="海洋能量" description="海洋能量" type="mineral" useScope="INFUSION" icon="1001"/>
+	<item id="1002" name="熔岩晶体" description="熔岩晶体" type="mineral" useScope="INFUSION" icon="1002"/>
+	<item id="1003" name="大地之核" description="大地之核" type="mineral" useScope="INFUSION" icon="1003"/>
+	<item id="1004" name="纯净能量" description="纯净能量" type="mineral" useScope="INFUSION" icon="1004"/>
+
+	<!-- 元神珠（无具体效果，用于孵化系统） -->
+	<item id="2001" name="绿色元神珠" description="绿色元神珠" type="bead" useScope="INBEADHATCH" icon="2001"/>
+	<item id="2002" name="蓝色元神珠" description="蓝色元神珠" type="bead" useScope="INBEADHATCH" icon="2002"/>
+	<item id="2003" name="红色元神珠" description="红色元神珠" type="bead" useScope="INBEADHATCH" icon="2003"/>
+	<item id="2004" name="紫色元神珠" description="紫色元神珠" type="bead" useScope="INBEADHATCH" icon="2004"/>
+	<item id="2005" name="粉色元神珠" description="粉色元神珠" type="bead" useScope="INBEADHATCH" icon="2005"/>
+	<item id="2006" name="黄色元神珠" description="黄色元神珠" type="bead" useScope="INBEADHATCH" icon="2006"/>
+	<item id="2007" name="橙色元神珠" description="橙色元神珠" type="bead" useScope="INBEADHATCH" icon="2007"/>
+
+	<!-- 奖励翻倍道具：经验&学习力翻倍 sideEffect=116, sideEffectArg="倍率 次数" -->
+	<item id="2500" name="经验学习力x2" description="使用后战斗经验与学习力翻2倍，可使用100次" type="rewardExpBuff" sideEffect="116" sideEffectArg="2 100" effectValue="2" effectArgs="100" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2500" purchaseMethod="SEER_BEAN"/>
+	<item id="2501" name="经验学习力x4" description="使用后战斗经验与学习力翻4倍，可使用80次" type="rewardExpBuff" sideEffect="116" sideEffectArg="4 80" effectValue="4" effectArgs="80" price="3000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2501" purchaseMethod="SEER_BEAN"/>
+	<item id="2502" name="经验学习力x8" description="使用后战斗经验与学习力翻8倍，可使用60次" type="rewardExpBuff" sideEffect="116" sideEffectArg="8 60" effectValue="8" effectArgs="60" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2502" purchaseMethod="SEER_BEAN"/>
+	<item id="2503" name="经验学习力x16" description="使用后战斗经验与学习力翻16倍，可使用40次" type="rewardExpBuff" sideEffect="116" sideEffectArg="16 40" effectValue="16" effectArgs="40" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2503" purchaseMethod="GOLD_BEAN"/>
+	<item id="2504" name="经验学习力x32" description="使用后战斗经验与学习力翻32倍，可使用20次" type="rewardExpBuff" sideEffect="116" sideEffectArg="32 20" effectValue="32" effectArgs="20" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2504" purchaseMethod="GOLD_BEAN"/>
+
+	<!-- 奖励翻倍道具：赛尔豆翻倍 sideEffect=117, sideEffectArg="倍率 次数" -->
+	<item id="2505" name="赛尔豆x2" description="使用后战斗赛尔豆奖励翻2倍，可使用100次" type="rewardSeerBeanBuff" sideEffect="117" sideEffectArg="2 100" effectValue="2" effectArgs="100" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2505" purchaseMethod="SEER_BEAN"/>
+	<item id="2506" name="赛尔豆x4" description="使用后战斗赛尔豆奖励翻4倍，可使用80次" type="rewardSeerBeanBuff" sideEffect="117" sideEffectArg="4 80" effectValue="4" effectArgs="80" price="3000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2506" purchaseMethod="SEER_BEAN"/>
+	<item id="2507" name="赛尔豆x8" description="使用后战斗赛尔豆奖励翻8倍，可使用60次" type="rewardSeerBeanBuff" sideEffect="117" sideEffectArg="8 60" effectValue="8" effectArgs="60" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2507" purchaseMethod="SEER_BEAN"/>
+	<item id="2508" name="赛尔豆x16" description="使用后战斗赛尔豆奖励翻16倍，可使用40次" type="rewardSeerBeanBuff" sideEffect="117" sideEffectArg="16 40" effectValue="16" effectArgs="40" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2508" purchaseMethod="GOLD_BEAN"/>
+	<item id="2509" name="赛尔豆x32" description="使用后战斗赛尔豆奖励翻32倍，可使用20次" type="rewardSeerBeanBuff" sideEffect="117" sideEffectArg="32 20" effectValue="32" effectArgs="20" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2509" purchaseMethod="GOLD_BEAN"/>
+
+	<!-- 奖励翻倍道具：道具掉落率翻倍 sideEffect=118, sideEffectArg="倍率 次数" -->
+	<item id="2510" name="掉落率x2" description="使用后战斗道具掉落率翻2倍，可使用100次" type="rewardDropRateBuff" sideEffect="118" sideEffectArg="2 100" effectValue="2" effectArgs="100" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2510" purchaseMethod="SEER_BEAN"/>
+	<item id="2511" name="掉落率x4" description="使用后战斗道具掉落率翻4倍，可使用80次" type="rewardDropRateBuff" sideEffect="118" sideEffectArg="4 80" effectValue="4" effectArgs="80" price="3000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2511" purchaseMethod="SEER_BEAN"/>
+	<item id="2512" name="掉落率x8" description="使用后战斗道具掉落率翻8倍，可使用60次" type="rewardDropRateBuff" sideEffect="118" sideEffectArg="8 60" effectValue="8" effectArgs="60" price="5000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2512" purchaseMethod="SEER_BEAN"/>
+	<item id="2513" name="掉落率x16" description="使用后战斗道具掉落率翻16倍，可使用40次" type="rewardDropRateBuff" sideEffect="118" sideEffectArg="16 40" effectValue="16" effectArgs="40" price="500" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2513" purchaseMethod="GOLD_BEAN"/>
+	<item id="2514" name="掉落率x32" description="使用后战斗道具掉落率翻32倍，可使用20次" type="rewardDropRateBuff" sideEffect="118" sideEffectArg="32 20" effectValue="32" effectArgs="20" price="1000" useScope="OUTBATTLE|INPETBAG|INSHOP" icon="2514" purchaseMethod="GOLD_BEAN"/>
+
+</items>

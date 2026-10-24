@@ -1,0 +1,3782 @@
+<?xml version="1.0"?>
+<gameData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>lite_3.4.1</version>
+  <gender>false</gender>
+  <nickname>青屿</nickname>
+  <firstLoginDate>2025-10-01T19:24:26.45873+08:00</firstLoginDate>
+  <lastLoginDate>2026-06-10T10:24:06.1207947+08:00</lastLoginDate>
+  <achievement>0</achievement>
+  <petTotalExp>999680004</petTotalExp>
+  <petBag>
+    <Pet>
+      <id>125</id>
+      <basic id="186">
+        <name>萨格罗斯</name>
+        <gender>2</gender>
+        <personality>2</personality>
+        <attributes>8</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-19</getPetDate>
+      </basic>
+      <feature id="186">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="186">
+        <level>73</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>7379</currentExp>
+      </exp>
+      <talent id="186">
+        <iv>7</iv>
+        <ev>
+          <atk>20</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="186">
+        <ownSkillId>
+          <int>10535</int>
+          <int>10361</int>
+          <int>20156</int>
+          <int>10363</int>
+          <int>10362</int>
+          <int>10364</int>
+          <int>10366</int>
+          <int>20157</int>
+          <int>10356</int>
+          <int>20161</int>
+          <int>10376</int>
+          <int>10373</int>
+          <int>23403</int>
+          <int>10377</int>
+          <int>10374</int>
+          <int>20163</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10535" pp="40" maxPP="40" />
+          <skill id="10361" pp="40" maxPP="40" />
+          <skill id="20156" pp="40" maxPP="40" />
+          <skill id="10363" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>210</atk>
+        <spAtk>119</spAtk>
+        <def>156</def>
+        <spDef>137</spDef>
+        <spd>175</spd>
+        <hp>280</hp>
+        <maxHp>280</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>9</id>
+      <basic id="9">
+        <name>烈焰猩猩</name>
+        <gender>1</gender>
+        <personality>19</personality>
+        <attributes>3</attributes>
+        <height>52</height>
+        <weight>8</weight>
+        <getPetDate>2025-10-10</getPetDate>
+      </basic>
+      <feature id="9">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="9">
+        <level>100</level>
+        <growthType>3</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="9">
+        <iv>22</iv>
+        <ev>
+          <atk>100</atk>
+          <spAtk>0</spAtk>
+          <def>255</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>2</evStorage>
+      </talent>
+      <skills id="9">
+        <ownSkillId>
+          <int>10006</int>
+          <int>20004</int>
+          <int>10034</int>
+          <int>10007</int>
+          <int>20005</int>
+          <int>10028</int>
+          <int>10029</int>
+          <int>10030</int>
+          <int>10031</int>
+          <int>20013</int>
+          <int>10032</int>
+          <int>10033</int>
+          <int>20014</int>
+          <int>10035</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="20014" pp="20" maxPP="20" />
+          <skill id="10034" pp="20" maxPP="20" />
+          <skill id="10035" pp="15" maxPP="15" />
+          <skill id="10030" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="9" baseId="1">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>257</atk>
+        <spAtk>235</spAtk>
+        <def>232</def>
+        <spDef>152</spDef>
+        <spd>267</spd>
+        <hp>284</hp>
+        <maxHp>284</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>70</id>
+      <basic id="70">
+        <name>雷伊</name>
+        <gender>1</gender>
+        <personality>8</personality>
+        <attributes>5</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-18</getPetDate>
+      </basic>
+      <feature id="70">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="70">
+        <level>100</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="70">
+        <iv>26</iv>
+        <ev>
+          <atk>10</atk>
+          <spAtk>40</spAtk>
+          <def>60</def>
+          <spDef>0</spDef>
+          <spd>255</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="70">
+        <ownSkillId>
+          <int>10006</int>
+          <int>20006</int>
+          <int>10166</int>
+          <int>10171</int>
+          <int>20004</int>
+          <int>10167</int>
+          <int>10172</int>
+          <int>20085</int>
+          <int>10010</int>
+          <int>10168</int>
+          <int>10173</int>
+          <int>20086</int>
+          <int>10169</int>
+          <int>10174</int>
+          <int>10170</int>
+          <int>10823</int>
+          <int>20087</int>
+          <int>10175</int>
+          <int>10176</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10823" pp="20" maxPP="20" />
+          <skill id="20006" pp="20" maxPP="20" />
+          <skill id="10176" pp="5" maxPP="5" />
+          <skill id="10175" pp="5" maxPP="5" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>222</atk>
+        <spAtk>267</spAtk>
+        <def>183</def>
+        <spDef>185</spDef>
+        <spd>304</spd>
+        <hp>278</hp>
+        <maxHp>278</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>-1</id>
+      <basic id="-1">
+        <name>血翼哈莫</name>
+        <gender>1</gender>
+        <personality>1</personality>
+        <attributes>15</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-06-01</getPetDate>
+      </basic>
+      <feature id="-1">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="-1">
+        <level>19</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>1276</currentExp>
+      </exp>
+      <talent id="-1">
+        <iv>11</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>10</spAtk>
+          <def>30</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="-1">
+        <ownSkillId>
+          <int>10611</int>
+          <int>20265</int>
+          <int>10614</int>
+          <int>10612</int>
+          <int>20266</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10611" pp="40" maxPP="40" />
+          <skill id="20265" pp="40" maxPP="40" />
+          <skill id="10614" pp="40" maxPP="40" />
+          <skill id="10612" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>57</atk>
+        <spAtk>38</spAtk>
+        <def>44</def>
+        <spDef>41</spDef>
+        <spd>45</spd>
+        <hp>78</hp>
+        <maxHp>78</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>3</id>
+      <basic id="3">
+        <name>布布花</name>
+        <gender>0</gender>
+        <personality>19</personality>
+        <attributes>1</attributes>
+        <height>52</height>
+        <weight>8</weight>
+        <getPetDate>2025-10-10</getPetDate>
+      </basic>
+      <feature id="3">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="3">
+        <level>100</level>
+        <growthType>3</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="3">
+        <iv>31</iv>
+        <ev>
+          <atk>75</atk>
+          <spAtk>255</spAtk>
+          <def>55</def>
+          <spDef>55</spDef>
+          <spd>55</spd>
+          <hp>15</hp>
+        </ev>
+        <evStorage>2</evStorage>
+      </talent>
+      <skills id="3">
+        <ownSkillId>
+          <int>10001</int>
+          <int>20001</int>
+          <int>10002</int>
+          <int>10003</int>
+          <int>20008</int>
+          <int>10011</int>
+          <int>10012</int>
+          <int>10043</int>
+          <int>10014</int>
+          <int>20007</int>
+          <int>20009</int>
+          <int>10015</int>
+          <int>10016</int>
+          <int>10017</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+          <skill id="20007" pp="20" maxPP="20" />
+          <skill id="20009" pp="30" maxPP="30" />
+          <skill id="10017" pp="5" maxPP="5" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="3" baseId="1">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>272</atk>
+        <spAtk>249</spAtk>
+        <def>259</def>
+        <spDef>197</spDef>
+        <spd>177</spd>
+        <hp>334</hp>
+        <maxHp>334</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>29</id>
+      <basic id="29">
+        <name>魔花仙子</name>
+        <gender>2</gender>
+        <personality>3</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-08</getPetDate>
+      </basic>
+      <feature id="29">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="29">
+        <level>49</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>1943</currentExp>
+      </exp>
+      <talent id="29">
+        <iv>31</iv>
+        <ev>
+          <atk>10</atk>
+          <spAtk>255</spAtk>
+          <def>30</def>
+          <spDef>5</spDef>
+          <spd>5</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="29">
+        <ownSkillId>
+          <int>10042</int>
+          <int>20022</int>
+          <int>10061</int>
+          <int>20019</int>
+          <int>20020</int>
+          <int>20031</int>
+          <int>10062</int>
+          <int>10063</int>
+          <int>20021</int>
+          <int>20032</int>
+          <int>10003</int>
+          <int>10067</int>
+          <int>10065</int>
+          <int>20033</int>
+          <int>20034</int>
+          <int>10066</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10042" pp="10" maxPP="10" />
+          <skill id="20022" pp="40" maxPP="40" />
+          <skill id="10061" pp="20" maxPP="20" />
+          <skill id="20019" pp="15" maxPP="15" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="29" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>146</atk>
+        <spAtk>149</spAtk>
+        <def>87</def>
+        <spDef>79</spDef>
+        <spd>80</spd>
+        <hp>152</hp>
+        <maxHp>152</maxHp>
+      </currentStatus>
+    </Pet>
+  </petBag>
+  <petStorage>
+    <Pet>
+      <id>18</id>
+      <basic id="18">
+        <name>巨型仙人掌</name>
+        <gender>1</gender>
+        <personality>15</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-03</getPetDate>
+      </basic>
+      <feature id="18">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="18">
+        <level>100</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="18">
+        <iv>19</iv>
+        <ev>
+          <atk>5</atk>
+          <spAtk>15</spAtk>
+          <def>25</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="18">
+        <ownSkillId>
+          <int>10001</int>
+          <int>20002</int>
+          <int>20007</int>
+          <int>10042</int>
+          <int>20019</int>
+          <int>20020</int>
+          <int>10038</int>
+          <int>10003</int>
+          <int>20021</int>
+          <int>20022</int>
+          <int>10043</int>
+          <int>10044</int>
+          <int>20009</int>
+          <int>10045</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="34" maxPP="35" />
+          <skill id="20002" pp="38" maxPP="40" />
+          <skill id="20007" pp="10" maxPP="10" />
+          <skill id="20019" pp="15" maxPP="15" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="18" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>189</atk>
+        <spAtk>227</spAtk>
+        <def>196</def>
+        <spDef>246</spDef>
+        <spd>165</spd>
+        <hp>264</hp>
+        <maxHp>289</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>86</id>
+      <basic id="86">
+        <name>纳格</name>
+        <gender>0</gender>
+        <personality>21</personality>
+        <attributes>7</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-18</getPetDate>
+      </basic>
+      <feature id="86">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="86">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="86">
+        <iv>8</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="86">
+        <ownSkillId>
+          <int>10127</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10127" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>131</id>
+      <basic id="131">
+        <name>影球</name>
+        <gender>0</gender>
+        <personality>5</personality>
+        <attributes>13</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-19</getPetDate>
+      </basic>
+      <feature id="131">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="131">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="131">
+        <iv>14</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="131">
+        <ownSkillId>
+          <int>10250</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10250" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>5</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>186</id>
+      <basic id="186">
+        <name>露露</name>
+        <gender>2</gender>
+        <personality>2</personality>
+        <attributes>8</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-19</getPetDate>
+      </basic>
+      <feature id="186">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="186">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="186">
+        <iv>16</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="186">
+        <ownSkillId>
+          <int>10535</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10535" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>5</def>
+        <spDef>4</spDef>
+        <spd>6</spd>
+        <hp>13</hp>
+        <maxHp>13</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>33</id>
+      <basic id="33">
+        <name>利牙鱼</name>
+        <gender>1</gender>
+        <personality>23</personality>
+        <attributes>2</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-16</getPetDate>
+      </basic>
+      <feature id="33">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="33">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="33">
+        <iv>7</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="33">
+        <ownSkillId>
+          <int>10011</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10011" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>5</spDef>
+        <spd>6</spd>
+        <hp>11</hp>
+        <maxHp>11</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>42</id>
+      <basic id="42">
+        <name>里奥斯</name>
+        <gender>2</gender>
+        <personality>10</personality>
+        <attributes>3</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-17</getPetDate>
+      </basic>
+      <feature id="42">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="42">
+        <level>100</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="42">
+        <iv>15</iv>
+        <ev>
+          <atk>5</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="42">
+        <ownSkillId>
+          <int>10008</int>
+          <int>10007</int>
+          <int>20035</int>
+          <int>20048</int>
+          <int>10083</int>
+          <int>20049</int>
+          <int>10097</int>
+          <int>20050</int>
+          <int>10096</int>
+          <int>20051</int>
+          <int>10098</int>
+          <int>10099</int>
+          <int>20052</int>
+          <int>10101</int>
+          <int>10100</int>
+          <int>20053</int>
+          <int>10102</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10100" pp="10" maxPP="10" />
+          <skill id="20049" pp="10" maxPP="10" />
+          <skill id="10102" pp="5" maxPP="5" />
+          <skill id="20048" pp="15" maxPP="15" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="42" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>183</atk>
+        <spAtk>266</spAtk>
+        <def>170</def>
+        <spDef>198</spDef>
+        <spd>220</spd>
+        <hp>271</hp>
+        <maxHp>271</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>48</id>
+      <basic id="48">
+        <name>索拉</name>
+        <gender>2</gender>
+        <personality>5</personality>
+        <attributes>9</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-02</getPetDate>
+      </basic>
+      <feature id="48">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="48">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="48">
+        <iv>15</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="48">
+        <ownSkillId>
+          <int>10200</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10200" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>48</id>
+      <basic id="48">
+        <name>索拉</name>
+        <gender>2</gender>
+        <personality>3</personality>
+        <attributes>9</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-01</getPetDate>
+      </basic>
+      <feature id="48">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="48">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="48">
+        <iv>12</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="48">
+        <ownSkillId>
+          <int>10200</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10200" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>441</id>
+      <basic id="441">
+        <name>莫尔加斯</name>
+        <gender>1</gender>
+        <personality>2</personality>
+        <attributes>7</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-16</getPetDate>
+      </basic>
+      <feature id="30">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="30">
+        <level>72</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>2408</currentExp>
+      </exp>
+      <talent id="30">
+        <iv>24</iv>
+        <ev>
+          <atk>1</atk>
+          <spAtk>0</spAtk>
+          <def>200</def>
+          <spDef>0</spDef>
+          <spd>1</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="30">
+        <ownSkillId>
+          <int>10001</int>
+          <int>10086</int>
+          <int>20045</int>
+          <int>10120</int>
+          <int>20065</int>
+          <int>10121</int>
+          <int>10076</int>
+          <int>20025</int>
+          <int>11177</int>
+          <int>10123</int>
+          <int>10122</int>
+          <int>20066</int>
+          <int>11178</int>
+          <int>20460</int>
+          <int>10014</int>
+          <int>10125</int>
+          <int>20067</int>
+          <int>10126</int>
+          <int>10124</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="20460" pp="20" maxPP="20" />
+          <skill id="20025" pp="15" maxPP="15" />
+          <skill id="20045" pp="40" maxPP="40" />
+          <skill id="10124" pp="10" maxPP="10" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>158</atk>
+        <spAtk>186</spAtk>
+        <def>180</def>
+        <spDef>140</spDef>
+        <spd>127</spd>
+        <hp>257</hp>
+        <maxHp>257</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>16</id>
+      <basic id="16">
+        <name>仙人球</name>
+        <gender>1</gender>
+        <personality>13</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-03</getPetDate>
+      </basic>
+      <feature id="16">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="16">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="16">
+        <iv>23</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="16">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>70</id>
+      <basic id="70">
+        <name>雷伊</name>
+        <gender>1</gender>
+        <personality>3</personality>
+        <attributes>5</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-08</getPetDate>
+      </basic>
+      <feature id="70">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="70">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="70">
+        <iv>3</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="70">
+        <ownSkillId>
+          <int>10006</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10006" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>7</atk>
+        <spAtk>7</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>118</id>
+      <basic id="118">
+        <name>克洛亚</name>
+        <gender>2</gender>
+        <personality>18</personality>
+        <attributes>9</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-02</getPetDate>
+      </basic>
+      <feature id="118">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="118">
+        <level>100</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="118">
+        <iv>16</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>5</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="118">
+        <ownSkillId>
+          <int>10250</int>
+          <int>20057</int>
+          <int>10203</int>
+          <int>10150</int>
+          <int>10344</int>
+          <int>20148</int>
+          <int>10346</int>
+          <int>10345</int>
+          <int>10350</int>
+          <int>20149</int>
+          <int>10347</int>
+          <int>10351</int>
+          <int>20150</int>
+          <int>10348</int>
+          <int>10352</int>
+          <int>20151</int>
+          <int>10349</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10250" pp="39" maxPP="40" />
+          <skill id="20057" pp="40" maxPP="40" />
+          <skill id="10203" pp="30" maxPP="30" />
+          <skill id="10150" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="118" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>233</atk>
+        <spAtk>188</spAtk>
+        <def>186</def>
+        <spDef>187</spDef>
+        <spd>232</spd>
+        <hp>298</hp>
+        <maxHp>298</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>68</id>
+      <basic id="68">
+        <name>米拉美</name>
+        <gender>2</gender>
+        <personality>11</personality>
+        <attributes>4</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="68">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="68">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="68">
+        <iv>6</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="68">
+        <ownSkillId>
+          <int>10157</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10157" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>5</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>41</id>
+      <basic id="41">
+        <name>胡里亚</name>
+        <gender>2</gender>
+        <personality>13</personality>
+        <attributes>3</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="41">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="41">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="41">
+        <iv>1</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="41">
+        <ownSkillId>
+          <int>10008</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10008" pp="30" maxPP="30" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>4</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>11</hp>
+        <maxHp>11</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>68</id>
+      <basic id="68">
+        <name>米拉美</name>
+        <gender>2</gender>
+        <personality>1</personality>
+        <attributes>4</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="68">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="68">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="68">
+        <iv>29</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="68">
+        <ownSkillId>
+          <int>10157</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10157" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>41</id>
+      <basic id="41">
+        <name>胡里亚</name>
+        <gender>2</gender>
+        <personality>23</personality>
+        <attributes>3</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="41">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="41">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="41">
+        <iv>21</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="41">
+        <ownSkillId>
+          <int>10008</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10008" pp="30" maxPP="30" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>11</hp>
+        <maxHp>11</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>41</id>
+      <basic id="41">
+        <name>胡里亚</name>
+        <gender>2</gender>
+        <personality>18</personality>
+        <attributes>3</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="41">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="41">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="41">
+        <iv>30</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="41">
+        <ownSkillId>
+          <int>10008</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10008" pp="30" maxPP="30" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>68</id>
+      <basic id="68">
+        <name>米拉美</name>
+        <gender>2</gender>
+        <personality>9</personality>
+        <attributes>4</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-02-14</getPetDate>
+      </basic>
+      <feature id="68">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="68">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="68">
+        <iv>13</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="68">
+        <ownSkillId>
+          <int>10157</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10157" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>4</def>
+        <spDef>5</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>16</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>15</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>16</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>10</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>19</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>7</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>5</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>9</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>2</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>5</spAtk>
+        <def>5</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>19</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>27</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>5</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>46</id>
+      <basic id="46">
+        <name>小蘑菇</name>
+        <gender>0</gender>
+        <personality>18</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-17</getPetDate>
+      </basic>
+      <feature id="46">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="46">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="46">
+        <iv>29</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="46">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>8</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1021</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>25</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>8</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1007</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>26</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>15</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1017</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>12</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>4</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>20</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1013</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>17</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>24</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1002</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>21</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>10</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1005</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>30</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>5</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>17</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1011</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>5</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>33</id>
+      <basic id="33">
+        <name>利牙鱼</name>
+        <gender>1</gender>
+        <personality>22</personality>
+        <attributes>2</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-25</getPetDate>
+      </basic>
+      <feature id="33">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="33">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="33">
+        <iv>4</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="33">
+        <ownSkillId>
+          <int>10011</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10011" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>5</spDef>
+        <spd>6</spd>
+        <hp>11</hp>
+        <maxHp>11</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>113</id>
+      <basic id="113">
+        <name>雷纳多</name>
+        <gender>0</gender>
+        <personality>17</personality>
+        <attributes>6</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-18</getPetDate>
+      </basic>
+      <feature id="113">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="113">
+        <level>44</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>233</currentExp>
+      </exp>
+      <talent id="113">
+        <iv>4</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="113">
+        <ownSkillId>
+          <int>10127</int>
+          <int>20045</int>
+          <int>20111</int>
+          <int>10327</int>
+          <int>10328</int>
+          <int>10047</int>
+          <int>20144</int>
+          <int>10329</int>
+          <int>10330</int>
+          <int>10333</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10127" pp="40" maxPP="40" />
+          <skill id="20045" pp="40" maxPP="40" />
+          <skill id="20111" pp="40" maxPP="40" />
+          <skill id="10327" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="113" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>78</atk>
+        <spAtk>94</spAtk>
+        <def>81</def>
+        <spDef>81</spDef>
+        <spd>84</spd>
+        <hp>149</hp>
+        <maxHp>149</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>16</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-21</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1028</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>6</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>4</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>124</id>
+      <basic id="124">
+        <name>英卡洛斯</name>
+        <gender>1</gender>
+        <personality>12</personality>
+        <attributes>11</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-27</getPetDate>
+      </basic>
+      <feature id="124">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="124">
+        <level>100</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>0</currentExp>
+      </exp>
+      <talent id="124">
+        <iv>28</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="124">
+        <ownSkillId>
+          <int>10361</int>
+          <int>20156</int>
+          <int>10363</int>
+          <int>10362</int>
+          <int>10364</int>
+          <int>10366</int>
+          <int>20157</int>
+          <int>10356</int>
+          <int>20158</int>
+          <int>10370</int>
+          <int>10367</int>
+          <int>20159</int>
+          <int>10371</int>
+          <int>10368</int>
+          <int>20160</int>
+          <int>10372</int>
+          <int>10369</int>
+          <int>26026</int>
+          <int>31836</int>
+          <int>26027</int>
+          <int>31837</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10361" pp="40" maxPP="40" />
+          <skill id="20156" pp="40" maxPP="40" />
+          <skill id="10363" pp="40" maxPP="40" />
+          <skill id="10362" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>254</atk>
+        <spAtk>263</spAtk>
+        <def>203</def>
+        <spDef>223</spDef>
+        <spd>263</spd>
+        <hp>358</hp>
+        <maxHp>358</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>30</id>
+      <basic id="30">
+        <name>贝尔</name>
+        <gender>1</gender>
+        <personality>5</personality>
+        <attributes>2</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-04</getPetDate>
+      </basic>
+      <feature id="30">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="30">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="30">
+        <iv>15</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="30">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>68</id>
+      <basic id="68">
+        <name>米拉美</name>
+        <gender>2</gender>
+        <personality>4</personality>
+        <attributes>4</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-01-18</getPetDate>
+      </basic>
+      <feature id="68">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="68">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="68">
+        <iv>21</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="68">
+        <ownSkillId>
+          <int>10157</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10157" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>6</spDef>
+        <spd>6</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>84</id>
+      <basic id="84">
+        <name>依丁丝</name>
+        <gender>1</gender>
+        <personality>5</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-05-30</getPetDate>
+      </basic>
+      <feature id="84">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="84">
+        <level>17</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>260</currentExp>
+      </exp>
+      <talent id="84">
+        <iv>13</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>10</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="84">
+        <ownSkillId>
+          <int>10234</int>
+          <int>20020</int>
+          <int>20012</int>
+          <int>10235</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10234" pp="40" maxPP="40" />
+          <skill id="20020" pp="35" maxPP="35" />
+          <skill id="20012" pp="30" maxPP="30" />
+          <skill id="10235" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="84" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>32</atk>
+        <spAtk>29</spAtk>
+        <def>28</def>
+        <spDef>27</spDef>
+        <spd>27</spd>
+        <hp>52</hp>
+        <maxHp>52</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>-1</id>
+      <basic id="-1">
+        <name>血翼哈莫</name>
+        <gender>1</gender>
+        <personality>9</personality>
+        <attributes>15</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-06-01</getPetDate>
+      </basic>
+      <feature id="-1">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="-1">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="-1">
+        <iv>5</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="-1">
+        <ownSkillId>
+          <int>10611</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10611" pp="40" maxPP="40" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>7</atk>
+        <spAtk>6</spAtk>
+        <def>5</def>
+        <spDef>6</spDef>
+        <spd>7</spd>
+        <hp>13</hp>
+        <maxHp>13</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>301</id>
+      <basic id="301">
+        <name>黄金布布</name>
+        <gender>2</gender>
+        <personality>10</personality>
+        <attributes>1</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-06-02</getPetDate>
+      </basic>
+      <feature id="0">
+        <hasEmblem>false</hasEmblem>
+        <featureId>1002</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="301">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="301">
+        <iv>1</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="301">
+        <ownSkillId>
+          <int>10003</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10003" pp="25" maxPP="25" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>5</atk>
+        <spAtk>6</spAtk>
+        <def>6</def>
+        <spDef>5</spDef>
+        <spd>5</spd>
+        <hp>12</hp>
+        <maxHp>12</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>343</id>
+      <basic id="343">
+        <name>索比拉特</name>
+        <gender>1</gender>
+        <personality>14</personality>
+        <attributes>7</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-06-02</getPetDate>
+      </basic>
+      <feature id="409">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="409">
+        <level>18</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>1107</currentExp>
+      </exp>
+      <talent id="409">
+        <iv>24</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="409">
+        <ownSkillId>
+          <int>10001</int>
+          <int>20068</int>
+          <int>10142</int>
+          <int>20075</int>
+          <int>10144</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10144" pp="30" maxPP="30" />
+          <skill id="20068" pp="30" maxPP="30" />
+          <skill id="10142" pp="35" maxPP="35" />
+          <skill id="20075" pp="20" maxPP="20" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>27</atk>
+        <spAtk>28</spAtk>
+        <def>26</def>
+        <spDef>31</spDef>
+        <spd>27</spd>
+        <hp>57</hp>
+        <maxHp>57</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>429</id>
+      <basic id="12">
+        <name>艾克里桑</name>
+        <gender>1</gender>
+        <personality>22</personality>
+        <attributes>30</attributes>
+        <height>65</height>
+        <weight>20</weight>
+        <getPetDate>2025-10-01</getPetDate>
+      </basic>
+      <feature id="12">
+        <hasEmblem>true</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="12">
+        <level>48</level>
+        <growthType>3</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>4680</currentExp>
+      </exp>
+      <talent id="12">
+        <iv>30</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>9</spAtk>
+          <def>255</def>
+          <spDef>255</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>3</evStorage>
+      </talent>
+      <skills id="12">
+        <ownSkillId>
+          <int>10001</int>
+          <int>20002</int>
+          <int>10008</int>
+          <int>10009</int>
+          <int>20015</int>
+          <int>10057</int>
+          <int>10036</int>
+          <int>20016</int>
+          <int>10037</int>
+          <int>10038</int>
+          <int>10033</int>
+          <int>20017</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10057" pp="37" maxPP="40" />
+          <skill id="10036" pp="5" maxPP="5" />
+          <skill id="10008" pp="30" maxPP="30" />
+          <skill id="10033" pp="4" maxPP="5" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="12" baseId="10">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>134</atk>
+        <spAtk>68</spAtk>
+        <def>116</def>
+        <spDef>102</spDef>
+        <spd>115</spd>
+        <hp>152</hp>
+        <maxHp>154</maxHp>
+      </currentStatus>
+    </Pet>
+    <Pet>
+      <id>10</id>
+      <basic id="10">
+        <name>皮皮</name>
+        <gender>2</gender>
+        <personality>3</personality>
+        <attributes>4</attributes>
+        <height>0</height>
+        <weight>0</weight>
+        <getPetDate>2026-06-10</getPetDate>
+      </basic>
+      <feature id="10">
+        <hasEmblem>false</hasEmblem>
+        <featureId>0</featureId>
+        <emblemId>0</emblemId>
+        <afterwardBuffIds />
+      </feature>
+      <exp id="10">
+        <level>1</level>
+        <growthType>0</growthType>
+        <fixedMaxLevel>0</fixedMaxLevel>
+        <currentExp>10</currentExp>
+      </exp>
+      <talent id="10">
+        <iv>12</iv>
+        <ev>
+          <atk>0</atk>
+          <spAtk>0</spAtk>
+          <def>0</def>
+          <spDef>0</spDef>
+          <spd>0</spd>
+          <hp>0</hp>
+        </ev>
+        <evStorage>0</evStorage>
+      </talent>
+      <skills id="10">
+        <ownSkillId>
+          <int>10001</int>
+        </ownSkillId>
+        <normalSkillId>
+          <skill id="10001" pp="35" maxPP="35" />
+        </normalSkillId>
+        <superSkillId>0</superSkillId>
+      </skills>
+      <record>
+        <winFightNum>0</winFightNum>
+        <loseFightNum>0</loseFightNum>
+        <recordDict />
+      </record>
+      <ui id="0" baseId="0">
+        <specialSkinList />
+      </ui>
+      <currentStatus>
+        <atk>6</atk>
+        <spAtk>5</spAtk>
+        <def>5</def>
+        <spDef>5</spDef>
+        <spd>5</spd>
+        <hp>11</hp>
+        <maxHp>11</maxHp>
+      </currentStatus>
+    </Pet>
+  </petStorage>
+  <pvpPetTeam />
+  <itemStorage>
+    <Item id="1" num="11288999" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="2" num="18012290" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="501" num="99999" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="502" num="99999" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="503" num="99999" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="504" num="99998" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="102" num="91" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="103" num="98" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="104" num="124" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="105" num="82" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="106" num="93" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="107" num="97" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="108" num="97" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="109" num="100" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="101" num="27" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="600" num="8" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="700" num="5" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="800" num="6" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="802" num="4" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="1001" num="991" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="1002" num="989" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="1003" num="988" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="1004" num="992" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="903" num="1" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="2001" num="1" fusionpetid="301" fusionfeatureid="1002" />
+    <Item id="601" num="2" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="607" num="3" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="609" num="5" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="506" num="99998" fusionpetid="0" fusionfeatureid="0" />
+    <Item id="905" num="1" fusionpetid="0" fusionfeatureid="0" />
+  </itemStorage>
+  <mailStorage>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-01T19:24:26.463066+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>版本更新奖励</title>
+      <content>版本更新奖励</content>
+      <date>2025-10-01T19:24:26.534679+08:00</date>
+      <gift>
+        <item id="10016" num="20" />
+        <item id="10225" num="5" />
+        <item id="1" num="5000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-02T06:53:13.118334+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-03T14:28:34.136545+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-05T08:04:19.563886+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-06T07:28:30.960781+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-07T06:34:42.113858+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-08T10:01:13.36261+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-09T14:31:34.812762+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>版本更新奖励</title>
+      <content>版本更新奖励</content>
+      <date>2025-10-09T17:40:10.29517+08:00</date>
+      <gift>
+        <item id="10016" num="20" />
+        <item id="10225" num="5" />
+        <item id="1" num="5000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-10T15:25:39.635773+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-12T08:58:53.784232+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-14T15:51:57.363385+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-15T07:47:53.726351+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-16T15:43:44.144276+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-17T14:47:48.396615+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-18T08:14:39.658038+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-19T13:47:11.535511+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-20T21:34:01.405985+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-21T17:04:11.110153+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-30T06:34:33.81698+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-10-31T14:17:39.831424+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-01T20:58:52.166659+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-02T08:49:31.000434+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-03T17:11:52.210573+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-04T20:17:06.415395+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-05T19:37:14.446397+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+    <Mail>
+      <isRead>false</isRead>
+      <sender>船长辛迪</sender>
+      <title>登入奖励</title>
+      <content>登入奖励</content>
+      <date>2025-11-06T21:08:55.151993+08:00</date>
+      <gift>
+        <item id="10016" num="5" />
+        <item id="10201" num="5" />
+        <item id="1" num="2000" />
+      </gift>
+    </Mail>
+  </mailStorage>
+  <missionStorage>
+    <Mission id="1" checkpoint="default" done="false" />
+  </missionStorage>
+  <activityStorage>
+    <Activity id="noob">
+      <data>
+        <entry>
+          <key>pet_bag</key>
+          <value>done</value>
+        </entry>
+        <entry>
+          <key>map</key>
+          <value>done</value>
+        </entry>
+        <entry>
+          <key>train</key>
+          <value>done</value>
+        </entry>
+        <entry>
+          <key>battle</key>
+          <value>done</value>
+        </entry>
+      </data>
+    </Activity>
+    <Activity id="noob_reward">
+      <data>
+        <entry>
+          <key>lastSignedDate</key>
+          <value>2025/10/10 0:00:00</value>
+        </entry>
+        <entry>
+          <key>signedDays</key>
+          <value>7</value>
+        </entry>
+      </data>
+    </Activity>
+    <Activity id="2510">
+      <data>
+        <entry>
+          <key>lastSignedDate</key>
+          <value>2025/10/21 0:00:00</value>
+        </entry>
+        <entry>
+          <key>signedDays</key>
+          <value>1</value>
+        </entry>
+      </data>
+    </Activity>
+    <Activity id="farm">
+      <data>
+        <entry>
+          <key>land[99008].plant</key>
+          <value>610001</value>
+        </entry>
+        <entry>
+          <key>land[99008].date[ripe]</key>
+          <value>2025/10/9 17:47:42</value>
+        </entry>
+        <entry>
+          <key>land[99004].plant</key>
+          <value>610002</value>
+        </entry>
+        <entry>
+          <key>land[99004].date[ripe]</key>
+          <value>2025/10/9 17:56:44</value>
+        </entry>
+      </data>
+    </Activity>
+    <Activity id="daily_login">
+      <data>
+        <entry>
+          <key>news</key>
+          <value>true</value>
+        </entry>
+      </data>
+    </Activity>
+  </activityStorage>
+  <battleRecordStorage />
+  <rewardBuffs>
+    <RewardBuff buffId="2501" multiplier="4" remainCount="79" buffType="exp" />
+    <RewardBuff buffId="2510" multiplier="2" remainCount="100" buffType="dropRate" />
+  </rewardBuffs>
+  <settingsData>
+    <useRobotAsPlayer>true</useRobotAsPlayer>
+    <BGMVolume>10</BGMVolume>
+    <UIVolume>10</UIVolume>
+    <battleBGMVolume>6</battleBGMVolume>
+    <battleSEVolume>10</battleSEVolume>
+    <battleAnimSpeed>3</battleAnimSpeed>
+    <shakeWhenBigDamage>true</shakeWhenBigDamage>
+    <flashWhenBigDamage>true</flashWhenBigDamage>
+    <initMapId>10001</initMapId>
+    <ruleId>0</ruleId>
+  </settingsData>
+  <yiteRogueData>
+    <mode>0</mode>
+    <isEnd>false</isEnd>
+    <petBag>
+      <Pet xsi:nil="true" />
+      <Pet xsi:nil="true" />
+      <Pet xsi:nil="true" />
+      <Pet xsi:nil="true" />
+      <Pet xsi:nil="true" />
+      <Pet xsi:nil="true" />
+    </petBag>
+    <buffStatus>
+      <atk>0</atk>
+      <spAtk>0</spAtk>
+      <def>0</def>
+      <spDef>0</spDef>
+      <spd>0</spd>
+      <hp>0</hp>
+      <maxHp>0</maxHp>
+    </buffStatus>
+    <buffIds />
+    <itemBag />
+    <floor>0</floor>
+    <nextPos>2147483647</nextPos>
+    <trace />
+    <eventMap />
+    <currentBraveTowerFloor>2</currentBraveTowerFloor>
+    <historyBraveTowerFloor>3</historyBraveTowerFloor>
+    <currentTrialTowerFloor>2</currentTrialTowerFloor>
+    <historyTrialTowerFloor>5</historyTrialTowerFloor>
+    <fightAnimSpeed>1</fightAnimSpeed>
+  </yiteRogueData>
+</gameData>

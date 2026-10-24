@@ -1,0 +1,46 @@
+<map name="露西欧海洋" category="-1" id="-50056" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_056</bgm>
+	</music>
+	<entities>
+	<npc id="-5005601" resId="Prefabs/Pet_211" type="prefab" name="水草蛙" size="2.5,2.5" pos="0,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="211" level="18">
+							<loopSkill>10001,20004,10113,10112</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005602" resId="Prefabs/Pet_211" type="prefab" name="水草蛙" size="2.5,2.5" pos="1,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="211" level="18">
+							<loopSkill>10001,20004,10113,10112</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="露西欧星泥潭" pos="-7.74,-1.07" targetMapId="-50055"/>
+	</entities>		
+</map>

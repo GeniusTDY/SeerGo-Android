@@ -1,0 +1,110 @@
+<map name="艾迪星" category="-50325" id="-50325" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_325</bgm>
+	</music>
+	<entities>
+		<npc id="-50032500" resId="Prefabs/NPC_-50325_1" type="prefab"  sort="2" size="1.7,1.7" pos="5.61,-1" rotation="0,0,0" color="255,255,255,255">
+			<description>奈尼芬多挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="264" level="60">
+							<status>
+								<hp>2500</hp>
+							</status>
+							<initBuff>
+								<buff id="30003"/>
+								<buff id="30004"/>
+								<buff id="30006"/>
+								<buff id="30009"/>
+								<buff id="20024"/>
+								<buff id="30016"/>
+							</initBuff>
+							<loopSkill>10721,10732,20313,10732</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>262</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【奈姬】已经放入精灵仓库</param>
+							<param>item_icon=pet[262]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<npc id="-5032501" resId="Prefabs/Pet_266" type="prefab" name="帕格尼尼" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="266" level="41">
+							<loopSkill>10457,20214,10285,10731</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032502" resId="Prefabs/Pet_266" type="prefab" name="帕格尼尼" size="2.5,2.5" pos="-1.6,-2.8" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="266" level="42">
+							<loopSkill>10457,20214,10285,10731</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032503" resId="Prefabs/Pet_265" type="prefab" name="帕尼" size="2.5,2.5" pos="2.49,-2.845" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="265" level="15">
+							<loopSkill>10001,20004,10522,20290</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="暮色之城" pos="3.21,0" targetMapId="-50326"/>
+	</entities>		
+</map>

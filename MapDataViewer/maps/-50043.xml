@@ -1,0 +1,28 @@
+<map name="露西欧星赫尔卡飞船" category="-50030" id="-50043" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>4.8,-1</initialPoint>
+	<music category="-2">
+		<bgm>BGM_041</bgm>
+	</music>
+	<entities>
+		<npc id="1" resId="Prefabs/Pet_100" type="prefab" name="卡西" size="2,2" pos="-0.74,-1.57" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="100" level="17">
+							<loopSkill>10295,20066,10296,20030</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="冰溶洞" pos="6.73,1.37" targetMapId="-50041"/>
+	</entities>
+</map>

@@ -1,0 +1,84 @@
+<map name="赫尔卡星遗迹" category="-50030" id="-50031" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-2,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_031</bgm>
+	</music>
+	<entities>
+		<npc id="-5003101" resId="Prefabs/Pet_43" type="prefab" name="罗奇" size="2,2" pos="0,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="43" level="19">
+							<loopSkill>10001,20023,10048,20052</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003102" resId="Prefabs/Pet_43" type="prefab" name="罗奇" size="2,2" pos="-2,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="43" level="20">
+							<loopSkill>10001,20023,10048,20052</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003102" resId="Prefabs/Pet_193" type="prefab" name="奇达" size="2,2" pos="4.35,-0.22" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="193" level="21">
+							<loopSkill>20052,10556,10048,20023</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		
+		<npc id="1" resId="Prefabs/Pet_43" type="prefab" name="罗奇" size="2,2" pos="-1.01,-2.04" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="赫尔卡星" pos="-7.84,-2.88" targetMapId="-50030"/>
+		<teleport id="2" name="赫尔卡星荒地" pos="7.56,3" targetMapId="-50032"/>
+	</entities>
+</map>

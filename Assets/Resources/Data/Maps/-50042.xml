@@ -1,0 +1,65 @@
+<map name="冰窖迷宫" category="-50040" id="-50042" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>3,0</initialPoint>
+	<music category="-2">
+		<bgm>BGM_042</bgm>
+	</music>
+	<entities>
+		<npc id="-5004001" resId="Prefabs/Pet_51" type="prefab" name="玄冰兽" size="2.5,2.5" pos="2,-1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="51" level="25">
+							<loopSkill>10004,10202,20057,10212</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5004001" resId="Prefabs/Pet_51" type="prefab" name="玄冰兽" size="2.5,2.5" pos="-1.38,0.14" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="51" level="26">
+							<loopSkill>10004,10202,20057,10212</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5004001" resId="Prefabs/Pet_52" type="prefab" name="急冻兽" size="2.5,2.5" pos="-4.5,2.5" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="52" level="45">
+							<loopSkill>20063,10216,10213,20062</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="塞西利亚星" pos="6.2,-2.17" targetMapId="-50040"/>
+		<teleport id="2" name="冰溶洞" pos="8,1.75" targetMapId="-50041"/>
+	</entities>
+</map>

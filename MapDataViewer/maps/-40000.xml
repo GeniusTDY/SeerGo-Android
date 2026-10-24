@@ -1,0 +1,10 @@
+<map name="基地" category="-1" id="-40000" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-3</initialPoint>
+	<music category="-1">
+		<bgm>BGM_001</bgm>
+	</music>
+	<entities>
+		<teleport id="1" name="传送室" pos="-5,-1.2" targetMapId="-50001"/>
+	</entities>		
+</map>

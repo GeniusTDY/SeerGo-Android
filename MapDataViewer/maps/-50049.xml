@@ -1,0 +1,95 @@
+<map name="贝塔星荒原" category="-50047" id="-50049" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-5,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_047</bgm>
+	</music>
+	<entities>
+		<npc id="-50032" resId="Prefabs/NPC_-50049_1" type="prefab" polygonEnable="false"  sort="3" size="2,2" pos="1.42,1.67" rotation="0,0,0" color="255,255,255,255">
+		</npc>
+		<npc id="-5901503" resId="-5004902" type="sprite" name="雷纳多" size="0.8,0.8" pos="1,2" namePos="0,-20">
+			<description>雷纳多</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="113" level="75">
+							<status>
+								<hp>1300</hp>
+							</status>
+							<initBuff>
+								<buff id="30002"/>
+							</initBuff>
+							<loopSkill>20145,10336,10331,10335</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>904</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【雷格】已经放入精灵仓库</param>
+							<param>item_icon=pet[111]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901501" resId="Prefabs/Pet_105" type="prefab" name="丁格" size="2.3,2.3" pos="4.5,-2.7" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="105" level="15">
+							<loopSkill>10001,20045,20137,10307</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1003" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901502" resId="Prefabs/Pet_105" type="prefab" name="丁格" size="2.3,2.3" pos="-4,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="105" level="16">
+							<loopSkill>10001,20045,20137,10307</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1003" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="海盗能源站" pos="-7.21,-1.34" targetMapId="-50046"/>
+		<teleport id="2" name="贝塔星" pos="7.92,1.8" targetMapId="-50047"/>
+		<teleport id="3" name="海盗废墟" pos="-7.52,2.32" targetMapId="-50048"/>
+	</entities>
+</map>

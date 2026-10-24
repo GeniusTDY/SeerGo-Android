@@ -1,0 +1,85 @@
+<map name="赫尔卡星" category="-50030" id="-50030" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0.47,-2.32</initialPoint>
+	<music category="-2">
+		<bgm>BGM_030</bgm>
+	</music>
+	<entities>
+		<npc id="-5003001" resId="Prefabs/Pet_13" type="prefab" name="比比鼠" size="2.5,2.5" pos="1.85,-1.83" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="13" level="14">
+							<loopSkill>10001,20004,20006,10011</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003002" resId="Prefabs/Pet_13" type="prefab" name="比比鼠" size="2.5,2.5" pos="1.16,1.13" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="13" level="13">
+							<loopSkill>10001,20004,20006,10011</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003003" resId="Prefabs/Pet_19" type="prefab" name="利利" size="2.5,2.5" pos="0,-2.6" namePos="0,0" active="false" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="19" level="19">
+							<loopSkill>10001,20002,20023</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003004" resId="Prefabs/Pet_284" type="prefab" name="闪光利利" size="2.5,2.5" pos="-1.1,-1.8" namePos="0,0" active="false" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="284" level="16">
+							<loopSkill>10001,20023,10048</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="传送室" pos="5.7,-1.98" targetMapId="-50001"/>
+		<teleport id="2" name="赫尔卡星遗迹" pos="-5.23,2.52" targetMapId="-50031"/>
+		<teleport id="2" name="神秘通道" pos="3.55,0.58" targetMapId="-50033"/>
+	</entities>
+</map>

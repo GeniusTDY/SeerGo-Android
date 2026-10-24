@@ -1,0 +1,64 @@
+<map name="斯科尔高空塔" category="-50328" id="-50331" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_331</bgm>
+	</music>
+	<entities>
+		<npc id="-5033102" resId="Prefabs/Pet_345" type="prefab" name="巨镰鸟" size="2.5,2.5" pos="-5.87,-2.35" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="345" level="48">
+							<loopSkill>10199,10164,20370,10838</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033103" resId="Prefabs/Pet_344" type="prefab" name="幼镰鸟" size="2.5,2.5" pos="-6.3,-1.37" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="344" level="15">
+							<loopSkill>10018,20001,10022,10054</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033104" resId="Prefabs/Pet_344" type="prefab" name="幼镰鸟" size="2.5,2.5" pos="-5.0,-2.3" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="344" level="16">
+							<loopSkill>10018,20001,10022,10054</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="斯科尔浮岛" pos="-7.32,-2.95" targetMapId="-50330"/>
+	</entities>		
+</map>

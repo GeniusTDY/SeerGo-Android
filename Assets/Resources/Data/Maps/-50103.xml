@@ -1,0 +1,10 @@
+<map name="瞭望仓露台" category="-1" id="-50103" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-1">
+		<bgm>BGM_007</bgm>
+	</music>
+	<entities>
+		<teleport id="1" name="传送室" pos="-6.42,-2.08" targetMapId="-50001"/>
+	</entities>		
+</map>

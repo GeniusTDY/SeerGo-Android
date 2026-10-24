@@ -1,0 +1,85 @@
+<map name="阿尔法星岩地" category="-50105" id="-50106" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>4.35,-2.6</initialPoint>
+	<music category="-2">
+		<bgm>BGM_105</bgm>
+	</music>
+	<entities>
+		<npc id="-5901303" resId="-5010602" type="sprite" name="纳多雷" size="0.7,0.7" pos="0,0" namePos="0,-20">
+			<description>纳多雷</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="88" level="70">
+							<status>
+								<hp>1400</hp>
+							</status>
+							<loopSkill>20113,20112,10247,20078</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>903</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【纳格】已经放入精灵仓库</param>
+							<param>item_icon=pet[86]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901301" resId="Prefabs/Pet_188" type="prefab" name="加格" size="2.5,2.5" pos="0,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="188" level="17">
+							<loopSkill>10499,20117,10381,10545</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901302" resId="Prefabs/Pet_188" type="prefab" name="加格" size="2.5,2.5" pos="-1,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="188" level="18">
+							<loopSkill>10499,20117,10381,10545</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="阿尔法星" pos="7.88,-2.56" targetMapId="-50105"/>
+		<teleport id="2" name="海盗能源站" pos="-1.66,1.77" targetMapId="-50046"/>
+	</entities>
+</map>

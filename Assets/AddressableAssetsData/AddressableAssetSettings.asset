@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 2b35710e03f926d4db0d12eab0734e97
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 97644b626acfba84092d4db084dfa536, type: 2}
+  - {fileID: 11400000, guid: 2b2a18559afd55d41b99c043eea03a85, type: 2}
+  - {fileID: 11400000, guid: bdf69428c0faa0449a3743257adec00d, type: 2}
+  - {fileID: 11400000, guid: b1f48d4829a2604499f51f5f62141e18, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 931946bec91e33541a494ed4ca644491
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 015e51c442c5a584bbf069a53f26a5cc
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 8a775895e51466c45bb6fd7e4ef8fda2
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 8bb798bc2f8fcf943a27b097a3b30611
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: cc45a3ea21b71384aacda988e65935ea
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: ce7fd794ed4efc94d9dc3ee37cd76c19
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    m_ProfileEntryNames:
+    - m_Id: 015e51c442c5a584bbf069a53f26a5cc
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 8a775895e51466c45bb6fd7e4ef8fda2
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 8bb798bc2f8fcf943a27b097a3b30611
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: cc45a3ea21b71384aacda988e65935ea
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: ce7fd794ed4efc94d9dc3ee37cd76c19
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Map_-50015_Effects
+    - Map_-50314_Effects
+    - Map_-50001_Effects
+    - Map_-50016_Effects
+    - Map_-50020_Effects
+    - Map_-50022_Effects
+    - Map_-50025_Effects
+    - Map_-50026_Effects
+    - Map_-50027_Effects
+    - Map_-50030_Effects
+    - Map_-50031_Effects
+    - Map_-50079_Effects
+    - Map_-50032_Effects
+    - Map_-50021_Effects
+    - Map_-50036_Effects
+    - Map_-50047_Effects
+    - Map_-50105_Effects
+    - Map_-50040_Effects
+    - Map_-50051_Effects
+    - Map_-50053_Effects
+    - Map_-50054_Effects
+    - Map_-50055_Effects
+    - Map_-50102_Effects
+    - Map_-50101_Effects
+    - Map_-50007_Effects
+    - Map_-50008_Effects
+    - Map_-50009_Effects
+    - Map_-50103_Effects
+    - Map_-50107_Effects
+    - Map_-50057_Effects
+    - Map_-50059_Effects
+    - Map_-50060_Effects
+    - Map_-50325_Effects
+    - Map_-50328_Effects
+    - Map_-50331_Effects
+    - Map_-50338_Effects
+    - Map_-50340_Effects
+    - Map_-50342_Effects
+    - Map_-50344_Effects
+    - Map_-50348_Effects
+    - Map_-50010_Effects
+    - Map_-50033_Effects
+    - Map_-50034_Effects
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: c25bcf1c04a7fdb4dba9e256b7d3783d, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 62d0222754fad7b40bc0d9e48223c73b, type: 2}
+  - {fileID: 11400000, guid: b67c74ae2f9085c49afc912b915601bf, type: 2}
+  - {fileID: 11400000, guid: fce59c60b0dba714d882051cc263355c, type: 2}
+  - {fileID: 11400000, guid: 5b63a04d41cf8e245915f393e53bd3e1, type: 2}
+  m_ActiveProfileId: 931946bec91e33541a494ed4ca644491
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000

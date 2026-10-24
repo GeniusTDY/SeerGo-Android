@@ -1,0 +1,143 @@
+<fusionRecipes>
+	<!-- 1. 布布花 + 魔花仙子 = 丽莎布布 -->
+	<group>
+		<mainId>3</mainId>
+		<subId>27</subId>
+		<subId>28</subId>
+		<subId>29</subId>
+		<results>
+			<result id="301" rate="100" beadid="2001"/>
+		</results>
+	</group>
+
+	<!-- 2. 巴鲁斯 + 鳞甲龙鱼 = 鲁斯王 -->
+	<group>
+		<mainId>6</mainId>
+		<subId>198</subId>
+		<subId>199</subId>
+		<subId>200</subId>
+		<results>
+			<result id="304" rate="100" beadid="2002"/>
+		</results>
+	</group>
+
+	<!-- 3. 烈焰猩猩 + 洛吉拉斯 = 魔焰猩猩 -->
+	<group>
+		<mainId>9</mainId>
+		<subId>35</subId>
+		<subId>36</subId>
+		<subId>37</subId>
+		<results>
+			<result id="307" rate="100" beadid="2003"/>
+		</results>
+	</group>
+
+	<!-- 4. 艾斯菲亚 + 闪光波克尔 = 闪光艾菲亚(95%) / 卡鲁耶克(5%) -->
+	<group>
+		<mainId>79</mainId>
+		<subId>164</subId>
+		<subId>165</subId>
+		<subId>166</subId>
+		<results>
+			<result id="310" rate="95" beadid="2004"/>
+			<result id="313" rate="5" beadid="2005"/>
+		</results>
+	</group>
+
+	<!-- 5. 卡斯达克 + 鲁加斯 = 卡鲁克斯 -->
+	<group>
+		<mainId>180</mainId>
+		<subId>53</subId>
+		<subId>54</subId>
+		<subId>55</subId>
+		<results>
+			<result id="316" rate="100" beadid="2006"/>
+		</results>
+	</group>
+
+	<!-- 6. 灵翼蜂 + 哈尔浮 = 哈尔翼蜂 -->
+	<group>
+		<mainId>155</mainId>
+		<subId>25</subId>
+		<subId>26</subId>
+		<results>
+			<result id="319" rate="100" beadid="2007"/>
+		</results>
+	</group>
+
+	<!-- 7. 克洛亚 + 克林卡修 = 古雷亚 -->
+	<group>
+		<mainId>118</mainId>
+		<subId>190</subId>
+		<subId>191</subId>
+		<subId>192</subId>
+		<results>
+			<result id="322" rate="100" beadid="2002"/>
+		</results>
+	</group>
+
+	<!-- 8. 多鲁姆 + 贝尔鲁斯 = 多鲁鲁斯 -->
+	<group>
+		<mainId>210</mainId>
+		<subId>38</subId>
+		<subId>39</subId>
+		<subId>40</subId>
+		<results>
+			<result id="332" rate="100" beadid="2003"/>
+		</results>
+	</group>
+
+	<!-- 9. 雷吉欧斯 + 雷吉姆斯 = 托雷塔斯 -->
+	<group>
+		<mainId>61</mainId>
+		<subId>102</subId>
+		<subId>103</subId>
+		<subId>104</subId>
+		<results>
+			<result id="340" rate="100" beadid="2002"/>
+		</results>
+	</group>
+
+	<!-- 10. 洛比特 + 波古 = 索比拉特 -->
+	<group>
+		<mainId>138</mainId>
+		<subId>128</subId>
+		<subId>129</subId>
+		<subId>130</subId>
+		<results>
+			<result id="341" rate="100" beadid="2005"/>
+		</results>
+	</group>
+
+	<!-- 11. 天雷鼠 + 卡尔加斯 = 泰瑞 -->
+	<group>
+		<mainId>15</mainId>
+		<subId>97</subId>
+		<subId>98</subId>
+		<subId>99</subId>
+		<results>
+			<result id="401" rate="100" beadid="2002"/>
+		</results>
+	</group>
+
+	<!-- 12. 加格尔 + 查尔顿 = 提姆提姆 -->
+	<group>
+		<mainId>189</mainId>
+		<subId>228</subId>
+		<subId>229</subId>
+		<results>
+			<result id="404" rate="100" beadid="2006"/>
+		</results>
+	</group>
+
+	<!-- 13. 萨洛姆斯 + 伊娅丝 = 艾克里桑 -->
+	<group>
+		<mainId>251</mainId>
+		<subId>232</subId>
+		<subId>233</subId>
+		<subId>234</subId>
+		<results>
+			<result id="427" rate="100" beadid="2005"/>
+		</results>
+	</group>
+</fusionRecipes>

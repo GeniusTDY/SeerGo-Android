@@ -1,0 +1,91 @@
+<map name="尼古尔水帘" category="-50057" id="-50059" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_057</bgm>
+	</music>
+	<entities>
+		<npc id="-5005901" resId="-5005901" type="sprite" name="远古鱼龙" size="1.5,1.5" pos="-1,-0.19" namePos="0,0">
+			<description>远古鱼龙挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="347" level="80">
+							<status>
+								<hp>3000</hp>
+							</status>
+							<initBuff>
+								<buff id="30013"/>
+								<buff id="30006"/>
+								<buff id="20004"/>
+								<buff id="30010" effectValue="2"/>
+							</initBuff>
+							<loopSkill>10848,20377,10847,20375</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>346</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【宝贝鲤】已经放入精灵仓库</param>
+							<param>item_icon=pet[346]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="1" resId="Prefabs/Pet_252" type="prefab" name="嘟噜噜" size="2,2" pos="-5.16,-1.87" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="252" level="18">
+							<loopSkill>10047,20302,10696,20004</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_254" type="prefab" name="嘟咕噜" size="2,2" pos="1.13,-2.63" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="254" level="19">
+							<loopSkill>20274,10696,20015,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="尼古尔星" pos="-7.04,-3.35" targetMapId="-50057"/>
+	</entities>		
+</map>

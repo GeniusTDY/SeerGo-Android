@@ -1,0 +1,65 @@
+<map name="哈莫星" category="-50338" id="-50338" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_338</bgm>
+	</music>
+	<entities>
+	<npc id="-5033801" resId="Prefabs/Pet_399" type="prefab" name="萨拉" size="2,2" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="399" level="15">
+							<loopSkill>10006,20373,11091,10009</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033802" resId="Prefabs/Pet_399" type="prefab" name="萨拉" size="2,2" pos="-1.5,1.9" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="399" level="16">
+							<loopSkill>10006,20373,11091,10009</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033803" resId="Prefabs/Pet_400" type="prefab" name="萨帕克" size="2,2" pos="2,0.11" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="400" level="48">
+							<loopSkill>20098,11088,20538,11085</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	
+	<teleport id="1" name="塔西亚地域" pos="-4.3,-1.38" targetMapId="-50340"/>
+	</entities>		
+</map>

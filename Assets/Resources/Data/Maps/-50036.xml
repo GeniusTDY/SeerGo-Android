@@ -1,0 +1,64 @@
+<map name="精灵圣殿" category="-50030" id="-50036" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>1.1,0.89</initialPoint>
+	<music category="-2">
+		<bgm>BGM_032</bgm>
+	</music>
+	<entities>
+		<npc id="-5003001" resId="Prefabs/Pet_145" type="prefab" name="吉斯" size="2.5,2.5" pos="3,0.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="145" level="16">
+							<loopSkill>10455,10454,20196,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003001" resId="Prefabs/Pet_145" type="prefab" name="吉斯" size="2.5,2.5" pos="0.8,1.7" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="145" level="17">
+							<loopSkill>10455,10454,20196,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003001" resId="Prefabs/Pet_145" type="prefab" name="吉斯" size="2.5,2.5" pos="-1.26,-0.17" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="145" level="16">
+							<loopSkill>10455,10454,20196,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="2" name="精灵广场" pos="-4.93,-3.08" targetMapId="-50034"/>
+	</entities>
+</map>

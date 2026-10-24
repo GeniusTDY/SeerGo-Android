@@ -1,0 +1,65 @@
+<map name="暮色之城" category="-50325" id="-50326" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_326</bgm>
+	</music>
+	<entities>
+	<npc id="-5032601" resId="Prefabs/Pet_268" type="prefab" name="乌力朴" size="2,2" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="266" level="41">
+							<loopSkill>10220,20320,10354,10687</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032602" resId="Prefabs/Pet_268" type="prefab" name="乌力朴" size="2,2" pos="0.84,-2.67" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="266" level="42">
+							<loopSkill>10220,20320,10354,10687</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032603" resId="Prefabs/Pet_267" type="prefab" name="乌凯" size="2,2" pos="2.49,-2.845" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="267" level="15">
+							<loopSkill>10004,20015,10427,20012</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="艾迪星" pos="-6.83,-1.96" targetMapId="-50325"/>
+	<teleport id="2" name="地下之城" pos="-0.46,-0.32" targetMapId="-50327"/>
+	</entities>		
+</map>

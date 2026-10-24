@@ -1,0 +1,124 @@
+<map name="火山星" category="-50015" id="-50015" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-3,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_015</bgm>
+	</music>
+	<entities>
+		<npc id="-5001501"  resId="Prefabs/Pet_38" type="prefab" name="火炎贝" size="2,2" pos="0,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="38" level="7">
+							<loopSkill>10086,20045</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001502"  resId="Prefabs/Pet_38" type="prefab" name="火炎贝" size="2,2" pos="-4,-3" namePos="0,0" active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="38" level="8">
+							<loopSkill>10086,20045</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001504"  resId="Prefabs/Pet_38" type="prefab"  name="火炎贝" size="2,2" pos="0,-3.5" namePos="0,0" active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="38" level="7">
+							<loopSkill>10086,20045</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="1" resId="Prefabs/Pet_7" type="prefab" name="小火猴" size="1,1" pos="2.05,-2.13" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="7" level="5">
+							<loopSkill>10006</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_172" type="prefab" name="黑火贝" size="2,2" pos="-7.07,-1.25" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="172" level="13">
+							<loopSkill>10087,20045,10086</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_38" type="prefab" name="火炎贝" size="2,2" pos="-1.01,-2.04" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		
+		
+		
+		<teleport id="1" name="传送室" pos="-7.19,1.21" targetMapId="-50001"/>
+
+		<teleport id="2" name="火山星山洞" pos="5.46,1.65" targetMapId="-50016"/>
+	</entities>
+</map>

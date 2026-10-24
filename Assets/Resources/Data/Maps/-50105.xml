@@ -1,0 +1,65 @@
+<map name="阿尔法星" category="-50105" id="-50105" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>3,2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_105</bgm>
+	</music>
+	<entities>
+	<npc id="-5901201" resId="Prefabs/Pet_89" type="prefab" name="迪达" size="2.5,2.5" pos="0,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="89" level="16">
+							<loopSkill>10250,20039,10252,10076</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<npc id="-5901201" resId="Prefabs/Pet_90" type="prefab" name="迪尔克" size="2.5,2.5" pos="-3.88,-0.6" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="90" level="38">
+							<loopSkill>10097,20115,10254,10251</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5901202" resId="Prefabs/Pet_91" type="prefab" name="悠悠" size="2.5,2.5" pos="0,-3" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="91" level="11">
+							<loopSkill>10001,10129,20004</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	
+	<teleport id="1" name="阿尔法星岩地" pos="-3.17,2.97" targetMapId="-50106"/>
+	</entities>
+</map>

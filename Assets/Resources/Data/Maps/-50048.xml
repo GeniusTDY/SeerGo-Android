@@ -1,0 +1,47 @@
+<map name="海盗废墟" category="-50047" id="-50048" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>5.1,1.4</initialPoint>
+	<music category="-2">
+		<bgm>BGM_048</bgm>
+	</music>
+	<entities>
+		<npc id="1" resId="Prefabs/Pet_185" type="prefab" name="梅鲁" size="2.5,2.5" pos="-0.19,-0.56" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="185" level="48">
+							<loopSkill>20226,10297,10076,10522</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="2" resId="Prefabs/Pet_184" name="古鲁" type="prefab" size="2.5,2.5" pos="-3.1,-1.76" namePos="0,0" active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="184" level="18">
+							<loopSkill>10523,20002,10076,10522</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		
+	<teleport id="1" name="贝塔星" pos="7,3" targetMapId="-50047"/>
+	</entities>
+</map>

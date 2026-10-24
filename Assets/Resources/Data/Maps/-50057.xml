@@ -1,0 +1,112 @@
+<map name="尼古尔星" category="-50057" id="-50057" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_057</bgm>
+	</music>
+	<entities>
+		<npc id="-5005503" resId="-5005503" type="sprite" name="哈莫雷特" size="-1.5,1.5" pos="-6.97,1.22" namePos="0,0">
+			<description>哈莫雷特挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="216" level="80">
+							<status>
+								<hp>10000</hp>
+								<spd>200</spd>
+							</status>
+							<initBuff>
+								<buff id="30001"/>
+								<buff id="30003"/>
+								<buff id="30004"/>
+								<buff id="30009"/>
+								<buff id="30013"/>
+								<buff id="30014"/>
+							</initBuff>
+							<loopSkill>10618,20269,10622,20266</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>915</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【哈莫】已经放入精灵仓库</param>
+							<param>item_icon=pet[111]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<npc id="-5005701" resId="Prefabs/Pet_236" type="prefab" name="米洛尼" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="236" level="41">
+							<loopSkill>20068,10309,20212,10666</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005702" resId="Prefabs/Pet_236" type="prefab" name="米洛尼" size="2.5,2.5" pos="0.9,-1.86" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="236" level="42">
+							<loopSkill>20068,10309,20212,10666</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005703" resId="Prefabs/Pet_235" type="prefab" name="米隆" size="2.5,2.5" pos="5.94,-2.28" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="235" level="18">
+							<loopSkill>10307,20165,10121,10308</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="尼古尔峭壁" pos="-2.66,2.31" targetMapId="-50058"/>
+	<teleport id="2" name="尼古尔水帘" pos="0.25,-0.26" targetMapId="-50059"/>
+	</entities>		
+</map>

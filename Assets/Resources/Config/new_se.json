@@ -1,0 +1,346 @@
+{
+    "NewSe": {
+        "NewSeIdx": [
+            {
+                "Idx": 1001,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "1 5",
+                "CanReset": 1,
+                "Desc": "叶绿",
+                "Intro": "草属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1002,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "2 5",
+                "CanReset": 1,
+                "Desc": "流水",
+                "Intro": "水属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1003,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "3 5",
+                "CanReset": 1,
+                "Desc": "炎火",
+                "Intro": "火属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1004,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "4 5",
+                "CanReset": 1,
+                "Desc": "飞空",
+                "Intro": "飞行属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1005,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "5 5",
+                "CanReset": 1,
+                "Desc": "蓄电",
+                "Intro": "电属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1006,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "6 5",
+                "CanReset": 1,
+                "Desc": "机能",
+                "Intro": "机械属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1007,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "7 5",
+                "CanReset": 1,
+                "Desc": "碎裂",
+                "Intro": "地面属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1008,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "8 5",
+                "CanReset": 1,
+                "Desc": "平衡",
+                "Intro": "普通属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1009,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "9 5",
+                "CanReset": 1,
+                "Desc": "冰霜",
+                "Intro": "冰属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1010,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "10 5",
+                "CanReset": 1,
+                "Desc": "魔幻",
+                "Intro": "超能属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1011,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "11 5",
+                "CanReset": 1,
+                "Desc": "战意",
+                "Intro": "战斗属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1012,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "12 5",
+                "CanReset": 1,
+                "Desc": "光环",
+                "Intro": "光属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1013,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "13 5",
+                "CanReset": 1,
+                "Desc": "黑夜",
+                "Intro": "暗影属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1014,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "14 5",
+                "CanReset": 1,
+                "Desc": "奇异",
+                "Intro": "神秘属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1015,
+                "Stat": 1,
+                "Eid": 28,
+                "Args": "15 5",
+                "CanReset": 1,
+                "Desc": "威严",
+                "Intro": "龙属性技能威力增加5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1016,
+                "Stat": 1,
+                "Eid": 30,
+                "Args": "1 0",
+                "CanReset": 1,
+                "Desc": "会心",
+                "Intro": "所有技能的致命一击率增加",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1017,
+                "Stat": 1,
+                "Eid": 3,
+                "Args": "5 0",
+                "CanReset": 1,
+                "Desc": "坚硬",
+                "Intro": "受到任何伤害减少5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1018,
+                "Stat": 1,
+                "Eid": 7,
+                "Args": "5 0",
+                "CanReset": 1,
+                "Desc": "回避",
+                "Intro": "被技能命中的几率减少5%",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1019,
+                "Stat": 1,
+                "Eid": 31,
+                "Args": "5 1",
+                "CanReset": 1,
+                "Desc": "顽强",
+                "Intro": "受到致死攻击时有5%几率余下1点体力",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1020,
+                "Stat": 1,
+                "Eid": 32,
+                "Args": "5 0",
+                "CanReset": 1,
+                "Desc": "瞬杀",
+                "Intro": "进攻类技能有5%几率秒杀对方",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1021,
+                "Stat": 1,
+                "Eid": 33,
+                "Args": "8 5",
+                "CanReset": 1,
+                "Desc": "回神",
+                "Intro": "体力降低到1/8时有5%几率体力回满",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1022,
+                "Stat": 1,
+                "Eid": 6,
+                "Args": "5",
+                "CanReset": 1,
+                "Desc": "带电",
+                "Intro": "受到普通攻击时有5%使对方麻痹",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1023,
+                "Stat": 1,
+                "Eid": 6,
+                "Args": "2 5",
+                "CanReset": 1,
+                "Desc": "高热",
+                "Intro": "受到普通攻击时有5%使对方烧伤",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1024,
+                "Stat": 1,
+                "Eid": 6,
+                "Args": "5 5",
+                "CanReset": 1,
+                "Desc": "冰冷",
+                "Intro": "受到普通攻击时有5%使对方冻伤",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1025,
+                "Stat": 1,
+                "Eid": 6,
+                "Args": "6 5",
+                "CanReset": 1,
+                "Desc": "阴森",
+                "Intro": "受到普通攻击时有5%使对方害怕",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1026,
+                "Stat": 1,
+                "Eid": 34,
+                "Args": "0 5",
+                "CanReset": 1,
+                "Desc": "反抗",
+                "Intro": "受到特殊攻击时有5%几率使对方攻击降低1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1027,
+                "Stat": 1,
+                "Eid": 34,
+                "Args": "2 5",
+                "CanReset": 1,
+                "Desc": "忽略",
+                "Intro": "受到特殊攻击时有5%几率使对方特攻降低1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1028,
+                "Stat": 1,
+                "Eid": 34,
+                "Args": "3 5",
+                "CanReset": 1,
+                "Desc": "草率",
+                "Intro": "受到特殊攻击时有5%几率使对方特防降低1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1029,
+                "Stat": 1,
+                "Eid": 34,
+                "Args": "4 5",
+                "CanReset": 1,
+                "Desc": "慌张",
+                "Intro": "受到特殊攻击时有5%几率使对方速度降低1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1030,
+                "Stat": 1,
+                "Eid": 35,
+                "Args": "0 5",
+                "CanReset": 1,
+                "Desc": "反击",
+                "Intro": "受到任何攻击时有5%几率使自身攻击提升1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1031,
+                "Stat": 1,
+                "Eid": 35,
+                "Args": "1 5",
+                "CanReset": 1,
+                "Desc": "抵抗",
+                "Intro": "受到任何攻击时有5%几率使自身防御提升1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1032,
+                "Stat": 1,
+                "Eid": 35,
+                "Args": "2 5",
+                "CanReset": 1,
+                "Desc": "反攻",
+                "Intro": "受到任何攻击时有5%几率使自身特攻提升1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1033,
+                "Stat": 1,
+                "Eid": 35,
+                "Args": "4 5",
+                "CanReset": 1,
+                "Desc": "借风",
+                "Intro": "受到任何攻击时有5%几率使自身速度提升1个等级",
+                "StarLevel": 0
+            },
+            {
+                "Idx": 1034,
+                "Stat": 1,
+                "Eid": 61,
+                "Args": "1 5",
+                "CanReset": 1,
+                "Desc": "虚无",
+                "Intro": "5%几率完全抵挡一次伤害",
+                "StarLevel": 0
+            }
+        ]
+    }
+}

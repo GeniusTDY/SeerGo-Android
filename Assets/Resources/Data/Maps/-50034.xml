@@ -1,0 +1,47 @@
+<map name="精灵广场" category="-50030" id="-50034" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>-2,-3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_032</bgm>
+	</music>
+	<entities>
+		<npc id="-5003001" resId="Prefabs/Pet_74" type="prefab" name="果冻鸭" size="2.5,2.5" pos="1.85,-1.83" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="74" level="16">
+							<loopSkill>10184,20092,20003,10004</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5003001" resId="Prefabs/Pet_74" type="prefab" name="果冻鸭" size="2.5,2.5" pos="-3.13,-0.7" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="74" level="17">
+							<loopSkill>10184,20092,20003,10004</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="2" name="神秘通道" pos="-7.33,-1.18" targetMapId="-50033"/>
+		<teleport id="2" name="精灵圣殿" pos="0,1.35" targetMapId="-50036"/>
+	</entities>
+</map>

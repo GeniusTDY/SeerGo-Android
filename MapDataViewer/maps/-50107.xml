@@ -1,0 +1,12 @@
+<map name="发明室" category="-1" id="-50107" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>1,-2</initialPoint>
+	<music category="-1">
+		<bgm>BGM_107</bgm>
+	</music>
+	<entities>
+		<npc id="-5010701" resId="-5010701" type="sprite" polygonEnable="false" sort="5" size="1.7,1.5" pos="4.62,3.21" rotation="0,0,0" color="255,255,255,255"></npc>
+		<npc id="-5010702" resId="-5010702" type="sprite" polygonEnable="false" sort="5" size="2,2" pos="-2.88,-2.1" rotation="0,0,0" color="255,255,255,255"></npc>
+		<teleport id="1" name="传送室" pos="6.05,-1.2" targetMapId="-50001"/>
+	</entities>		
+</map>

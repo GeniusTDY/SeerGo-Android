@@ -1,0 +1,20 @@
+<map name="太空站左翼" category="-100" id="-50108" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>0,0</initialPoint>
+	<music category="-100">
+		<bgm>BGM_001</bgm>
+	</music>
+	<entities>
+		<npc id="-5000000" resId="-5000000" type="sprite"  sort="3" size="1,1" pos="-0.26,3.19" rotation="0,0,0" color="255,255,255,255">
+			<description>勇者之塔</description>
+			<eventHandler>
+				<button type="click">
+					<action>openPanel</action>
+					<param>BraveTower/BraveTowerPanel</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="太空站" pos="6.3,2.08" targetMapId="-50102"/>
+	</entities>		
+</map>

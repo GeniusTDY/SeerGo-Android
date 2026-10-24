@@ -1,0 +1,100 @@
+<map name="克洛斯星" category="-50010" id="-50010" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>3.8,1.4</initialPoint>
+	<music category="-2">
+		<bgm>BGM_010</bgm>
+	</music>
+	<entities>
+		<npc id="1" resId="Prefabs/Pet_10" type="prefab" name="皮皮" size="1,1" pos="0,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="10" level="1">
+							<loopSkill>10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="2" resId="Prefabs/Pet_10" name="皮皮" type="prefab" size="1,1" pos="-4,-3" namePos="0,0" active="false">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="10" level="2">
+							<loopSkill>10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_164" type="prefab" name="闪光皮皮" size="1,1" pos="-1,3.4" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="164" level="2">
+							<loopSkill>10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_1" type="prefab" name="布布种子" size="0.6,0.6" pos="2.05,-2.13" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="1" level="5">
+							<loopSkill>10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_10" type="prefab" name="皮皮" size="1,1" pos="-1.01,-2.04" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="克洛斯林间" pos="-7.78,-2.94" targetMapId="-50011"/>
+	</entities>
+</map>

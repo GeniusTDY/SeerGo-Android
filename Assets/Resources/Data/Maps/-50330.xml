@@ -1,0 +1,83 @@
+<map name="斯科尔浮岛" category="-50328" id="-50330" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_328</bgm>
+	</music>
+	<entities>
+	<npc id="-5033001" resId="Prefabs/Pet_295" type="prefab" name="迷你果" size="2.5,2.5" pos="1.81,-1.6" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="295" level="41">
+							<loopSkill>20358,10813,20019,11001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033002" resId="Prefabs/Pet_295" type="prefab" name="迷你果" size="2.5,2.5" pos="-2.8,-0.69" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="295" level="42">
+							<loopSkill>20358,10813,20019,10814</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033003" resId="Prefabs/Pet_293" type="prefab" name="迷你芽" size="2.5,2.5" pos="-4.39,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="293" level="17">
+							<loopSkill>10001,20502,10812,20008</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5033004" resId="Prefabs/Pet_422" type="prefab" name="里昂" size="2.5,2.5" pos="2.49,-2.845" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="422" level="14">
+							<loopSkill>10001,20020,11025,20296</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="斯科尔星" pos="-6.34,-3.12" targetMapId="-50328"/>
+	<teleport id="1" name="斯科尔高空塔" pos="-1.16,-2.89" targetMapId="-50331"/>
+	</entities>		
+</map>

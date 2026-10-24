@@ -1,0 +1,304 @@
+{
+  "personalities": [
+    {
+      "id": 0,
+      "name": "孤独",
+      "modifiers": {
+        "m_attack": 1.1,
+        "m_defence": 0.9,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "攻击+ 防御-"
+    },
+    {
+      "id": 1,
+      "name": "固执",
+      "modifiers": {
+        "m_attack": 1.1,
+        "m_defence": 1.0,
+        "m_SA": 0.9,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "攻击+ 特攻-"
+    },
+    {
+      "id": 2,
+      "name": "调皮",
+      "modifiers": {
+        "m_attack": 1.1,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 0.9,
+        "m_speed": 1.0
+      },
+      "desc": "攻击+ 特防-"
+    },
+    {
+      "id": 3,
+      "name": "勇敢",
+      "modifiers": {
+        "m_attack": 1.1,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 0.9
+      },
+      "desc": "攻击+ 速度-"
+    },
+    {
+      "id": 4,
+      "name": "大胆",
+      "modifiers": {
+        "m_attack": 0.9,
+        "m_defence": 1.1,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "防御+ 攻击-"
+    },
+    {
+      "id": 5,
+      "name": "顽皮",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.1,
+        "m_SA": 0.9,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "防御+ 特攻-"
+    },
+    {
+      "id": 6,
+      "name": "无虑",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.1,
+        "m_SA": 1.0,
+        "m_SD": 0.9,
+        "m_speed": 1.0
+      },
+      "desc": "防御+ 特防-"
+    },
+    {
+      "id": 7,
+      "name": "悠闲",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.1,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 0.9
+      },
+      "desc": "防御+ 速度-"
+    },
+    {
+      "id": 8,
+      "name": "保守",
+      "modifiers": {
+        "m_attack": 0.9,
+        "m_defence": 1.0,
+        "m_SA": 1.1,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "特攻+ 攻击-"
+    },
+    {
+      "id": 9,
+      "name": "稳重",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 0.9,
+        "m_SA": 1.1,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "特攻+ 防御-"
+    },
+    {
+      "id": 10,
+      "name": "马虎",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.1,
+        "m_SD": 0.9,
+        "m_speed": 1.0
+      },
+      "desc": "特攻+ 特防-"
+    },
+    {
+      "id": 11,
+      "name": "冷静",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.1,
+        "m_SD": 1.0,
+        "m_speed": 0.9
+      },
+      "desc": "特攻+ 速度-"
+    },
+    {
+      "id": 12,
+      "name": "沉着",
+      "modifiers": {
+        "m_attack": 0.9,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.1,
+        "m_speed": 1.0
+      },
+      "desc": "特防+ 攻击-"
+    },
+    {
+      "id": 13,
+      "name": "温顺",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 0.9,
+        "m_SA": 1.0,
+        "m_SD": 1.1,
+        "m_speed": 1.0
+      },
+      "desc": "特防+ 防御-"
+    },
+    {
+      "id": 14,
+      "name": "慎重",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 0.9,
+        "m_SD": 1.1,
+        "m_speed": 1.0
+      },
+      "desc": "特防+ 特攻-"
+    },
+    {
+      "id": 15,
+      "name": "狂妄",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.1,
+        "m_speed": 0.9
+      },
+      "desc": "特防+ 速度-"
+    },
+    {
+      "id": 16,
+      "name": "胆小",
+      "modifiers": {
+        "m_attack": 0.9,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.1
+      },
+      "desc": "速度+ 攻击-"
+    },
+    {
+      "id": 17,
+      "name": "急躁",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 0.9,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.1
+      },
+      "desc": "速度+ 防御-"
+    },
+    {
+      "id": 18,
+      "name": "开朗",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 0.9,
+        "m_SD": 1.0,
+        "m_speed": 1.1
+      },
+      "desc": "速度+ 特攻-"
+    },
+    {
+      "id": 19,
+      "name": "天真",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 0.9,
+        "m_speed": 1.1
+      },
+      "desc": "速度+ 特防-"
+    },
+    {
+      "id": 20,
+      "name": "害羞",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "平衡发展"
+    },
+    {
+      "id": 21,
+      "name": "实干",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "平衡发展"
+    },
+    {
+      "id": 22,
+      "name": "坦率",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "平衡发展"
+    },
+    {
+      "id": 23,
+      "name": "浮躁",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "平衡发展"
+    },
+    {
+      "id": 24,
+      "name": "认真",
+      "modifiers": {
+        "m_attack": 1.0,
+        "m_defence": 1.0,
+        "m_SA": 1.0,
+        "m_SD": 1.0,
+        "m_speed": 1.0
+      },
+      "desc": "平衡发展"
+    }
+  ]
+}

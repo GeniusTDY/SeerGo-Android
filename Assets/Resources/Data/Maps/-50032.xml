@@ -1,0 +1,57 @@
+<map name="赫尔卡星深处" category="-50030" id="-50032" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>-2,-3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_032</bgm>
+	</music>
+	<entities>
+		<npc id="-50032" resId="Prefabs/NPC_-50032_3" type="prefab" polygonEnable="false"  sort="1" size="1,1" pos="6.21,2.42" rotation="0,0,0" color="255,255,255,255">
+		</npc>
+		<npc id="-50032" resId="Prefabs/NPC_-50032_1" type="prefab"  sort="2" size="1.7,1.7" pos="6.5,2.5" rotation="0,0,0" color="255,255,255,255">
+			<description>雷伊挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="70" level="70">
+							<status>
+								<hp>2000</hp>
+							</status>
+							<initBuff>
+								<buff id="20003"/>
+								<buff id="20004"/>
+								<buff id="30001"/>
+								<buff id="30006"/>
+								<buff id="30009"/>
+							</initBuff>
+							<loopSkill>10176,10823,10170,20085</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>902</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【雷伊】已经放入精灵仓库</param>
+							<param>item_icon=pet[70]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="2" name="赫尔卡星遗迹" pos="-4.93,-3.08" targetMapId="-50031"/>
+	</entities>
+</map>

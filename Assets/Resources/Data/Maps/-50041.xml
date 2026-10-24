@@ -1,0 +1,47 @@
+<map name="冰溶洞" category="-50040" id="-50041" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.5,1.556</initialPoint>
+	<music category="-2">
+		<bgm>BGM_041</bgm>
+	</music>
+	<entities>
+		<npc id="1" resId="Prefabs/Pet_65" type="prefab" name="林克" size="2.5,2.5" pos="1.29,2.13" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="65" level="17">
+							<loopSkill>10204,10150,20079,10006</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_190" type="prefab" name="林奇" size="2.5,2.5" pos="2.3,0.9" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="190" level="19">
+							<loopSkill>10553,10204,20079,10150</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="冰窖迷宫" pos="5.37,1.91" targetMapId="-50042"/>
+	<teleport id="2" name="赫尔卡飞船" pos="-0.35,-3.67" targetMapId="-50043"/>
+	</entities>
+</map>

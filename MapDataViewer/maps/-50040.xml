@@ -1,0 +1,162 @@
+<map name="塞西利亚星" category="-50040" id="-50040" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>3.38,-2.2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_040</bgm>
+	</music>
+	<entities>
+		<npc id="-50040" resId="Prefabs/NPC_-50040_1" type="prefab" polygonEnable="false"  sort="3" size="0.5,0.5" pos="-7.4,3.88" rotation="0,0,0" color="255,255,255,255"></npc>
+		<npc id="-5004003" resId="-5004002" type="sprite" name=" " size="1,1" pos="-7.4,3.88" namePos="0,0">
+			<description>阿克希亚挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="50" level="65">
+							<status>
+								<hp>1000</hp>
+							</status>
+							<initBuff>
+								<buff id="30003"/>
+								<buff id="30005"/>
+							</initBuff>
+							<loopSkill>10207,10208,10209,20060</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>900</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【阿克希亚】已经放入精灵仓库</param>
+							<param>item_icon=pet[111]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5004001" resId="Prefabs/Pet_116" type="prefab" name="卡卡" size="2,2" pos="2,-1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="116" level="14">
+							<loopSkill>10250,20057,10203,10150</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5004002" resId="Prefabs/Pet_116" type="prefab" name="卡卡" size="2,2" pos="-1,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="116" level="15">
+							<loopSkill>10250,20057,10203,10150</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="1" resId="Prefabs/Pet_378" type="prefab" name="凯奴" size="2,2" pos="2.05,-2.13" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="378" level="6">
+							<loopSkill>10001,20035</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_385" type="prefab" name="基摩" size="2,2" pos="0.23,0.1" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="385" level="16">
+							<loopSkill>10564,10075,20004,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_322" type="prefab" name="卡克" size="2,2" pos="-4.89,-1.12" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="322" level="17">
+							<loopSkill>20079,10150,20057,10250</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5004002" resId="Prefabs/Pet_116" type="prefab" name="卡卡" size="2,2" pos="-1,-2" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="冰窖迷宫" pos="-3.73,1.27" targetMapId="-50042"/>
+	</entities>
+</map>

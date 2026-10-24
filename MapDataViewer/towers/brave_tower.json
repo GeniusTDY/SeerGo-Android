@@ -1,0 +1,1344 @@
+{
+  "floors": [
+    {
+        "floor": 1,
+        "monsters": [
+            {
+                "id": 15,
+                "level": 30,
+                "skills": [10001, 20004, 10040, 10041]
+            }
+        ]
+    },
+    {
+        "floor": 2,
+        "monsters": [
+            {
+                "id": 18,
+                "level": 32,
+                "skills": [10001, 20007, 10043, 20009]
+            }
+        ]
+    },
+    {
+        "floor": 3,
+        "monsters": [
+            {
+                "id": 40,
+                "level": 34,
+                "skills": [10001, 20002, 10079, 10083]
+            }
+        ]
+    },
+    {
+        "floor": 4,
+        "monsters": [
+            {
+                "id": 32,
+                "level": 36,
+                "skills": [10001, 20035, 10021, 10027]
+            }
+        ]
+    },
+    {
+        "floor": 5,
+        "monsters": [
+            {
+                "id": 26,
+                "level": 38,
+                "skills": [10001, 20017, 10161, 10026]
+            }
+        ]
+    },
+    {
+        "floor": 6,
+        "monsters": [
+            {
+                "id": 52,
+                "level": 40,
+                "skills": [10001, 10202, 10075, 10276]
+            }
+        ]
+    },
+    {
+        "floor": 7,
+        "monsters": [
+            {
+                "id": 37,
+                "level": 42,
+                "skills": [10006, 10007, 10034, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 8,
+        "monsters": [
+            {
+                "id": 12,
+                "level": 44,
+                "skills": [10001, 10008, 10009, 10033]
+            }
+        ]
+    },
+    {
+        "floor": 9,
+        "monsters": [
+            {
+                "id": 45,
+                "level": 46,
+                "skills": [10001, 20023, 10109, 10111]
+            }
+        ]
+    },
+    {
+        "floor": 10,
+        "monsters": [
+            {
+                "id": 24,
+                "level": 48,
+                "skills": [10161, 20017, 10056, 10009]
+            }
+        ]
+    },
+    {
+        "floor": 11,
+        "monsters": [
+            {
+                "id": 18,
+                "level": 50,
+                "skills": [10001, 20007, 10043, 20009]
+            }
+        ]
+    },
+    {
+        "floor": 12,
+        "monsters": [
+            {
+                "id": 32,
+                "level": 52,
+                "skills": [10001, 20035, 10021, 10027]
+            }
+        ]
+    },
+    {
+        "floor": 13,
+        "monsters": [
+            {
+                "id": 40,
+                "level": 54,
+                "skills": [10001, 20002, 10079, 10083]
+            }
+        ]
+    },
+    {
+        "floor": 14,
+        "monsters": [
+            {
+                "id": 15,
+                "level": 56,
+                "skills": [10001, 20004, 10040, 10041]
+            }
+        ]
+    },
+    {
+        "floor": 15,
+        "monsters": [
+            {
+                "id": 12,
+                "level": 58,
+                "skills": [10001, 10008, 10009, 10033]
+            }
+        ]
+    },
+    {
+        "floor": 16,
+        "monsters": [
+            {
+                "id": 109,
+                "level": 60,
+                "skills": [10001, 20043, 10079, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 17,
+        "monsters": [
+            {
+                "id": 37,
+                "level": 62,
+                "skills": [10006, 10007, 10034, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 18,
+        "monsters": [
+            {
+                "id": 32,
+                "level": 64,
+                "skills": [10001, 20035, 10021, 10027, 10138]
+            }
+        ]
+    },
+    {
+        "floor": 19,
+        "monsters": [
+            {
+                "id": 26,
+                "level": 66,
+                "skills": [10001, 20017, 10161, 10026]
+            }
+        ]
+    },
+    {
+        "floor": 20,
+        "monsters": [
+            {
+                "id": 52,
+                "level": 68,
+                "skills": [10001, 10202, 10075, 10276]
+            }
+        ]
+    },
+    {
+        "floor": 21,
+        "monsters": [
+            {
+                "id": 24,
+                "level": 70,
+                "skills": [10161, 20017, 10056, 10009]
+            }
+        ]
+    },
+    {
+        "floor": 22,
+        "monsters": [
+            {
+                "id": 45,
+                "level": 72,
+                "skills": [10001, 20023, 10109, 10111]
+            }
+        ]
+    },
+    {
+        "floor": 23,
+        "monsters": [
+            {
+                "id": 54,
+                "level": 74,
+                "skills": [10001, 10026, 20020, 10043]
+            }
+        ]
+    },
+    {
+        "floor": 24,
+        "monsters": [
+            {
+                "id": 109,
+                "level": 76,
+                "skills": [10001, 20043, 10079, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 25,
+        "monsters": [
+            {
+                "id": 19,
+                "level": 78,
+                "skills": [10001, 20007, 10160, 10042]
+            }
+        ]
+    },
+    {
+        "floor": 26,
+        "monsters": [
+            {
+                "id": 113,
+                "level": 80,
+                "skills": [10001, 20051, 20050, 10082]
+            }
+        ]
+    },
+    {
+        "floor": 27,
+        "monsters": [
+            {
+                "id": 20,
+                "level": 82,
+                "skills": [10021, 10030, 10141, 20029]
+            }
+        ]
+    },
+    {
+        "floor": 28,
+        "monsters": [
+            {
+                "id": 12,
+                "level": 84,
+                "skills": [10001, 10008, 10009, 10033]
+            }
+        ]
+    },
+    {
+        "floor": 29,
+        "monsters": [
+            {
+                "id": 116,
+                "level": 86,
+                "skills": [10026, 20017, 10080, 10100]
+            }
+        ]
+    },
+    {
+        "floor": 30,
+        "monsters": [
+            {
+                "id": 37,
+                "level": 88,
+                "skills": [10006, 10007, 10034, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 31,
+        "monsters": [
+            {
+                "id": 18,
+                "level": 88,
+                "skills": [10001, 20007, 10043, 20009]
+            }
+        ]
+    },
+    {
+        "floor": 32,
+        "monsters": [
+            {
+                "id": 32,
+                "level": 90,
+                "skills": [10001, 20035, 10021, 10027, 10138]
+            }
+        ]
+    },
+    {
+        "floor": 33,
+        "monsters": [
+            {
+                "id": 45,
+                "level": 92,
+                "skills": [10001, 20023, 10109, 10111]
+            }
+        ]
+    },
+    {
+        "floor": 34,
+        "monsters": [
+            {
+                "id": 15,
+                "level": 94,
+                "skills": [10001, 20004, 10040, 10041]
+            }
+        ]
+    },
+    {
+        "floor": 35,
+        "monsters": [
+            {
+                "id": 26,
+                "level": 96,
+                "skills": [10001, 20017, 10161, 10026]
+            }
+        ]
+    },
+    {
+        "floor": 36,
+        "monsters": [
+            {
+                "id": 52,
+                "level": 98,
+                "skills": [10001, 10202, 10075, 10276]
+            }
+        ]
+    },
+    {
+        "floor": 37,
+        "monsters": [
+            {
+                "id": 37,
+                "level": 100,
+                "skills": [10006, 10007, 10034, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 38,
+        "monsters": [
+            {
+                "id": 113,
+                "level": 102,
+                "skills": [10001, 20051, 20050, 10082]
+            }
+        ]
+    },
+    {
+        "floor": 39,
+        "monsters": [
+            {
+                "id": 121,
+                "level": 104,
+                "skills": [10026, 20020, 10081, 10099]
+            }
+        ]
+    },
+    {
+        "floor": 40,
+        "monsters": [
+            {
+                "id": 95,
+                "level": 106,
+                "skills": [10202, 10075, 10276, 20042]
+            }
+        ]
+    },
+    {
+        "floor": 41,
+        "monsters": [
+            {
+                "id": 73,
+                "level": 108,
+                "skills": [10139, 10112, 20026, 20043]
+            }
+        ]
+    },
+    {
+        "floor": 42,
+        "monsters": [
+            {
+                "id": 107,
+                "level": 110,
+                "skills": [10043, 10026, 20020, 10081]
+            }
+        ]
+    },
+    {
+        "floor": 43,
+        "monsters": [
+            {
+                "id": 24,
+                "level": 112,
+                "skills": [10009, 10056, 20017, 20052]
+            }
+        ]
+    },
+    {
+        "floor": 44,
+        "monsters": [
+            {
+                "id": 100,
+                "level": 114,
+                "skills": [10084, 10118, 20047, 10079]
+            }
+        ]
+    },
+    {
+        "floor": 45,
+        "monsters": [
+            {
+                "id": 97,
+                "level": 116,
+                "skills": [10126, 20023, 10109, 20025]
+            }
+        ]
+    },
+    {
+        "floor": 46,
+        "monsters": [
+            {
+                "id": 110,
+                "level": 118,
+                "skills": [10142, 10143, 20028, 10144]
+            }
+        ]
+    },
+    {
+        "floor": 47,
+        "monsters": [
+            {
+                "id": 79,
+                "level": 120,
+                "skills": [10150, 20033, 20028, 10151]
+            }
+        ]
+    },
+    {
+        "floor": 48,
+        "monsters": [
+            {
+                "id": 113,
+                "level": 122,
+                "skills": [10001, 20051, 20050, 10082]
+            }
+        ]
+    },
+    {
+        "floor": 49,
+        "monsters": [
+            {
+                "id": 76,
+                "level": 124,
+                "skills": [10180, 20006, 10181, 10182]
+            }
+        ]
+    },
+    {
+        "floor": 50,
+        "monsters": [
+            {
+                "id": 119,
+                "level": 126,
+                "skills": [20031, 10156, 10157, 10158]
+            }
+        ]
+    },
+    {
+        "floor": 51,
+        "monsters": [
+            {
+                "id": 30,
+                "level": 128,
+                "skills": [10160, 10042, 20006, 20008]
+            },
+            {
+                "id": 18,
+                "level": 128,
+                "skills": [10001, 20007, 10043, 20009]
+            }
+        ]
+    },
+    {
+        "floor": 52,
+        "monsters": [
+            {
+                "id": 32,
+                "level": 130,
+                "skills": [10001, 20035, 10021, 10027, 10138]
+            },
+            {
+                "id": 119,
+                "level": 130,
+                "skills": [20031, 10156, 10157, 10158]
+            }
+        ]
+    },
+    {
+        "floor": 53,
+        "monsters": [
+            {
+                "id": 40,
+                "level": 130,
+                "skills": [10001, 20002, 10079, 10083]
+            },
+            {
+                "id": 37,
+                "level": 130,
+                "skills": [10006, 10007, 10034, 10084]
+            }
+        ]
+    },
+    {
+        "floor": 54,
+        "monsters": [
+            {
+                "id": 45,
+                "level": 132,
+                "skills": [10001, 20023, 10109, 10111]
+            },
+            {
+                "id": 46,
+                "level": 132,
+                "skills": [10113, 20023, 20024, 10040]
+            }
+        ]
+    },
+    {
+        "floor": 55,
+        "monsters": [
+            {
+                "id": 26,
+                "level": 134,
+                "skills": [10001, 20017, 10161, 10026]
+            },
+            {
+                "id": 24,
+                "level": 134,
+                "skills": [10161, 20017, 10056, 10009]
+            }
+        ]
+    },
+    {
+        "floor": 56,
+        "monsters": [
+            {
+                "id": 94,
+                "level": 136,
+                "skills": [10276, 10075, 10202, 20042]
+            },
+            {
+                "id": 107,
+                "level": 136,
+                "skills": [10043, 10026, 20020, 10081]
+            },
+            {
+                "id": 111,
+                "level": 136,
+                "skills": [10084, 10122, 20047, 10079]
+            }
+        ]
+    },
+    {
+        "floor": 57,
+        "monsters": [
+            {
+                "id": 129,
+                "level": 138,
+                "skills": [10162, 10163, 20053, 10164]
+            },
+            {
+                "id": 79,
+                "level": 138,
+                "skills": [10150, 20033, 20028, 10151]
+            },
+            {
+                "id": 124,
+                "level": 138,
+                "skills": [10165, 10166, 20054, 10167]
+            }
+        ]
+    },
+    {
+        "floor": 58,
+        "monsters": [
+            {
+                "id": 130,
+                "level": 140,
+                "skills": [10168, 20023, 20027, 10079]
+            },
+            {
+                "id": 131,
+                "level": 140,
+                "skills": [10169, 20044, 10202, 20045]
+            },
+            {
+                "id": 132,
+                "level": 140,
+                "skills": [10170, 20017, 10161, 10056]
+            }
+        ]
+    },
+    {
+        "floor": 59,
+        "monsters": [
+            {
+                "id": 114,
+                "level": 142,
+                "skills": [10085, 20052, 10034, 10086]
+            },
+            {
+                "id": 76,
+                "level": 142,
+                "skills": [10180, 20006, 10181, 10182]
+            },
+            {
+                "id": 110,
+                "level": 142,
+                "skills": [10142, 10143, 20028, 10144]
+            }
+        ]
+    },
+    {
+        "floor": 60,
+        "monsters": [
+            {
+                "id": 136,
+                "level": 144,
+                "skills": [10171, 20046, 10172, 10173]
+            },
+            {
+                "id": 79,
+                "level": 144,
+                "skills": [10150, 20033, 20028, 10151]
+            },
+            {
+                "id": 137,
+                "level": 144,
+                "skills": [10174, 10175, 20055, 10176]
+            }
+        ]
+    }
+]
+
+,
+ "rewards": {
+    "1": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "2": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "3": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "4": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "5": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "6": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "7": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "8": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "9": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "10": {
+      "coins": 1000,
+      "items": [
+        { "itemId": "501", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "11": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "12": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "13": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "14": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "15": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "16": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "17": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "18": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "19": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "20": {
+      "coins": 2000,
+      "items": [
+        { "itemId": "502", "count": 5 },
+        { "itemId": "108", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "21": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "22": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "23": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "24": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "25": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "26": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "27": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "28": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "29": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "30": {
+      "coins": 3000,
+      "items": [
+        { "itemId": "503", "count": 5 },
+        { "itemId": "104", "count": 5 },
+        { "itemId": "506", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "31": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "32": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "33": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "34": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "35": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "36": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "37": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "38": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "39": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "40": {
+      "coins": 4000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "104", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "41": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "42": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "43": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "44": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "45": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "46": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "47": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "48": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "49": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "50": {
+      "coins": 5000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "51": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "52": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "53": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "54": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "55": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "56": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "57": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "58": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "59": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0
+    },
+    "60": {
+      "coins": 6000,
+      "items": [
+        { "itemId": "504", "count": 3 },
+        { "itemId": "109", "count": 5 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 50,
+      "petRewardId": 141,
+      "titleRewardId": 0
+    }
+  }
+}

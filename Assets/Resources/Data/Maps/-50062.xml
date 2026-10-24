@@ -1,0 +1,65 @@
+<map name="暗之城" category="-50060" id="-50062" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_060</bgm>
+	</music>
+	<entities>
+	<npc id="-5006201" resId="Prefabs/Pet_242" type="prefab" name="海德拉" size="2.5,2.5" pos="2.12,-2.22" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="242" level="48">
+							<loopSkill>20032,10777,10775,20172</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006202" resId="Prefabs/Pet_242" type="prefab" name="海德拉" size="2.5,2.5" pos="-2.8,-2.52" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="242" level="48">
+							<loopSkill>20032,10777,10775,20172</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006203" resId="Prefabs/Pet_240" type="prefab" name="斯内克" size="2.5,2.5" pos="5.94,-2.28" namePos="0,0" rate="35">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="240" level="15">
+							<loopSkill>10390,20290,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="塔克星" pos="-7.28,-2.86" targetMapId="-50060"/>
+	<teleport id="1" name="月影花园" pos="-2.28,3.48" targetMapId="-50063"/>
+	</entities>		
+</map>

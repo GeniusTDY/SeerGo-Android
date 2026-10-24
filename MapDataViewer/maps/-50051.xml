@@ -1,0 +1,64 @@
+<map name="斯诺星" category="-50051" id="-50051" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>3,0</initialPoint>
+	<music category="-2">
+		<bgm>BGM_051</bgm>
+	</music>
+	<entities>
+	<npc id="-5005101" resId="Prefabs/Pet_161" type="prefab" name="米鲁" size="2.5,2.5" pos="-1,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="161" level="18">
+							<loopSkill>10001,20244,10564,10563</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005102" resId="Prefabs/Pet_161" type="prefab" name="米鲁" size="2.5,2.5" pos="1,-1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="161" level="17">
+							<loopSkill>10001,20244,10564,10563</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005102" resId="Prefabs/Pet_486" type="prefab" name="洛森" size="2,2" pos="-2.34,-0.79" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="486" level="17">
+							<loopSkill>10253,11267,20164,10007</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="斯诺星岩洞" pos="-3.95,2.85" targetMapId="-50053"/>
+	</entities>
+</map>

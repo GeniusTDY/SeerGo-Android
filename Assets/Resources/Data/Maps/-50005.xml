@@ -1,0 +1,47 @@
+<map name="实验室" category="-100" id="-50005" weather="0">
+	<initialPoint>2.6,-2.3</initialPoint>
+	<music category="-100">
+		<bgm>BGM_005</bgm>
+	</music>
+	<entities>
+		<npc id="-5000502" resId="-5000502" type="sprite" sort="3" size="2.1,2.1" pos="6.01,3.95" rotation="0,0,0" color="255,255,255,255">
+			<description>精灵融合仓</description>
+			<eventHandler>
+				<button type="click">
+					<action>openPanel</action>
+					<param>Fusion/FusionPanel</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5000102" resId="Prefabs/NPC_-50005_1" type="prefab"  sort="2" size="1.3,1.3" pos="5.87,3.49" rotation="0,0,0" color="255,255,255,255">
+		</npc>
+		<npc id="-5000502" resId="Prefabs/NPC_-50005_2" type="prefab"  sort="5" size="2.35,1.75" pos="6.58,1.11" rotation="0,0,5.954" color="255,255,255,255">
+			<description>技能唤醒仪</description>
+			<eventHandler>
+				<button type="click">
+					<action>openPanel</action>
+					<param>SkillRelace/SkillReplacePanel</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="-5000504" resId="-5000504" type="sprite" sort="6"  size="1,1" pos="7.96,-1.12" rotation="0,0,0" color="255,255,255,255">
+			<description>道具商店</description>
+			<eventHandler>
+				<button type="click">
+					<action>openPanel</action>
+					<param>Shop/ShopPanel</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="-5000505" resId="Prefabs/NPC_-50005_3" type="prefab"  sort="5" size="1.5,1.5" pos="-0.28,-0.67" rotation="0,0,5" color="255,255,255,255">
+			<description>博士</description>
+		</npc>
+
+		<npc id="-5000506" resId="Prefabs/NPC_-50005_4" type="prefab"  sort="5" size="1.4,1.4" pos="0.91,1.61" rotation="0,0,5" color="255,255,255,255">
+		</npc>
+		
+		<teleport id="1" name="传送室" pos="-0.24,1.42" targetMapId="-50001"/>
+	</entities>		
+</map>

@@ -1,0 +1,20 @@
+{
+    "Id": "",
+    "Version": "v1.0.216",
+    "Type": 0,
+    "AccessRight": 0,
+    "DownloadUrl": "",
+    "InstallPath": "Assets/QFramework/Framework/",
+    "IncludeFileOrFolders": [
+        "Assets/QFramework/Framework",
+        "Assets/QFramework/Toolkits"
+    ],
+    "DocUrl": "https://liangxiegame.com",
+    "Readme": {
+        "version": "v1.0.216",
+        "content": "- AudioKit：修复 PlaySoundByClip 报错的 issue\n- ConsoleKit：提供显示默认 Module 的 API\n- QFramework 展示项目：完成 AudioKit 的 PlayMusic 的展示功能",
+        "author": "liangxie",
+        "date": "2025 年 10 月 04 日 13:50",
+        "PackageId": ""
+    }
+}

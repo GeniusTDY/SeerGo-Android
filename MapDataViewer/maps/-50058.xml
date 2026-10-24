@@ -1,0 +1,64 @@
+<map name="尼古尔峭壁" category="-50057" id="-50058" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_057</bgm>
+	</music>
+	<entities>
+	<npc id="-5005801" resId="Prefabs/Pet_229" type="prefab" name="查尔顿" size="2,2" pos="0.88,0.42" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="229" level="38">
+							<loopSkill>10462,20041,10464,20011</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005802" resId="Prefabs/Pet_229" type="prefab" name="查尔顿" size="2,2" pos="0.88,-0.95" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="229" level="39">
+							<loopSkill>10462,20041,10464,20011</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5005803" resId="Prefabs/Pet_228" type="prefab" name="查斯" size="2,2" pos="-0.71,-2.27" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="228" level="17">
+							<loopSkill>20117,10645,10545,20165</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="尼古尔星" pos="-3.98,-3.57" targetMapId="-50057"/>
+	</entities>		
+</map>

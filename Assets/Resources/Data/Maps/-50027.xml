@@ -1,0 +1,90 @@
+<map name="云霄星高空" category="-50025" id="-50026" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0.8,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_025</bgm>
+	</music>
+	<entities>
+		<npc id="-5002201" resId="Prefabs/NPC_-50027_1" type="prefab"  sort="2" size="1.8,1.8" pos="0,3" rotation="0,0,0" color="255,255,255,255">
+			<description>提亚斯挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="69" level="45">
+							<status>
+								<hp>500</hp>
+							</status>
+							<initBuff>
+								<buff id="20044" effectValue="0.0625"/>
+							</initBuff>
+							<loopSkill>10161,20082,10162,10163,10165</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getMolecule</action>
+							<param>901</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【提亚斯】已经放入精灵仓库</param>
+							<param>item_icon=pet[-69]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="-5002502" resId="Prefabs/Pet_249" type="prefab" name="浮空苗" size="2.5,2.5" pos="-4.7,-2.37" namePos="0,0" >
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="249" level="15">
+							<loopSkill>10054,20016,10086</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5002502" resId="Prefabs/Pet_249" type="prefab" name="浮空苗" size="2.5,2.5" pos="-5.8,-0.81" namePos="0,0" >
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="249" level="16">
+							<loopSkill>10054,20016,10086,10683</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		
+		<teleport id="1" name="云霄星" pos="6.55,0.37" targetMapId="-50025"/>
+	</entities>
+</map>

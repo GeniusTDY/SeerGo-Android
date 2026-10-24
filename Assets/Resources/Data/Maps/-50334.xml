@@ -1,0 +1,65 @@
+<map name="几米塔" category="-50333" id="-50334" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-4.2,2.7</initialPoint>
+	<music category="-2">
+		<bgm>BGM_333</bgm>
+	</music>
+	<entities>
+	<npc id="-5032801" resId="Prefabs/Pet_373" type="prefab" name="莫顿" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="373" level="13">
+							<loopSkill>10001,20065,10943,20422</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032802" resId="Prefabs/Pet_375" type="prefab" name="隆米尔" size="2.5,2.5" pos="4,1" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="375" level="45">
+							<loopSkill>20427,10933,20428,10932</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032803" resId="Prefabs/Pet_374" type="prefab" name="古利安" size="2.5,2.5" pos="2,0.11" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="374" level="25">
+							<loopSkill>20422,10916,10135,20423</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	
+	<teleport id="1" name="普雷空间站" pos="-0.49,-3.31" targetMapId="-50333"/>
+	</entities>		
+</map>

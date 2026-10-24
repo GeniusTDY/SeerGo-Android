@@ -1,0 +1,23 @@
+<Galaxies>
+	<Galaxy id="0" name="帕诺星系" resId="Sprites/WorldMap/Galaxy/1" size="1,1" pos="0,0" color="255,255,255,255">
+		<Planet id="-50030" name="赫尔卡星" resId="Sprites/WorldMap/Planet/1" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50020" name="海洋星" resId="Sprites/WorldMap/Planet/2" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50010" name="克洛斯星" resId="Sprites/WorldMap/Planet/3" size="1.2,1.2" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50015" name="火山星" resId="Sprites/WorldMap/Planet/4" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50025" name="云霄星" resId="Sprites/WorldMap/Planet/5" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50105" name="双子阿尔法星" resId="Sprites/WorldMap/Planet/6" size="0.7,0.7" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50047" name="双子贝塔星" resId="Sprites/WorldMap/Planet/7" size="0.8,0.8" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50040" name="塞西莉亚星" resId="Sprites/WorldMap/Planet/8" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50314" name="拜伦号" resId="Sprites/WorldMap/Planet/9" size="1.3,1.3" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50051" name="斯诺星" resId="Sprites/WorldMap/Planet/10" size="1.2,1.2" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50054" name="露西欧星" resId="Sprites/WorldMap/Planet/11" size="1,1" pos="0,0" color="255,255,255,255"/>
+	</Galaxy>
+	<Galaxy id="1" name="卡兰星系" resId="Sprites/WorldMap/Galaxy/2" size="1,1" pos="0,0" color="255,255,255,255">
+		<Planet id="-50057" name="尼古尔星" resId="Sprites/WorldMap/Planet/12" size="1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50060" name="塔克星" resId="Sprites/WorldMap/Planet/13" size="1.1,1" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50325" name="艾迪星" resId="Sprites/WorldMap/Planet/14" size="1.6,1.6" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50328" name="斯科尔星" resId="Sprites/WorldMap/Planet/15" size="1.3,1.3" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50333" name="普雷空间站" resId="Sprites/WorldMap/Planet/16" size="1.5,1.5" pos="0,0" color="255,255,255,255"/>
+		<Planet id="-50338" name="哈莫星" resId="Sprites/WorldMap/Planet/17" size="1.1,1.1" pos="0,0" color="255,255,255,255"/>
+	</Galaxy>
+</Galaxies>

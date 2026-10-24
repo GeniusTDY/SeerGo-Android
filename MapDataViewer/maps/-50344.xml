@@ -1,0 +1,11 @@
+<map name="龙王殿堂" category="-50338" id="-50344" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_344</bgm>
+	</music>
+	<entities>
+
+	<teleport id="1" name="龙王圣殿" pos="0,0.36" targetMapId="-50348"/>
+	</entities>		
+</map>

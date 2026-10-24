@@ -1,0 +1,82 @@
+<map name="斯科尔星" category="-50328" id="-50328" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_328</bgm>
+	</music>
+	<entities>
+	<npc id="-5032801" resId="Prefabs/Pet_292" type="prefab" name="弗里昂" size="2.5,2.5" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="292" level="39">
+							<loopSkill>20356,10807,10588,20070</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032802" resId="Prefabs/Pet_292" type="prefab" name="弗里昂" size="2.5,2.5" pos="-1.6,-2.8" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="292" level="40">
+							<loopSkill>20356,10807,10588,20070</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032803" resId="Prefabs/Pet_291" type="prefab" name="弗曼" size="2.5,2.5" pos="2,0.11" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="291" level="17">
+							<loopSkill>20041,10806,10307,20075</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032803" resId="Prefabs/Pet_281" type="prefab" name="伶俐鸟" size="2.5,2.5" pos="6.73,-1.49" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="281" level="16">
+							<loopSkill>10535,20002,10791,10628</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="斯科尔浮岛" pos="-0.88,3.71" targetMapId="-50330"/>
+	</entities>		
+</map>

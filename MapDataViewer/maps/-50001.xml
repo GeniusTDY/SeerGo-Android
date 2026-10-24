@@ -1,0 +1,44 @@
+<map name="传送仓" category="-1" id="-50001" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-1">
+		<bgm>BGM_001</bgm>
+	</music>
+	<entities>
+		<npc id="-5000100" resId="-5000100" type="sprite" polygonEnable="false"  size="1.84,1.721108" pos="1.40,1.9266" rotation="0,0,2" color="255,255,255,255">
+		</npc>
+		<npc id="-5000102" resId="-5000102" type="sprite" polygonEnable="false"  sort="1" size="1.87821,1.639075" pos="0.93,2.96" rotation="0,0,0" color="255,255,255,255">
+		</npc>
+		<npc id="-5000101" resId="Prefabs/NPC_-50001_1" type="prefab" sort="2" size="0.9,0.9" pos="-3.27,3.17" rotation="0,0,0" color="255,255,255,255">
+			<description>火山星</description>
+			<transport>675,245</transport>
+			<eventHandler>
+				<button type="click">
+					<action>teleport</action>
+					<param>-50015</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5000102" resId="Prefabs/NPC_-50001_2" type="prefab"  sort="2" size="0.9,0.9" pos="-0.39,3.25" rotation="0,0,0" color="255,255,255,255">
+			<description>超时空通道（暂未开放）</description>
+			<transport>570,265</transport>
+		</npc>
+		<npc id="-5000103" resId="Prefabs/NPC_-50001_3" type="prefab"  sort="2" size="0.9,0.9" pos="2.19,3.2" rotation="0,0,0" color="255,255,255,255">
+			<description>SPT（暂未开放）</description>
+			<transport>455,275</transport>
+		</npc>
+		
+		<npc id="-5000104" resId="Prefabs/NPC_-50001_4" type="prefab"  sort="2" size="0.9,0.9" pos="5.07,2.98" rotation="0,0,0" color="255,255,255,255">
+			<description>拜伦号</description>
+			<transport>335,255</transport>
+			<eventHandler>
+				<button type="click">
+					<action>teleport</action>
+					<param>-50314</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<!-- <teleport id="1" name="传送室" pos="100,80" targetMapId="70"/> -->
+		<teleport id="1" name="资料室" pos="-6.04,0" targetMapId="-50009"/>
+	</entities>
+</map>

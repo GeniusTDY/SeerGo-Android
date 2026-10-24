@@ -1,0 +1,46 @@
+<map name="沙漠窑洞" category="-50060" id="-50064" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>-0.44,-3.3</initialPoint>
+	<music category="-2">
+		<bgm>BGM_064</bgm>
+	</music>
+	<entities>
+	<npc id="-5006401" resId="Prefabs/Pet_257" type="prefab" name="埃闻" size="2.5,2.5" pos="3.08,-2.5" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="257" level="25">
+							<loopSkill>10006,20041,10142,20068</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5006402" resId="Prefabs/Pet_257" type="prefab" name="埃闻" size="2.5,2.5" pos="-2.92,-1.89" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="257" level="26">
+							<loopSkill>10006,20041,10142,20068</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="光之城" pos="-7.36,-3.33" targetMapId="-50061"/>
+	</entities>		
+</map>

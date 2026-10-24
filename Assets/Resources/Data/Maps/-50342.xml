@@ -1,0 +1,29 @@
+<map name="白沙罗域" category="-50338" id="-50342" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_342</bgm>
+	</music>
+	<entities>
+		<npc id="-5033803" resId="Prefabs/Pet_414" type="prefab" name="乌鲁" size="2.5,2.5" pos="3.29,-1.64" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="414" level="15">
+							<loopSkill>10001,20265,11091,20555</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="龙王殿堂" pos="4.17,0.36" targetMapId="-50344"/>
+	</entities>
+</map>

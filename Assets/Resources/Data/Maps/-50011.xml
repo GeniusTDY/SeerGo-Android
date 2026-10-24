@@ -1,0 +1,102 @@
+<map name="克洛斯星沼泽" category="-50010" id="-50011" weather="0">
+	<fightMap>100011</fightMap>
+	<initialPoint>5.5,-1.7</initialPoint>
+	<music category="-2">
+		<bgm>BGM_010</bgm>
+	</music>
+	<entities>
+		<npc id="-5001102" resId="Prefabs/Pet_16" type="prefab" name="仙人球" size="2.5,2.5" pos="0.7,1,3" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="16" level="12">
+							<loopSkill>10001,20002,10042</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001101" resId="Prefabs/Pet_27" type="prefab" name="小豆芽" size="2.5,2.5" pos="2.9,2.3" namePos="0,0" active="false" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="27" level="11">
+							<loopSkill>10042,20022,10061</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001103" resId="Prefabs/Pet_16" type="prefab" name="仙人球" size="2.5,2.5" pos="1.55,-2" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="16" level="12">
+							<loopSkill>10001,20002,10042</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+
+		<npc id="-5001104" resId="Prefabs/Pet_167" type="prefab" name="黑刺球" size="2.5,2.5" pos="-0.6,-1.9" namePos="0,0" active="false" rate ="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="167" level="11">
+							<loopSkill>10487,20002,10001</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001104" resId="Prefabs/Pet_436" type="prefab" name="黑豆芽" size="2.5,2.5" pos="4.48,0.61" namePos="0,0" active="false" rate ="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="436" level="16">
+							<loopSkill>20031,20020,10061,20022</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="克洛斯星" pos="8.11,-0.38" targetMapId="-50010"/>
+		<teleport id="2" name="克洛斯星密林" pos="-6.23,-1.29" targetMapId="-50012"/>
+	</entities>		
+</map>

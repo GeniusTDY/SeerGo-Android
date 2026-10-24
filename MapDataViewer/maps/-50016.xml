@@ -1,0 +1,185 @@
+<map name="火山星山洞" category="-50015" id="-50016" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,1</initialPoint>
+	<music category="-2">
+		<bgm>BGM_015</bgm>
+	</music>
+	<entities>
+		<npc id="-5001600" resId="Prefabs/NPC_-50016_1" type="prefab"  sort="6" size="1.7,1.7" pos="3.64,-1.03" rotation="0,0,0" color="255,255,255,255">
+			<description>上古炎兽挑战</description>
+			<battle>
+				<branch id="default">
+					<settings count="6" mod="true">
+						<mode>3</mode>
+					</settings>
+					<enemy type = "BOSS">
+						<pet id="393" level="80">
+							<status>
+								<hp>2000</hp>
+							</status>
+							<initBuff>
+								<buff id="30013"/>
+								<buff id="20044"/>
+								<buff id="30006"/>
+							</initBuff>
+							<loopSkill>10984,20455,10983,10419</loopSkill>
+						</pet>
+					</enemy>
+					<winHandler>
+						<button type="auto">
+							<action>getPet</action>
+							<param>392</param>
+						</button>
+						<button type="auto">
+							<action>openHintbox</action>
+							<param>type=Item</param>
+							<param>title=提示</param>
+							<param>content=【夏伏兽】已经放入精灵仓库</param>
+							<param>item_icon=pet[392]</param>
+							<param>option_num=1</param>
+						</button>
+					</winHandler>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	<npc id="-5001602" resId="Prefabs/Pet_35" type="prefab" name="吉尔" size="0.8,0.8" pos="-1,0" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="35" level="17">
+							<loopSkill>10006,20002,20042,10079</loopSkill>
+						</pet>
+				</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1002" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001601" resId="Prefabs/Pet_133" type="prefab" name="巴多" size="2,2" pos="2.5,2.5" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="133" level="12">
+							<loopSkill>10047,10087,20177</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001603"  resId="Prefabs/Pet_35" type="prefab" name="吉尔" size="0.8,0.8" pos="0,-3" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="35" level="17">
+							<loopSkill>10006,20002,20042,10079</loopSkill>
+						</pet>
+				</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+					<reward id="1002" num="1" rate="35"/>
+					<reward id="101" num="1" rate="35"/>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001601" resId="Prefabs/Pet_433" type="prefab" name="萨尔" size="0.8,0.8" pos="-2.91,1.78" namePos="0,0" rate="5">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="433" level="17">
+							<loopSkill>20018,10079,20042,20002</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001601" resId="Prefabs/Pet_409" type="prefab" name="闪光格林" size="2.2,2.2" pos="-6.4,-1.8" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="409" level="17">
+							<loopSkill>10144,20075,10142,20068</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5001601" resId="Prefabs/Pet_62" type="prefab" name="格林" size="0.8,0.8" pos="-3.48,0" namePos="0,0" rate="15">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="62" level="15">
+							<loopSkill>10142,10141,10001,20068</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="1" resId="Prefabs/Pet_35" type="prefab" name="吉尔" size="0.8,0.8" pos="-1.01,-2.04" namePos="0,0" rate="10">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="77" level="15">
+							<loopSkill>20097,20096,10193</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	
+	<teleport id="1" name="火山星" pos="-5.33,0.2" targetMapId="-50015"/>
+	<teleport id="2" name="火山星深处" pos="0,3" targetMapId="-50017"/>
+	</entities>
+</map>

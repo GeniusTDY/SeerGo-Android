@@ -1,0 +1,65 @@
+<map name="普雷空间" category="-50333" id="-50333" weather="0">
+	<fightMapColor>64,64,64,255</fightMapColor>
+	<initialPoint>0,-2</initialPoint>
+	<music category="-2">
+		<bgm>BGM_333</bgm>
+	</music>
+	<entities>
+	<npc id="-5032801" resId="Prefabs/Pet_394" type="prefab" name="嗡嗡茧" size="2,2" pos="-1.87,-1.41" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="394" level="15">
+							<loopSkill>10234,20045,11072,10054</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032802" resId="Prefabs/Pet_396" type="prefab" name="龙须蝴" size="2,2" pos="-1.5,1.9" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="396" level="42">
+							<loopSkill>20017,10687,11073,20530</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+		<npc id="-5032803" resId="Prefabs/Pet_394" type="prefab" name="嗡嗡茧" size="2,2" pos="2,0.11" namePos="0,0">
+			<battle>
+				<branch id="default">
+					<settings count="6" capture="true" mod="true"/>
+					<enemy>
+						<pet id="394" level="16">
+							<loopSkill>10234,20045,11072,10054</loopSkill>
+						</pet>
+					</enemy>
+				</branch>
+			</battle>
+			<eventHandler>
+				<button type="click">
+					<action>battle</action>
+					<param>default</param>
+				</button>
+			</eventHandler>
+		</npc>
+	
+	<teleport id="1" name="几米塔" pos="2.67,0.36" targetMapId="-50334"/>
+	</entities>		
+</map>

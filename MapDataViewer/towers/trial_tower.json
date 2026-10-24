@@ -1,0 +1,584 @@
+{
+  "floors": [
+    {
+      "floor": 1,
+      "monsters": [
+        {
+          "id": 10,
+          "level": 1,
+          "skills": [10001]
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "monsters": [
+        {
+          "id": 22,
+          "level": 2,
+          "skills": [10001]
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "monsters": [
+        {
+          "id": 13,
+          "level": 3,
+          "skills": [10001]
+        }
+      ]
+    },
+    {
+      "floor": 4,
+      "monsters": [
+        {
+          "id": 46,
+          "level": 4,
+          "skills": [10018, 20010]
+        }
+      ]
+    },
+    {
+      "floor": 5,
+      "monsters": [
+        {
+          "id": 16,
+          "level": 5,
+          "skills": [10001, 20006]
+        }
+      ]
+    },
+    {
+      "floor": 6,
+      "monsters": [
+        {
+          "id": 19,
+          "level": 6,
+          "skills": [10013, 20004]
+        }
+      ]
+    },
+    {
+      "floor": 7,
+      "monsters": [
+        {
+          "id": 58,
+          "level": 7,
+          "skills": [10184, 20011]
+        }
+      ]
+    },
+    {
+      "floor": 8,
+      "monsters": [
+        {
+          "id": 34,
+          "level": 8,
+          "skills": [10086, 20012]
+        }
+      ]
+    },
+    {
+      "floor": 9,
+      "monsters": [
+        {
+          "id": 37,
+          "level": 9,
+          "skills": [10006, 20002, 10007]
+        }
+      ]
+    },
+    {
+      "floor": 10,
+      "monsters": [
+        {
+          "id": 43,
+          "level": 10,
+          "skills": [10001, 20004, 20006]
+        }
+      ]
+    },
+    {
+      "floor": 11,
+      "monsters": [
+        {
+          "id": 46,
+          "level": 11,
+          "skills": [10001, 10099, 10048]
+        }
+      ]
+    },
+    {
+      "floor": 12,
+      "monsters": [
+        {
+          "id": 49,
+          "level": 12,
+          "skills": [10004, 10103, 20012]
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "monsters": [
+        {
+          "id": 59,
+          "level": 13,
+          "skills": [10086, 20012, 10088, 20013]
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "monsters": [
+        {
+          "id": 67,
+          "level": 14,
+          "skills": [10218, 20010, 10214, 20014]
+        }
+      ]
+    },
+    {
+      "floor": 15,
+      "monsters": [
+        {
+          "id": 81,
+          "level": 15,
+          "skills": [10086, 20021, 20015]
+        }
+      ]
+    },
+    {
+      "floor": 16,
+      "monsters": [
+        {
+          "id": 84,
+          "level": 16,
+          "skills": [10088, 10007, 20016, 10219]
+        }
+      ]
+    },
+    {
+      "floor": 17,
+      "monsters": [
+        {
+          "id": 87,
+          "level": 17,
+          "skills": [10018, 20017, 10010, 10220]
+        }
+      ]
+    },
+    {
+      "floor": 18,
+      "monsters": [
+        {
+          "id": 90,
+          "level": 18,
+          "skills": [10001, 20005, 10008, 10010]
+        }
+      ]
+    },
+    {
+      "floor": 19,
+      "monsters": [
+        {
+          "id": 72,
+          "level": 19,
+          "skills": [10218, 20013, 10221, 20018]
+        }
+      ]
+    },
+    {
+      "floor": 20,
+      "monsters": [
+        {
+          "id": 54,
+          "level": 20,
+          "skills": [10006, 20019, 10150, 10204]
+        }
+      ]
+    },
+    {
+      "floor": 21,
+      "monsters": [
+        {
+          "id": 28,
+          "level": 21,
+          "skills": [10061, 20020, 20021, 20031]
+        }
+      ]
+    },
+    {
+      "floor": 22,
+      "monsters": [
+        {
+          "id": 75,
+          "level": 22,
+          "skills": [10004, 20003, 20092, 10184]
+        }
+      ]
+    },
+    {
+      "floor": 23,
+      "monsters": [
+        {
+          "id": 44,
+          "level": 23,
+          "skills": [10001, 20006, 10171, 10099]
+        }
+      ]
+    },
+    {
+      "floor": 24,
+      "monsters": [
+        {
+          "id": 62,
+          "level": 24,
+          "skills": [10001, 20012, 20022, 10223]
+        }
+      ]
+    },
+    {
+      "floor": 25,
+      "monsters": [
+        {
+          "id": 93,
+          "level": 25,
+          "skills": [10001, 20023, 10224, 10225]
+        }
+      ]
+    },
+    {
+      "floor": 26,
+      "monsters": [
+        {
+          "id": 78,
+          "level": 26,
+          "skills": [10193, 20096, 20097, 10194]
+        }
+      ]
+    },
+    {
+      "floor": 27,
+      "monsters": [
+        {
+          "id": 96,
+          "level": 27,
+          "skills": [10001, 20024, 10088, 10226]
+        }
+      ]
+    },
+    {
+      "floor": 28,
+      "monsters": [
+        {
+          "id": 2,
+          "level": 28,
+          "skills": [10001, 20001, 10002, 10003]
+        }
+      ]
+    },
+    {
+      "floor": 29,
+      "monsters": [
+        {
+          "id": 5,
+          "level": 29,
+          "skills": [10004, 20002, 10227, 20025]
+        }
+      ]
+    },
+    {
+      "floor": 30,
+      "monsters": [
+        {
+          "id": 8,
+          "level": 30,
+          "skills": [10006, 20004, 10007, 20008]
+        }
+      ]
+    }
+  ],
+  "rewards": {
+    "1": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 1000
+    },
+    "2": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 2000
+    },
+    "3": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 3000
+    },
+    "4": {
+      "coins": 0,
+      "items": [
+        { "itemId": "102", "count": 2 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 4000
+    },
+    "5": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 5000
+    },
+    "6": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 6000
+    },
+    "7": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 7000
+    },
+    "8": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 8000
+    },
+    "9": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 9000
+    },
+    "10": {
+      "coins": 100,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 10000
+    },
+    "11": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 11000
+    },
+    "12": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 12000
+    },
+    "13": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 13000
+    },
+    "14": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 14000
+    },
+    "15": {
+      "coins": 0,
+      "items": [
+        { "itemId": "106", "count": 2 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 15000
+    },
+    "16": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 16000
+    },
+    "17": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 17000
+    },
+    "18": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 18000
+    },
+    "19": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 19000
+    },
+    "20": {
+      "coins": 200,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 20000
+    },
+    "21": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 21000
+    },
+    "22": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 22000
+    },
+    "23": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 23000
+    },
+    "24": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 24000
+    },
+    "25": {
+      "coins": 0,
+      "items": [
+        { "itemId": "101", "count": 1 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 25000
+    },
+    "26": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 26000
+    },
+    "27": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 27000
+    },
+    "28": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 28000
+    },
+    "29": {
+      "coins": 0,
+      "items": [],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 29000
+    },
+    "30": {
+      "coins": 300,
+      "items": [
+        { "itemId": "104", "count": 1 }
+      ],
+      "goldBeans": 0,
+      "milestoneGoldBeans": 0,
+      "petRewardId": 0,
+      "titleRewardId": 0,
+      "expPool": 30000
+    }
+  }
+}
