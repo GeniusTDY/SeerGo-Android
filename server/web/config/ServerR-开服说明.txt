@@ -1,0 +1,53 @@
+ServerR.xml —— 开服怎么改
+========================
+
+客户端只读本文件：config/ServerR.xml
+（Client.SERVER_XML 写死；同目录 ServerOfficial.xml 不参与运行）
+
+推荐改法（本仓库一键启动）
+------------------------
+1. 编辑 server/configs/advertise_host.txt
+   - 本机：    127.0.0.1
+   - 局域网：  填这台开服机器的局域网 IP（如 192.168.1.10）
+   - 公网：    填公网 IP 或可解析域名（需端口转发）
+2. 运行 server\start.bat
+   - 会自动把下面 5 个登录入口改成「advertise_host + 登录端口 22973」
+   - 并重写 server/configs/ip.txt（及 tmp/ip.txt）
+3. 浏览器打开：http://主机:41520/
+   （资源服端口 41520，勿用错）
+
+手动改本文件（不跑 start.bat 时）
+------------------------------
+只改 <ipConfig> 里这 5 行的 ip / port，保持一致：
+
+  Email / DirSer / Visitor / SubServer / RegistSer
+
+示例（本机）：
+  ip="127.0.0.1" port="22973"
+
+示例（局域网 192.168.1.10）：
+  ip="192.168.1.10" port="22973"
+
+同时保证资源服能拿到同一登录地址：
+  server/configs/ip.txt  内容形如  192.168.1.10:22973
+  （或仍用 start.bat / 服务端启动时按 advertise_host 自动写）
+
+一般不用改
+----------
+- <http url="/ip.txt"/>     相对路径即可（相对资源服根）
+- <Res url="resource/" /> 及下面各 module/resource 路径
+- <ServerList> 里区服名字（显示用；真正进哪台由登录协议决定）
+- 文件后半段 <root>…loading/新闻文案（与连服无关）
+
+本项目相关端口（对照）
+--------------------
+  资源 HTTP   41520   ← 打开客户端网页
+  登录 TCP    22973   ← ServerR.xml 里 5 个入口的 port
+  游戏 TCP    28610   ← 登录成功后由服端下发，不用写进本 XML
+  GM HTTP     29180
+
+注意
+----
+- 换机/换 IP：改 advertise_host.txt 再 start.bat，或手动改上述 5 处 ip。
+- 防火墙需放行 41520、22973、28610（对外开服时）。
+- 更完整说明见仓库：说明/03-端口与启动.md

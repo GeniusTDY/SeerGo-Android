@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>尼尔号</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <style>
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+    body { touch-action: none; -webkit-user-select: none; user-select: none; }
+    #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    #stage { width: 960px; height: 560px; position: relative; flex: 0 0 auto; transform-origin: center center; background: #000; }
+    #err { position: fixed; left: 6px; top: 6px; color: #f66; font: 12px/1.4 monospace; white-space: pre-wrap; z-index: 10; pointer-events: none; }
+  </style>
+</head>
+
+<body>
+  <div id="wrap"><div id="stage"></div></div>
+  <div id="err"></div>
+  <script src="/ruffle/ruffle.js"></script>
+  <script>
+    (function () {
+      var stage = document.getElementById('stage');
+      var errBox = document.getElementById('err');
+      function showErr(m) { errBox.textContent += m + '\n'; }
+      window.addEventListener('error', function (e) { showErr('ERR ' + (e.message || e.error)); });
+      window.addEventListener('unhandledrejection', function (e) { showErr('REJ ' + e.reason); });
+
+      var R = window.RufflePlayer;
+      if (!R) { showErr('Ruffle 未加载'); return; }
+
+      function wsUrl(port) {
+        return (location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/wsproxy/' + port;
+      }
+
+      R.config = {
+        autoplay: 'on',
+        unmuteOverlay: 'hidden',
+        letterbox: 'off',
+        scale: 'noScale',
+        forceScale: true,
+        quality: 'high',
+        wmode: 'direct',
+        allowScriptAccess: true,
+        deviceFontRenderer: 'canvas',
+        logLevel: 'info',
+        splashScreen: false,
+        contextMenu: 'off',
+        socketProxy: [
+          { host: '127.0.0.1', port: 22973, proxyUrl: wsUrl(22973) },
+          { host: '127.0.0.1', port: 28610, proxyUrl: wsUrl(28610) }
+        ]
+      };
+
+      var player = R.newest().createPlayer();
+      player.style.width = '960px';
+      player.style.height = '560px';
+      stage.appendChild(player);
+      player.load({ url: '/Client.swf' });
+
+      // 触摸转鼠标：此版本 Ruffle 收到触摸指针事件后不派发 SWF 鼠标事件，
+      // 导致手机端点击（尤其是地图点地行走）无响应。这里统一合成 mouse 指针事件。
+      (function () {
+        function getCanvas() {
+          var p = stage.querySelector('ruffle-player');
+          return p && p.shadowRoot && p.shadowRoot.querySelector('canvas');
+        }
+
+        function fire(c, type, x, y, buttons) {
+          c.dispatchEvent(new PointerEvent(type, {
+            pointerType: 'mouse', pointerId: 1, isPrimary: true,
+            clientX: x, clientY: y, button: 0, buttons: buttons,
+            bubbles: true, cancelable: true, composed: true, view: window
+          }));
+        }
+        document.addEventListener('touchstart', function (e) {
+          var c = getCanvas(); if (!c) return;
+          var t = e.changedTouches[0];
+          fire(c, 'pointermove', t.clientX, t.clientY, 0);
+          fire(c, 'pointerdown', t.clientX, t.clientY, 1);
+          e.preventDefault();
+        }, { capture: true, passive: false });
+        document.addEventListener('touchmove', function (e) {
+          var c = getCanvas(); if (!c) return;
+          var t = e.changedTouches[0];
+          fire(c, 'pointermove', t.clientX, t.clientY, 0);
+          e.preventDefault();
+        }, { capture: true, passive: false });
+        document.addEventListener('touchend', function (e) {
+          var c = getCanvas(); if (!c) return;
+          var t = e.changedTouches[0];
+          fire(c, 'pointermove', t.clientX, t.clientY, 0);
+          fire(c, 'pointerup', t.clientX, t.clientY, 0);
+          e.preventDefault();
+        }, { capture: true, passive: false });
+      })();
+
+      function layout() {
+        var W = window.innerWidth, H = window.innerHeight;
+        if (W < H) {
+          // 竖屏：旋转 90° 让 960x560 横版场景铺满
+          stage.style.transform = 'rotate(90deg) scale(' + Math.min(W / 560, H / 960) + ')';
+        } else {
+          stage.style.transform = 'scale(' + Math.min(W / 960, H / 560) + ')';
+        }
+      }
+      window.addEventListener('resize', layout);
+      window.addEventListener('orientationchange', function () { setTimeout(layout, 200); });
+      layout();
+    })();
+  </script>
+</body>
+
+</html>

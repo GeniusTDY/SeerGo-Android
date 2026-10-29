@@ -1,0 +1,670 @@
+{
+  "comment": "主宠多为终阶；副宠覆盖进化链各形态；ResultID 为融合初生形态（与 items.xml TransmuteMon 一致）；扩展自参考服 gm_hatch_config",
+  "formulas": [
+    {
+      "MainID": 3,
+      "SubID": 27,
+      "BeadItemID": 1000001,
+      "ResultID": 301,
+      "Prob": 100
+    },
+    {
+      "MainID": 3,
+      "SubID": 28,
+      "BeadItemID": 1000001,
+      "ResultID": 301,
+      "Prob": 100
+    },
+    {
+      "MainID": 3,
+      "SubID": 29,
+      "BeadItemID": 1000001,
+      "ResultID": 301,
+      "Prob": 100
+    },
+    {
+      "MainID": 6,
+      "SubID": 198,
+      "BeadItemID": 1000002,
+      "ResultID": 304,
+      "Prob": 100
+    },
+    {
+      "MainID": 6,
+      "SubID": 200,
+      "BeadItemID": 1000002,
+      "ResultID": 304,
+      "Prob": 100
+    },
+    {
+      "MainID": 6,
+      "SubID": 199,
+      "BeadItemID": 1000002,
+      "ResultID": 304,
+      "Prob": 100
+    },
+    {
+      "MainID": 9,
+      "SubID": 35,
+      "BeadItemID": 1000003,
+      "ResultID": 307,
+      "Prob": 100
+    },
+    {
+      "MainID": 9,
+      "SubID": 36,
+      "BeadItemID": 1000003,
+      "ResultID": 307,
+      "Prob": 100
+    },
+    {
+      "MainID": 9,
+      "SubID": 37,
+      "BeadItemID": 1000003,
+      "ResultID": 307,
+      "Prob": 100
+    },
+    {
+      "MainID": 79,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 310,
+      "Prob": 70
+    },
+    {
+      "MainID": 79,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 310,
+      "Prob": 70
+    },
+    {
+      "MainID": 79,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 310,
+      "Prob": 70
+    },
+    {
+      "MainID": 79,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 313,
+      "Prob": 30
+    },
+    {
+      "MainID": 79,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 313,
+      "Prob": 30
+    },
+    {
+      "MainID": 79,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 313,
+      "Prob": 30
+    },
+    {
+      "MainID": 118,
+      "SubID": 190,
+      "BeadItemID": 1000005,
+      "ResultID": 322,
+      "Prob": 100
+    },
+    {
+      "MainID": 118,
+      "SubID": 191,
+      "BeadItemID": 1000005,
+      "ResultID": 322,
+      "Prob": 100
+    },
+    {
+      "MainID": 118,
+      "SubID": 192,
+      "BeadItemID": 1000005,
+      "ResultID": 322,
+      "Prob": 100
+    },
+    {
+      "MainID": 155,
+      "SubID": 25,
+      "BeadItemID": 1000006,
+      "ResultID": 319,
+      "Prob": 100
+    },
+    {
+      "MainID": 155,
+      "SubID": 26,
+      "BeadItemID": 1000006,
+      "ResultID": 319,
+      "Prob": 100
+    },
+    {
+      "MainID": 180,
+      "SubID": 53,
+      "BeadItemID": 1000004,
+      "ResultID": 316,
+      "Prob": 100
+    },
+    {
+      "MainID": 180,
+      "SubID": 54,
+      "BeadItemID": 1000004,
+      "ResultID": 316,
+      "Prob": 100
+    },
+    {
+      "MainID": 180,
+      "SubID": 55,
+      "BeadItemID": 1000004,
+      "ResultID": 316,
+      "Prob": 100
+    },
+    {
+      "MainID": 210,
+      "SubID": 38,
+      "BeadItemID": 1000003,
+      "ResultID": 332,
+      "Prob": 100
+    },
+    {
+      "MainID": 210,
+      "SubID": 39,
+      "BeadItemID": 1000003,
+      "ResultID": 332,
+      "Prob": 100
+    },
+    {
+      "MainID": 210,
+      "SubID": 40,
+      "BeadItemID": 1000003,
+      "ResultID": 332,
+      "Prob": 100
+    },
+    {
+      "MainID": 138,
+      "SubID": 128,
+      "BeadItemID": 1000011,
+      "ResultID": 341,
+      "Prob": 100
+    },
+    {
+      "MainID": 138,
+      "SubID": 129,
+      "BeadItemID": 1000011,
+      "ResultID": 341,
+      "Prob": 100
+    },
+    {
+      "MainID": 138,
+      "SubID": 130,
+      "BeadItemID": 1000011,
+      "ResultID": 341,
+      "Prob": 100
+    },
+    {
+      "MainID": 251,
+      "SubID": 232,
+      "BeadItemID": 1000014,
+      "ResultID": 427,
+      "Prob": 100
+    },
+    {
+      "MainID": 251,
+      "SubID": 233,
+      "BeadItemID": 1000014,
+      "ResultID": 427,
+      "Prob": 100
+    },
+    {
+      "MainID": 251,
+      "SubID": 234,
+      "BeadItemID": 1000014,
+      "ResultID": 427,
+      "Prob": 100
+    },
+    {
+      "MainID": 189,
+      "SubID": 228,
+      "BeadItemID": 1000013,
+      "ResultID": 404,
+      "Prob": 100
+    },
+    {
+      "MainID": 189,
+      "SubID": 229,
+      "BeadItemID": 1000013,
+      "ResultID": 404,
+      "Prob": 100
+    },
+    {
+      "MainID": 15,
+      "SubID": 97,
+      "BeadItemID": 1000012,
+      "ResultID": 401,
+      "Prob": 100
+    },
+    {
+      "MainID": 15,
+      "SubID": 98,
+      "BeadItemID": 1000012,
+      "ResultID": 401,
+      "Prob": 100
+    },
+    {
+      "MainID": 15,
+      "SubID": 99,
+      "BeadItemID": 1000012,
+      "ResultID": 401,
+      "Prob": 100
+    },
+    {
+      "MainID": 481,
+      "SubID": 560,
+      "BeadItemID": 1000018,
+      "ResultID": 578,
+      "Prob": 70
+    },
+    {
+      "MainID": 481,
+      "SubID": 561,
+      "BeadItemID": 1000018,
+      "ResultID": 578,
+      "Prob": 70
+    },
+    {
+      "MainID": 61,
+      "SubID": 102,
+      "BeadItemID": 1000010,
+      "ResultID": 338,
+      "Prob": 100
+    },
+    {
+      "MainID": 61,
+      "SubID": 103,
+      "BeadItemID": 1000010,
+      "ResultID": 338,
+      "Prob": 100
+    },
+    {
+      "MainID": 61,
+      "SubID": 104,
+      "BeadItemID": 1000010,
+      "ResultID": 338,
+      "Prob": 100
+    },
+    {
+      "MainID": 511,
+      "SubID": 463,
+      "BeadItemID": 1000011,
+      "ResultID": 632,
+      "Prob": 100
+    },
+    {
+      "MainID": 554,
+      "SubID": 203,
+      "BeadItemID": 1000004,
+      "ResultID": 627,
+      "Prob": 100
+    },
+    {
+      "MainID": 554,
+      "SubID": 204,
+      "BeadItemID": 1000004,
+      "ResultID": 627,
+      "Prob": 100
+    },
+    {
+      "MainID": 473,
+      "SubID": 480,
+      "BeadItemID": 1000015,
+      "ResultID": 571,
+      "Prob": 70
+    },
+    {
+      "MainID": 473,
+      "SubID": 481,
+      "BeadItemID": 1000015,
+      "ResultID": 571,
+      "Prob": 70
+    },
+    {
+      "MainID": 559,
+      "SubID": 83,
+      "BeadItemID": 1000017,
+      "ResultID": 629,
+      "Prob": 100
+    },
+    {
+      "MainID": 559,
+      "SubID": 84,
+      "BeadItemID": 1000017,
+      "ResultID": 629,
+      "Prob": 100
+    },
+    {
+      "MainID": 559,
+      "SubID": 85,
+      "BeadItemID": 1000017,
+      "ResultID": 629,
+      "Prob": 100
+    },
+    {
+      "MainID": 561,
+      "SubID": 576,
+      "BeadItemID": 1000018,
+      "ResultID": 623,
+      "Prob": 70
+    },
+    {
+      "MainID": 561,
+      "SubID": 577,
+      "BeadItemID": 1000018,
+      "ResultID": 623,
+      "Prob": 70
+    },
+    {
+      "MainID": 577,
+      "SubID": 618,
+      "BeadItemID": 1000019,
+      "ResultID": 625,
+      "Prob": 70
+    },
+    {
+      "MainID": 577,
+      "SubID": 619,
+      "BeadItemID": 1000019,
+      "ResultID": 625,
+      "Prob": 70
+    },
+    {
+      "MainID": 76,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 1248,
+      "Prob": 50
+    },
+    {
+      "MainID": 76,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 1248,
+      "Prob": 50
+    },
+    {
+      "MainID": 76,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 1248,
+      "Prob": 50
+    },
+    {
+      "MainID": 76,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 74,
+      "Prob": 50
+    },
+    {
+      "MainID": 76,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 74,
+      "Prob": 50
+    },
+    {
+      "MainID": 76,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 74,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 409,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 409,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 409,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 62,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 62,
+      "Prob": 50
+    },
+    {
+      "MainID": 64,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 62,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 83,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 83,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 83,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 442,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 442,
+      "Prob": 50
+    },
+    {
+      "MainID": 85,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 442,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 1500,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 1500,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 1500,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 205,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 205,
+      "Prob": 50
+    },
+    {
+      "MainID": 207,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 205,
+      "Prob": 50
+    },
+    {
+      "MainID": 79,
+      "SubID": 77,
+      "BeadItemID": 1000008,
+      "ResultID": 164,
+      "Prob": 100
+    },
+    {
+      "MainID": 79,
+      "SubID": 78,
+      "BeadItemID": 1000008,
+      "ResultID": 164,
+      "Prob": 100
+    },
+    {
+      "MainID": 79,
+      "SubID": 79,
+      "BeadItemID": 1000008,
+      "ResultID": 164,
+      "Prob": 100
+    },
+    {
+      "MainID": 234,
+      "SubID": 164,
+      "BeadItemID": 1000009,
+      "ResultID": 948,
+      "Prob": 50
+    },
+    {
+      "MainID": 234,
+      "SubID": 165,
+      "BeadItemID": 1000009,
+      "ResultID": 948,
+      "Prob": 50
+    },
+    {
+      "MainID": 234,
+      "SubID": 166,
+      "BeadItemID": 1000009,
+      "ResultID": 948,
+      "Prob": 50
+    },
+    {
+      "MainID": 234,
+      "SubID": 164,
+      "BeadItemID": 1000008,
+      "ResultID": 232,
+      "Prob": 50
+    },
+    {
+      "MainID": 234,
+      "SubID": 165,
+      "BeadItemID": 1000008,
+      "ResultID": 232,
+      "Prob": 50
+    },
+    {
+      "MainID": 234,
+      "SubID": 166,
+      "BeadItemID": 1000008,
+      "ResultID": 232,
+      "Prob": 50
+    },
+    {
+      "MainID": 473,
+      "SubID": 480,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 473,
+      "SubID": 481,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 481,
+      "SubID": 560,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 481,
+      "SubID": 561,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 561,
+      "SubID": 576,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 561,
+      "SubID": 577,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 577,
+      "SubID": 618,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    },
+    {
+      "MainID": 577,
+      "SubID": 619,
+      "BeadItemID": 1000009,
+      "ResultID": 639,
+      "Prob": 30
+    }
+  ]
+}
