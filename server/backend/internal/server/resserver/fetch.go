@@ -2,6 +2,7 @@ package resserver
 
 import (
 	"bytes"
+	"context"
 	"fmt"
 	"io"
 	"log"
@@ -31,14 +32,16 @@ var flashBases = []string{
 }
 
 const (
-	fetchTimeout   = 45 * time.Second
+	fetchTimeout   = 12 * time.Second
 	maxFetchBytes  = 64 << 20 // 64MB
 	minUsefulBytes = 32
+	negTTL         = 10 * time.Minute // 拉取失败的路径在此时长内直接 404，不再重复等镜像
 )
 
 var (
 	fetchClient = &http.Client{Timeout: fetchTimeout}
 	inflight    sync.Map // path -> *fetchWait
+	negCache    sync.Map // path -> time.Time（上次失败时间）
 )
 
 type fetchWait struct {
@@ -91,6 +94,13 @@ func fetchAndCache(nieoDataDir, urlPath string) ([]byte, string, error) {
 	if err := guardPath(nieoDataDir, urlPath); err != nil {
 		return nil, "", err
 	}
+	// 近期已失败过：直接返回，避免每次都把 6 个镜像串行等一遍
+	if t, ok := negCache.Load(urlPath); ok {
+		if time.Since(t.(time.Time)) < negTTL {
+			return nil, "", fmt.Errorf("recent failure (skip fetch)")
+		}
+		negCache.Delete(urlPath)
+	}
 
 	if v, ok := inflight.Load(urlPath); ok {
 		w := v.(*fetchWait)
@@ -111,8 +121,10 @@ func fetchAndCache(nieoDataDir, urlPath string) ([]byte, string, error) {
 	data, src, err := downloadOfficial(urlPath)
 	w.data, w.err = data, err
 	if err != nil {
+		negCache.Store(urlPath, time.Now())
 		return nil, src, err
 	}
+	negCache.Delete(urlPath)
 	savePath := filepath.Join(nieoDataDir, filepath.FromSlash(strings.TrimPrefix(urlPath, "/")))
 	if err := saveFileAtomic(savePath, data); err != nil {
 		log.Printf("[res] cache save fail %s: %v", savePath, err)
@@ -128,19 +140,34 @@ func downloadOfficial(urlPath string) ([]byte, string, error) {
 	if strings.HasPrefix(low, "/flash/") {
 		bases = append(append([]string{}, flashBases...), officialBases...)
 	}
-	var lastErr error
+	// 并发打所有镜像，取第一个有效响应：成功即刻返回，其余请求随 ctx 取消。
+	// 串行时最坏要等 6 × timeout，这是缺资源时卡顿的主要原因。
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	type result struct {
+		data []byte
+		base string
+		err  error
+	}
+	ch := make(chan result, len(bases))
 	for _, base := range bases {
-		u := strings.TrimRight(base, "/") + urlPath
-		data, err := httpGetBytes(u)
-		if err != nil {
-			lastErr = err
-			continue
+		go func(base string) {
+			data, err := httpGetBytes(ctx, strings.TrimRight(base, "/")+urlPath)
+			if err == nil && !looksLikeAsset(urlPath, data) {
+				err = fmt.Errorf("invalid body from %s (%d bytes)", base, len(data))
+				data = nil
+			}
+			ch <- result{data: data, base: base, err: err}
+		}(base)
+	}
+	var lastErr error
+	for i := 0; i < len(bases); i++ {
+		r := <-ch
+		if r.err == nil {
+			cancel()
+			return r.data, r.base, nil
 		}
-		if !looksLikeAsset(urlPath, data) {
-			lastErr = fmt.Errorf("invalid body from %s (%d bytes)", base, len(data))
-			continue
-		}
-		return data, base, nil
+		lastErr = r.err
 	}
 	if lastErr == nil {
 		lastErr = fmt.Errorf("all mirrors miss")
@@ -148,8 +175,8 @@ func downloadOfficial(urlPath string) ([]byte, string, error) {
 	return nil, "", lastErr
 }
 
-func httpGetBytes(u string) ([]byte, error) {
-	req, err := http.NewRequest(http.MethodGet, u, nil)
+func httpGetBytes(ctx context.Context, u string) ([]byte, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, u, nil)
 	if err != nil {
 		return nil, err
 	}

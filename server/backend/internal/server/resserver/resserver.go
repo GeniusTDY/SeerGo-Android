@@ -2,6 +2,7 @@ package resserver
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -43,8 +44,9 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 			return
 		}
 		path := strings.TrimPrefix(r.URL.Path, "/")
-		// 浏览器常缓存旧 PetFightDLL（曾打 ifeq/petwar 补丁），Debug 投影器不走该缓存 → 同账号一边进战一边黑屏。
-		setSWFNoCache(w, path)
+		// 缓存策略：ruffle 带内容哈希可永久缓存；swf 存缓存但必须回源校验（mtime 变了才重下）；
+		// 其余游戏资源给 5 分钟，避免每次进游戏都全量重下。
+		setCacheHeaders(w, path)
 		if path == "" || strings.HasSuffix(r.URL.Path, "/") {
 			rw := &statusWriter{ResponseWriter: w, code: 200}
 			files.ServeHTTP(rw, r)
@@ -91,7 +93,7 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 		if shouldAutoFetch("/" + path) {
 			data, src, err := fetchAndCache(nieoDataDir, "/"+path)
 			if err == nil && len(data) > 0 {
-				setSWFNoCache(w, path)
+				setCacheHeaders(w, path)
 				w.Header().Set("Content-Type", contentTypeFor(path))
 				w.Header().Set("Content-Length", fmt.Sprintf("%d", len(data)))
 				if r.Method == http.MethodHead {
@@ -144,6 +146,23 @@ func (w *statusWriter) Write(b []byte) (int, error) {
 	return n, err
 }
 
+// ReadFrom 让文件响应走 net/http 的 sendfile 路径，避免大资源逐块拷进用户态。
+func (w *statusWriter) ReadFrom(r io.Reader) (int64, error) {
+	if w.code == 0 {
+		w.code = 200
+	}
+	if rf, ok := w.ResponseWriter.(io.ReaderFrom); ok {
+		n, err := rf.ReadFrom(r)
+		w.n += int(n)
+		return n, err
+	}
+	n, err := io.Copy(writerOnly{w.ResponseWriter}, r)
+	w.n += int(n)
+	return n, err
+}
+
+type writerOnly struct{ io.Writer }
+
 func logRes(r *http.Request, code, bytes int, tag string, start time.Time) {
 	path := r.URL.Path
 	if r.URL.RawQuery != "" {
@@ -172,14 +191,24 @@ func trimPath(s string, n int) string {
 	return s[:n-3] + "..."
 }
 
-// setSWFNoCache 禁止浏览器/Pepper 长期缓存 .swf（尤其 PetFightDLL）。
-func setSWFNoCache(w http.ResponseWriter, path string) {
-	if !strings.HasSuffix(strings.ToLower(path), ".swf") {
-		return
+// setCacheHeaders 按路径设置缓存策略（原先对所有 swf 设 no-store，导致每次刷新整包重下）。
+func setCacheHeaders(w http.ResponseWriter, path string) {
+	low := strings.ToLower(path)
+	switch {
+	case strings.HasPrefix(low, "ruffle/"):
+		// 文件名含内容哈希（ruffle_web_bg.NABW6SMO.wasm），可永久缓存
+		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	case strings.HasSuffix(low, ".swf"):
+		// 允许落盘缓存，但每次使用前回源校验（Last-Modified 变了才重新下载）
+		w.Header().Set("Cache-Control", "no-cache")
+	default:
+		for _, prefix := range []string{"resource/", "module/", "login/", "flash/", "assets/", "images/", "xml/", "nono/"} {
+			if strings.HasPrefix(low, prefix) {
+				w.Header().Set("Cache-Control", "public, max-age=300")
+				return
+			}
+		}
 	}
-	w.Header().Set("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
-	w.Header().Set("Pragma", "no-cache")
-	w.Header().Set("Expires", "0")
 }
 
 func EnsureDir(dir string) error {
