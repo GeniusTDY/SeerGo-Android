@@ -1,6 +1,7 @@
 package resserver
 
 import (
+	"compress/gzip"
 	"fmt"
 	"io"
 	"log"
@@ -44,9 +45,9 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 			return
 		}
 		path := strings.TrimPrefix(r.URL.Path, "/")
-		// 缓存策略：ruffle 带内容哈希可永久缓存；swf 存缓存但必须回源校验（mtime 变了才重下）；
-		// 其余游戏资源给 5 分钟，避免每次进游戏都全量重下。
-		setCacheHeaders(w, path)
+		// 缓存策略：ruffle 带内容哈希可永久缓存；dll 带版本号 query 也可永久缓存；
+		// 其余 swf/资源给 5 分钟，避免每次重进游戏都全量重下。
+		setCacheHeaders(w, r)
 		if path == "" || strings.HasSuffix(r.URL.Path, "/") {
 			rw := &statusWriter{ResponseWriter: w, code: 200}
 			files.ServeHTTP(rw, r)
@@ -56,6 +57,13 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 
 		primary := filepath.Join(nieoDataDir, filepath.FromSlash(path))
 		if fi, err := os.Stat(primary); err == nil && fi.Mode().IsRegular() && fi.Size() > 0 {
+			// ruffle 的 wasm（14MB）/ruffle.js 是大头，按需 gzip 并落缓存，首包体积约降到 1/3
+			if wantGzip(r, path, fi.Size()) {
+				rw := &statusWriter{ResponseWriter: w, code: 200}
+				serveGzipCached(rw, r, primary, filepath.Join(tmpRoot, "gz", filepath.FromSlash(path)+".gz"), path, fi)
+				logRes(r, rw.code, rw.n, "OK gzip", start)
+				return
+			}
 			rw := &statusWriter{ResponseWriter: w, code: 200}
 			files.ServeHTTP(rw, r)
 			logRes(r, rw.code, rw.n, "OK NieoData", start)
@@ -93,7 +101,7 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 		if shouldAutoFetch("/" + path) {
 			data, src, err := fetchAndCache(nieoDataDir, "/"+path)
 			if err == nil && len(data) > 0 {
-				setCacheHeaders(w, path)
+				setCacheHeaders(w, r)
 				w.Header().Set("Content-Type", contentTypeFor(path))
 				w.Header().Set("Content-Length", fmt.Sprintf("%d", len(data)))
 				if r.Method == http.MethodHead {
@@ -192,15 +200,18 @@ func trimPath(s string, n int) string {
 }
 
 // setCacheHeaders 按路径设置缓存策略（原先对所有 swf 设 no-store，导致每次刷新整包重下）。
-func setCacheHeaders(w http.ResponseWriter, path string) {
-	low := strings.ToLower(path)
+func setCacheHeaders(w http.ResponseWriter, r *http.Request) {
+	low := strings.ToLower(strings.TrimPrefix(r.URL.Path, "/"))
 	switch {
 	case strings.HasPrefix(low, "ruffle/"):
 		// 文件名含内容哈希（ruffle_web_bg.NABW6SMO.wasm），可永久缓存
 		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	case strings.HasPrefix(low, "dll/") && strings.HasSuffix(low, ".swf") && r.URL.RawQuery != "":
+		// dll.xml 里带 ?版本号，打补丁时版本号会变 → 可长期缓存，重进游戏零请求
+		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
 	case strings.HasSuffix(low, ".swf"):
-		// 允许落盘缓存，但每次使用前回源校验（Last-Modified 变了才重新下载）
-		w.Header().Set("Cache-Control", "no-cache")
+		// 存本地 5 分钟，过期后回源校验（304），避免每次启动都几十次往返
+		w.Header().Set("Cache-Control", "public, max-age=300")
 	default:
 		for _, prefix := range []string{"resource/", "module/", "login/", "flash/", "assets/", "images/", "xml/", "nono/"} {
 			if strings.HasPrefix(low, prefix) {
@@ -209,6 +220,80 @@ func setCacheHeaders(w http.ResponseWriter, path string) {
 			}
 		}
 	}
+}
+
+// wantGzip 只对 ruffle 的 wasm/js 启用（SWF 本身已是 zlib 压缩，再压没有收益）。
+func wantGzip(r *http.Request, path string, size int64) bool {
+	if size < 1024 || !strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
+		return false
+	}
+	low := strings.ToLower(path)
+	if !strings.HasPrefix(low, "ruffle/") {
+		return false
+	}
+	return strings.HasSuffix(low, ".wasm") || strings.HasSuffix(low, ".js")
+}
+
+// serveGzipCached 提供 gzip 压缩版本；压缩结果按源文件 mtime 缓存到 tmp/gz/（源文件更新则重新压）。
+func serveGzipCached(w http.ResponseWriter, r *http.Request, src, cache, name string, fi os.FileInfo) {
+	gz, err := ensureGzip(src, cache, fi)
+	if err != nil || gz == nil {
+		http.ServeFile(w, r, src) // 压不动就退回原文件
+		return
+	}
+	defer gz.Close()
+	gs, err := gz.Stat()
+	if err != nil || gs.Size() == 0 {
+		http.ServeFile(w, r, src)
+		return
+	}
+	w.Header().Set("Content-Encoding", "gzip")
+	w.Header().Set("Vary", "Accept-Encoding")
+	if ct := contentTypeFor(name); ct != "application/octet-stream" {
+		w.Header().Set("Content-Type", ct)
+	}
+	// Last-Modified 用源文件 mtime，源文件一变缓存自动失效
+	http.ServeContent(w, r, name, fi.ModTime(), gz)
+}
+
+func ensureGzip(src, cache string, fi os.FileInfo) (*os.File, error) {
+	if gs, err := os.Stat(cache); err == nil && gs.Size() > 0 && !gs.ModTime().Before(fi.ModTime()) {
+		return os.Open(cache)
+	}
+	in, err := os.Open(src)
+	if err != nil {
+		return nil, err
+	}
+	defer in.Close()
+	if err := os.MkdirAll(filepath.Dir(cache), 0o755); err != nil {
+		return nil, err
+	}
+	tmp := cache + ".tmp"
+	out, err := os.Create(tmp)
+	if err != nil {
+		return nil, err
+	}
+	zw := gzip.NewWriter(out)
+	if _, err := io.Copy(zw, in); err != nil {
+		_ = zw.Close()
+		_ = out.Close()
+		_ = os.Remove(tmp)
+		return nil, err
+	}
+	if err := zw.Close(); err != nil {
+		_ = out.Close()
+		_ = os.Remove(tmp)
+		return nil, err
+	}
+	if err := out.Close(); err != nil {
+		_ = os.Remove(tmp)
+		return nil, err
+	}
+	if err := os.Rename(tmp, cache); err != nil {
+		_ = os.Remove(tmp)
+		return nil, err
+	}
+	return os.Open(cache)
 }
 
 func EnsureDir(dir string) error {

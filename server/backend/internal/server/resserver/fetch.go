@@ -293,6 +293,8 @@ func contentTypeFor(path string) string {
 		return "application/xml"
 	case ".js":
 		return "application/javascript"
+	case ".wasm":
+		return "application/wasm"
 	case ".json":
 		return "application/json"
 	case ".txt":
