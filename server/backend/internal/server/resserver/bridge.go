@@ -10,6 +10,7 @@ import (
 	"net"
 	"net/http"
 	"strings"
+	"sync"
 	"time"
 )
 
@@ -67,6 +68,30 @@ func handleWSProxy(w http.ResponseWriter, r *http.Request) {
 	log.Printf("[wsproxy] OPEN %s from=%s", port, r.RemoteAddr)
 
 	done := make(chan struct{}, 2)
+	quit := make(chan struct{})
+	// 写 WS 帧需要串行化（TCP 转发、pong、心跳并发写）
+	var writeMu sync.Mutex
+	writeWS := func(op byte, payload []byte) error {
+		writeMu.Lock()
+		defer writeMu.Unlock()
+		return wsWriteFrame(client, op, payload)
+	}
+	// 心跳：经反向代理的 WS 空闲约 60s 会被掐断，每 20s 发 ping，
+	// 浏览器会自动回 pong，两个方向都有流量，代理的 idle 计时器不会触发。
+	go func() {
+		t := time.NewTicker(20 * time.Second)
+		defer t.Stop()
+		for {
+			select {
+			case <-quit:
+				return
+			case <-t.C:
+				if err := writeWS(0x9, []byte("k")); err != nil {
+					return
+				}
+			}
+		}
+	}()
 	// WebSocket -> TCP
 	go func() {
 		defer func() { done <- struct{}{} }()
@@ -79,7 +104,7 @@ func handleWSProxy(w http.ResponseWriter, r *http.Request) {
 			case 0x8: // close
 				return
 			case 0x9: // ping -> pong
-				_ = wsWriteFrame(client, 0xA, payload)
+				_ = writeWS(0xA, payload)
 			case 0xA: // pong
 			default: // text/binary/continuation
 				if len(payload) > 0 {
@@ -97,7 +122,7 @@ func handleWSProxy(w http.ResponseWriter, r *http.Request) {
 		for {
 			n, err := target.Read(buf)
 			if n > 0 {
-				if werr := wsWriteFrame(client, 0x2, buf[:n]); werr != nil {
+				if werr := writeWS(0x2, buf[:n]); werr != nil {
 					return
 				}
 			}
@@ -107,6 +132,7 @@ func handleWSProxy(w http.ResponseWriter, r *http.Request) {
 		}
 	}()
 	<-done
+	close(quit)
 	log.Printf("[wsproxy] CLOSE %s", port)
 }
 
