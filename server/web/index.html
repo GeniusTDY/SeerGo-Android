@@ -59,6 +59,15 @@
       stage.appendChild(player);
       player.load({ url: '/Client.swf' });
 
+      // 战斗主 DLL 有 8.8MB，首次进战才拉会明显卡顿。
+      // 进页面 15 秒后（通常已在登录/地图界面）用 prefetch 后台预热，只走浏览器 HTTP 缓存，不占内存。
+      setTimeout(function () {
+        var l = document.createElement('link');
+        l.rel = 'prefetch';
+        l.href = '/resource/module/PetFightDLL.swf';
+        document.head.appendChild(l);
+      }, 15000);
+
       // 触摸转鼠标：此版本 Ruffle 收到触摸指针事件后不派发 SWF 鼠标事件，
       // 导致手机端点击（尤其是地图点地行走）无响应。这里统一合成 mouse 指针事件。
       (function () {

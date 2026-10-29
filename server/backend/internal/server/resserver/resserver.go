@@ -209,13 +209,23 @@ func setCacheHeaders(w http.ResponseWriter, r *http.Request) {
 	case strings.HasPrefix(low, "dll/") && strings.HasSuffix(low, ".swf") && r.URL.RawQuery != "":
 		// dll.xml 里带 ?版本号，打补丁时版本号会变 → 可长期缓存，重进游戏零请求
 		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	case strings.HasPrefix(low, "resource/module/"):
+		// 战斗主 DLL（PetFightDLL.swf 8.8MB）等模块会被打补丁，只给 5 分钟
+		w.Header().Set("Cache-Control", "public, max-age=300")
+	case strings.HasPrefix(low, "resource/"):
+		// 战斗素材（fightResource/pet、skill/swf 等）都是官方静态包，单场战斗要拉十几个小文件；
+		// 永久缓存后，除第一次外每场战斗都是零请求。
+		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	case strings.HasPrefix(low, "module/"):
+		// 模块 SWF 会打补丁，保留 5 分钟
+		w.Header().Set("Cache-Control", "public, max-age=300")
 	case strings.HasSuffix(low, ".swf"):
 		// 存本地 5 分钟，过期后回源校验（304），避免每次启动都几十次往返
 		w.Header().Set("Cache-Control", "public, max-age=300")
 	default:
-		for _, prefix := range []string{"resource/", "module/", "login/", "flash/", "assets/", "images/", "xml/", "nono/"} {
+		for _, prefix := range []string{"login/", "flash/", "assets/", "images/", "xml/", "nono/"} {
 			if strings.HasPrefix(low, prefix) {
-				w.Header().Set("Cache-Control", "public, max-age=300")
+				w.Header().Set("Cache-Control", "public, max-age=86400")
 				return
 			}
 		}
