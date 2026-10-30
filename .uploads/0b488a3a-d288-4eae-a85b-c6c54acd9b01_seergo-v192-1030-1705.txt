@@ -1,0 +1,219 @@
+设备 Xiaomi 24094RAD4C / Android 14 (API 34) / air.com.nieo.coexist
+构建 v192 / 服务端 运行中
+
+=== 诊断 ===
+引导 启动 Fri Oct 30 17:05:05 GMT+0800 2026 player=Desktop
+已挂未捕获异常监听
+构造 4 stage 设置完成 960x560
+构造 右键菜单 抛错 TypeError: Error #1009
+步骤 读取 doorConfig.xml
+doorConfig 解析完成 isOpen=1
+步骤 加载 main_resource.swf
+预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+main_resource.swf 加载完成
+步骤 读取 ServerR.xml
+预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 10608
+步骤 ServerR.xml 分段=2
+version.swf 头部加载完成
+version.swf 主体加载完成
+步骤 环境信息加载完成
+步骤 加载 DLL 模块
+dll.xml 解析完成 模块数=3
+
+
+=== 服务端日志 ===
+=== 服务端日志 ===
+[资源校验] 通过（抽样 1836 个，116ms）
+资源校验通过，跳过下载
+[32m[2026-10-30 09:04:58] INFO[0m 日志模块已初始化
+[UserDB] 数据库路径: /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/data/users.json
+[UserDB] 加载了 1 个用户
+[32m[2026-10-30 09:04:58] INFO[0m 初始化 29 个服务器
+[32m[2026-10-30 09:04:58] INFO[0m 游戏服务器启动在端口 28610
+[32m[2026-10-30 09:04:58] INFO[0m 资源服务器启动在端口 41520
+[32m[2026-10-30 09:04:58] INFO[0m 登录IP服务器启动在端口 29180
+[32m[2026-10-30 09:04:58] INFO[0m 登录服务器启动在端口 22973
+[32m[2026-10-30 09:04:58] INFO[0m 服务器ID: 1
+[32m[2026-10-30 09:04:58] INFO[0m 游戏服务器端口: 28610
+[32m[2026-10-30 09:04:58] INFO[0m 所有服务器已启动
+[32m[2026-10-30 09:05:03] INFO[0m [GET] /config/dll.xml 5619 bytes
+[32m[2026-10-30 09:05:04] INFO[0m [GET] /dll/nieo_patch.swf 10608 bytes
+[32m[2026-10-30 09:05:04] INFO[0m [SWF加载] /dll/nieo_patch.swf (10608 bytes)
+[32m[2026-10-30 09:05:04] INFO[0m [GET] /dll/NieoCore.swf 10608 bytes
+[32m[2026-10-30 09:05:04] INFO[0m [SWF加载] /dll/NieoCore.swf (10608 bytes)
+[32m[2026-10-30 09:05:04] INFO[0m [GET] /resource/module/PetFightDLL.swf 8832287 bytes
+[32m[2026-10-30 09:05:04] INFO[0m [SWF加载] /resource/module/PetFightDLL.swf (8832287 bytes)
+[32m[2026-10-30 09:05:05] INFO[0m [GET] /dll/NieoCore.swf 10608 bytes
+[32m[2026-10-30 09:05:05] INFO[0m [SWF加载] /dll/NieoCore.swf (10608 bytes)
+[32m[2026-10-30 09:05:05] INFO[0m [GET] /login/Login.swf 5280462 bytes
+[32m[2026-10-30 09:05:05] INFO[0m [SWF加载] /login/Login.swf (5280462 bytes)
+[32m[2026-10-30 09:05:05] INFO[0m [回退] /config/doorConfig.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/config/doorConfig.xml
+[32m[2026-10-30 09:05:05] INFO[0m [GET] /config/doorConfig.xml 134 bytes
+[32m[2026-10-30 09:05:05] INFO[0m [回退] /crossdomain.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/crossdomain.xml
+[32m[2026-10-30 09:05:05] INFO[0m [GET] /crossdomain.xml 199 bytes
+[32m[2026-10-30 09:05:05] INFO[0m [GET] /resource/main_resource.swf 137111 bytes
+[32m[2026-10-30 09:05:05] INFO[0m [SWF加载] /resource/main_resource.swf (137111 bytes)
+[32m[2026-10-30 09:05:06] INFO[0m [CONFIG] proxy ServerR.xml 缺少 **** 分隔，重新生成
+[32m[2026-10-30 09:05:06] INFO[0m [CONFIG] ✓ 由资源包 ServerR.xml 生成本地配置 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/proxy/config/ServerR.xml
+[32m[2026-10-30 09:05:06] INFO[0m [GET] /config/ServerR.xml 2332 bytes
+[32m[2026-10-30 09:05:06] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:05:06] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:05:06] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:05:06] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:05:06] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:05:06] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:05:06] INFO[0m [GET] /config/dll.xml 5619 bytes
+
+
+=== 客户端日志 ===
+=== boot.log ===
+引导 启动 Fri Oct 30 17:05:05 GMT+0800 2026 player=Desktop
+构造 进入 v54
+已声明 crossdomain.xml
+已挂未捕获异常监听
+构造 1 mainBG ok
+构造 2 firstLoading ok
+心跳已启动
+构造 3 stage=[object Stage]
+构造 4 stage 设置完成 960x560
+构造 右键菜单 抛错 TypeError: Error #1009
+步骤 读取 doorConfig.xml
+构造 6 已发起 doorConfig.xml
+doorConfig 解析完成 isOpen=1
+步骤 加载 main_resource.swf
+start 加载 http://127.0.0.1:41520/resource/main_resource.swf
+预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+启动图已显示
+main_resource.swf 加载完成
+步骤 读取 ServerR.xml
+加载 ServerR.xml
+预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 10608
+ServerR.xml 分段=2
+步骤 ServerR.xml 分段=2
+initPVM 开始
+已发起 version.swf
+version.swf 头部加载完成
+version.swf 主体加载完成
+步骤 环境信息加载完成
+步骤 加载 DLL 模块
+init 开始 DLL 加载
+请求 dll.xml http://127.0.0.1:41520/config/dll.xml
+dll.xml 解析完成 模块数=3
+=== air.log ===
+(空)
+=== AIR 应用缓存目录 ===
+eb519b27-18be-4ed0-ad79-d4a8a6ecaabc/
+  .adobe/
+    Flash_Player/
+      AssetCache/
+  assets/
+    ClientBoot.swf  26272B
+    LoginHome.png  1277168B
+    META-INF/
+      AIR/
+    ext/
+      com/
+    resource/
+      newNpc/
+
+=== 客户端运行日志 ===
+10-30 17:05:06.486 I/nieo    (23880): [端] 构造 进入 v54
+10-30 17:05:06.486 I/nieo    (23880): [端] 已声明 crossdomain.xml
+10-30 17:05:06.487 I/nieo    (23880): [端] 已挂未捕获异常监听
+10-30 17:05:06.488 I/nieo    (23880): [端] 构造 1 mainBG ok
+10-30 17:05:06.488 I/nieo    (23880): [端] 构造 2 firstLoading ok
+10-30 17:05:06.489 I/nieo    (23880): [端] 心跳已启动
+10-30 17:05:06.490 I/nieo    (23880): [端] 构造 3 stage=[object Stage]
+10-30 17:05:06.491 I/nieo    (23880): [端] 构造 4 stage 设置完成 960x560
+10-30 17:05:06.491 I/nieo    (23880): [端] 构造 右键菜单 抛错 TypeError: Error #1009
+10-30 17:05:06.492 I/nieo    (23880): [端] 步骤 读取 doorConfig.xml
+10-30 17:05:06.492 I/nieo    (23880): [端] 构造 6 已发起 doorConfig.xml
+10-30 17:05:06.492 I/nieo    (23880): [端] doorConfig 解析完成 isOpen=1
+10-30 17:05:06.493 I/nieo    (23880): [端] 步骤 加载 main_resource.swf
+10-30 17:05:06.493 I/nieo    (23880): [端] start 加载 http://127.0.0.1:41520/resource/main_resource.swf
+10-30 17:05:06.493 I/nieo    (23880): [端] 预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+10-30 17:05:06.493 I/nieo    (23880): [端] 启动图已显示
+10-30 17:05:06.493 I/nieo    (23880): [端] main_resource.swf 加载完成
+10-30 17:05:06.494 I/nieo    (23880): [端] 步骤 读取 ServerR.xml
+10-30 17:05:06.494 I/nieo    (23880): [端] 加载 ServerR.xml
+10-30 17:05:06.495 I/nieo    (23880): [端] 预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 10608
+10-30 17:05:06.495 I/nieo    (23880): [端] ServerR.xml 分段=2
+10-30 17:05:07.499 I/nieo    (23880): [端] 步骤 ServerR.xml 分段=2
+10-30 17:05:07.500 I/nieo    (23880): [端] initPVM 开始
+10-30 17:05:07.501 I/nieo    (23880): [端] 已发起 version.swf
+10-30 17:05:07.501 I/nieo    (23880): [端] version.swf 头部加载完成
+10-30 17:05:07.502 I/nieo    (23880): [端] version.swf 主体加载完成
+10-30 17:05:07.503 I/nieo    (23880): [端] 步骤 环境信息加载完成
+10-30 17:05:07.504 I/nieo    (23880): [端] 步骤 加载 DLL 模块
+10-30 17:05:07.504 I/nieo    (23880): [端] init 开始 DLL 加载
+10-30 17:05:07.505 I/nieo    (23880): [端] 请求 dll.xml http://127.0.0.1:41520/config/dll.xml
+10-30 17:05:07.506 I/nieo    (23880): [端] dll.xml 解析完成 模块数=3
+10-30 17:05:07.641 I/nieo    (23880): 探针 文件树 启动后3秒 外部目录=/storage/emulated/0/Android/data/air.com.nieo.coexist/files 存在=true | 共14项 server/   .installed_v13(0B)   data/   tables/   configs/   static/ dl/   NieoData.part0(120927324B) NieoData
+10-30 17:05:07.671 I/om.nieo.coexist(23880): This is non sticky GC, maxfree is 8388608 minfree is 524288
+10-30 17:05:07.691 W/om.nieo.coexist(23880): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/MiuiContentCatcherMIUI15/MiuiContentCatcherMIUI15.apk' with 1 weak references
+10-30 17:05:07.692 W/om.nieo.coexist(23880): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk' with 1 weak references
+10-30 17:05:07.693 W/om.nieo.coexist(23880): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/miuisystem/miuisystem.apk' with 1 weak references
+10-30 17:05:09.523 I/nieo    (24028): 原生触摸 DOWN 1209,994
+10-30 17:05:11.049 I/nieo    (24028): 原生触摸 DOWN 1271,971
+10-30 17:05:11.491 I/nieo    (24028): 原生触摸 DOWN 1244,977
+10-30 17:05:11.694 I/nieo    (24028): 原生触摸 UP 1242,965
+10-30 17:05:13.496 I/nieo    (24028): 原生触摸 DOWN 504,876
+10-30 17:05:13.830 I/nieo    (24028): 原生触摸 DOWN 1154,985
+10-30 17:05:14.039 I/nieo    (24028): 原生触摸 UP 1156,996
+10-30 17:05:14.250 I/nieo    (24028): 原生触摸 DOWN 1168,982
+10-30 17:05:14.478 I/nieo    (24028): 原生触摸 DOWN 1183,959
+10-30 17:05:14.504 I/nieo    (23880): 采样器 找到 pid=24028 但读不到 CPU 时间（第 11 次）
+10-30 17:05:14.735 I/nieo    (24028): 原生触摸 DOWN 1208,972
+10-30 17:05:15.393 I/nieo    (24028): 原生触摸 DOWN 1287,992
+10-30 17:05:15.609 I/nieo    (24028): 原生触摸 UP 1223,963
+10-30 17:05:15.654 I/nieo    (23880): 探针 文件树 启动后11秒 外部目录=/storage/emulated/0/Android/data/air.com.nieo.coexist/files 存在=true | 共14项 server/   .installed_v13(0B)   data/   tables/   configs/   static/ dl/   NieoData.part0(120927324B) NieoDat
+10-30 17:05:15.842 I/nieo    (24028): 原生触摸 DOWN 1201,972
+10-30 17:05:20.704 I/nieo    (24028): 原生触摸 DOWN 1361,887
+10-30 17:05:21.600 I/nieo    (24028): 原生触摸 DOWN 983,1055
+10-30 17:05:23.730 I/nieo    (23880): 活动 onDestroy com.nieo.server.MainActivity
+10-30 17:05:23.732 I/nieo    (24028): AIR 活动已销毁，结束 AIR 进程，下次进入重新初始化运行时
+10-30 17:05:23.835 I/nieo    (23880): 活动 preCreate com.nieo.server.MainActivity
+10-30 17:05:23.835 I/nieo    (23880): 活动 onCreate 完成 com.nieo.server.MainActivity
+10-30 17:05:23.860 I/nieo    (23880): 活动 onStart com.nieo.server.MainActivity
+10-30 17:05:23.862 I/nieo    (23880): 活动 onResume com.nieo.server.MainActivity
+10-30 17:05:24.524 I/nieo    (23880): 采样器 未找到 :air 进程（第 1 次）
+
+=== 上次 boot.log ===
+引导 启动 Fri Oct 30 16:54:52 GMT+0800 2026 player=Desktop
+构造 进入 v54
+已声明 crossdomain.xml
+已挂未捕获异常监听
+构造 1 mainBG ok
+构造 2 firstLoading ok
+心跳已启动
+构造 3 stage=[object Stage]
+构造 4 stage 设置完成 960x560
+构造 右键菜单 抛错 TypeError: Error #1009
+步骤 读取 doorConfig.xml
+构造 6 已发起 doorConfig.xml
+启动图已显示
+doorConfig.xml 加载失败，跳过开门检查直接 start(): [IOErrorEvent type="ioError" bubbles=false cancelable=false eventPhase=2 text="Error #2032" errorID=2032]
+步骤 加载 main_resource.swf
+start 加载 http://127.0.0.1:41520/resource/main_resource.swf
+预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+main_resource.swf 加载完成
+步骤 读取 ServerR.xml
+加载 ServerR.xml
+预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 10608
+ServerR.xml 分段=1
+步骤 ServerR.xml 分段=1
+onServerComplete 抛错 TypeError: Error #2007
+TypeError: Error #2007
+	at Client/onServerComplete()
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+（同类异常又出现 1 次，已折叠）
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+（同类异常又出现 1 次，已折叠）
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
