@@ -1,0 +1,197 @@
+设备 Xiaomi 24094RAD4C / Android 14 (API 34) / air.com.nieo.coexist
+构建 v192 / 服务端 运行中
+
+=== 诊断 ===
+16:55:05  原生触摸 UP 1174,1024
+16:55:05  原生触摸 DOWN 1186,1025
+16:55:06  原生触摸 UP 1190,1015
+16:55:06  原生触摸 UP 1774,576
+16:55:06  [端] 未捕获异常 TypeError: Error #2007
+16:55:06  原生触摸 DOWN 1841,669
+16:55:07  原生触摸 DOWN 1898,363
+16:55:07  原生触摸 UP 1870,241
+16:55:07  原生触摸 DOWN 1812,456
+16:55:07  [端] 未捕获异常 TypeError: Error #2007
+16:55:07  原生触摸 DOWN 1235,1057
+16:55:08  原生触摸 UP 1203,1025
+16:55:08  原生触摸 DOWN 1183,954
+16:55:08  原生触摸 UP 1197,971
+16:55:08  原生触摸 DOWN 1195,1013
+16:55:09  原生触摸 DOWN 1419,491
+16:55:09  原生触摸 UP 1405,492
+16:55:09  [端] 未捕获异常 TypeError: Error #2007
+16:55:09  原生触摸 DOWN 1046,533
+16:55:09  原生触摸 UP 1040,513
+16:55:10  原生触摸 UP 1416,260
+16:55:10  原生触摸 DOWN 607,498
+16:55:10  原生触摸 DOWN 1092,1028
+16:55:11  原生触摸 DOWN 1153,1058
+16:55:11  原生触摸 DOWN 1158,963
+16:55:11  采样器 找到 pid=9227 但读不到 CPU 时间（第 21 次）
+16:55:11  原生触摸 DOWN 1742,656
+16:55:11  原生触摸 DOWN 1920,498
+16:55:12  原生触摸 UP 1899,346
+16:55:12  原生触摸 DOWN 1929,159
+16:55:12  原生触摸 UP 1852,141
+16:55:13  原生触摸 DOWN 640,545
+16:55:13  原生触摸 UP 585,787
+16:55:13  [端] （同类异常又出现 1 次，已折叠）
+16:55:13  原生触摸 DOWN 496,907
+16:55:14  原生触摸 UP 745,973
+16:55:14  原生触摸 UP 831,1011
+16:55:14  原生触摸 DOWN 1160,992
+16:55:14  [端] 未捕获异常 TypeError: Error #2007
+16:55:14  原生触摸 UP 1172,1018
+16:55:15  [端] 未捕获异常 TypeError: Error #2007
+16:55:17  [端] 未捕获异常 TypeError: Error #2007
+16:55:17  AIR 活动已销毁，结束 AIR 进程，下次进入重新初始化运行时
+16:55:18  采样器 未找到 :air 进程（第 1 次）
+
+
+=== 服务端日志 ===
+=== 服务端日志 ===
+[资源校验] 通过（抽样 1836 个，15ms）
+资源校验通过，跳过下载
+[32m[2026-10-30 08:54:48] INFO[0m 日志模块已初始化
+[UserDB] 数据库路径: /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/data/users.json
+[UserDB] 加载了 1 个用户
+[32m[2026-10-30 08:54:48] INFO[0m 初始化 29 个服务器
+[32m[2026-10-30 08:54:48] INFO[0m 游戏服务器启动在端口 28610
+[32m[2026-10-30 08:54:48] INFO[0m 资源服务器启动在端口 41520
+[32m[2026-10-30 08:54:48] INFO[0m 登录IP服务器启动在端口 29180
+[32m[2026-10-30 08:54:48] INFO[0m 登录服务器启动在端口 22973
+[32m[2026-10-30 08:54:48] INFO[0m 服务器ID: 1
+[32m[2026-10-30 08:54:48] INFO[0m 游戏服务器端口: 28610
+[32m[2026-10-30 08:54:48] INFO[0m 所有服务器已启动
+[32m[2026-10-30 08:54:51] INFO[0m [GET] /config/dll.xml 5619 bytes
+[32m[2026-10-30 08:54:51] INFO[0m [GET] /dll/nieo_patch.swf 10608 bytes
+[32m[2026-10-30 08:54:51] INFO[0m [SWF加载] /dll/nieo_patch.swf (10608 bytes)
+[32m[2026-10-30 08:54:51] INFO[0m [GET] /dll/NieoCore.swf 10608 bytes
+[32m[2026-10-30 08:54:51] INFO[0m [SWF加载] /dll/NieoCore.swf (10608 bytes)
+[32m[2026-10-30 08:54:51] INFO[0m [GET] /resource/module/PetFightDLL.swf 8832287 bytes
+[32m[2026-10-30 08:54:51] INFO[0m [SWF加载] /resource/module/PetFightDLL.swf (8832287 bytes)
+[32m[2026-10-30 08:54:53] INFO[0m [GET] /dll/NieoCore.swf 10608 bytes
+[32m[2026-10-30 08:54:53] INFO[0m [SWF加载] /dll/NieoCore.swf (10608 bytes)
+[33m[2026-10-30 08:54:53] WARNING[0m [404] /crossdomain.xml (resolved=/storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/proxy/crossdomain.xml) official=false
+[32m[2026-10-30 08:54:53] INFO[0m [GET] /login/Login.swf 5280462 bytes
+[32m[2026-10-30 08:54:53] INFO[0m [SWF加载] /login/Login.swf (5280462 bytes)
+[33m[2026-10-30 08:54:53] WARNING[0m [404] /config/doorConfig.xml (resolved=/storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/proxy/config/doorConfig.xml) official=false
+[32m[2026-10-30 08:54:53] INFO[0m [GET] /resource/main_resource.swf 137111 bytes
+[32m[2026-10-30 08:54:53] INFO[0m [SWF加载] /resource/main_resource.swf (137111 bytes)
+[32m[2026-10-30 08:54:53] INFO[0m [CONFIG] ✓ 生成默认配置到 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/proxy/config/ServerR.xml
+
+
+=== 客户端日志 ===
+=== boot.log ===
+引导 启动 Fri Oct 30 16:54:52 GMT+0800 2026 player=Desktop
+构造 进入 v54
+已声明 crossdomain.xml
+已挂未捕获异常监听
+构造 1 mainBG ok
+构造 2 firstLoading ok
+心跳已启动
+构造 3 stage=[object Stage]
+构造 4 stage 设置完成 960x560
+构造 右键菜单 抛错 TypeError: Error #1009
+步骤 读取 doorConfig.xml
+构造 6 已发起 doorConfig.xml
+启动图已显示
+doorConfig.xml 加载失败，跳过开门检查直接 start(): [IOErrorEvent type="ioError" bubbles=false cancelable=false eventPhase=2 text="Error #2032" errorID=2032]
+步骤 加载 main_resource.swf
+start 加载 http://127.0.0.1:41520/resource/main_resource.swf
+预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+main_resource.swf 加载完成
+步骤 读取 ServerR.xml
+加载 ServerR.xml
+预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 10608
+ServerR.xml 分段=1
+步骤 ServerR.xml 分段=1
+onServerComplete 抛错 TypeError: Error #2007
+TypeError: Error #2007
+	at Client/onServerComplete()
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+（同类异常又出现 1 次，已折叠）
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+（同类异常又出现 1 次，已折叠）
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+未捕获异常 TypeError: Error #2007
+=== air.log ===
+(空)
+=== AIR 应用缓存目录 ===
+eb519b27-18be-4ed0-ad79-d4a8a6ecaabc/
+  .adobe/
+    Flash_Player/
+      AssetCache/
+  assets/
+    ClientBoot.swf  26272B
+    LoginHome.png  1277168B
+    META-INF/
+      AIR/
+
+=== 客户端运行日志 ===
+10-30 16:55:02.675 W/om.nieo.coexist( 9146): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk' with 1 weak references
+10-30 16:55:02.675 W/om.nieo.coexist( 9146): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/miuisystem/miuisystem.apk' with 1 weak references
+10-30 16:55:02.684 I/nieo    ( 9227): 原生触摸 UP 1214,994
+10-30 16:55:02.967 I/nieo    ( 9227): 原生触摸 DOWN 1229,996
+10-30 16:55:03.202 I/nieo    ( 9227): 原生触摸 UP 1240,999
+10-30 16:55:03.429 I/nieo    ( 9227): 原生触摸 DOWN 1479,646
+10-30 16:55:03.678 I/nieo    ( 9227): 原生触摸 UP 1478,647
+10-30 16:55:04.030 I/nieo    ( 9227): 原生触摸 DOWN 1789,355
+10-30 16:55:04.286 I/nieo    ( 9227): 原生触摸 UP 1826,300
+10-30 16:55:04.670 I/nieo    ( 9227): 原生触摸 DOWN 1112,1005
+10-30 16:55:04.955 I/nieo    ( 9227): 原生触摸 UP 1129,1039
+10-30 16:55:05.254 I/nieo    ( 9227): 原生触摸 UP 1191,965
+10-30 16:55:05.466 I/nieo    ( 9227): 原生触摸 DOWN 1184,985
+10-30 16:55:05.647 I/nieo    ( 9146): [端] （同类异常又出现 1 次，已折叠）
+10-30 16:55:05.691 I/nieo    ( 9227): 原生触摸 UP 1174,1024
+10-30 16:55:05.929 I/nieo    ( 9227): 原生触摸 DOWN 1186,1025
+10-30 16:55:06.160 I/nieo    ( 9227): 原生触摸 UP 1190,1015
+10-30 16:55:06.450 I/nieo    ( 9227): 原生触摸 UP 1774,576
+10-30 16:55:06.652 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:06.721 I/nieo    ( 9227): 原生触摸 DOWN 1841,669
+10-30 16:55:07.045 I/nieo    ( 9227): 原生触摸 DOWN 1898,363
+10-30 16:55:07.275 I/nieo    ( 9227): 原生触摸 UP 1870,241
+10-30 16:55:07.542 I/nieo    ( 9227): 原生触摸 DOWN 1812,456
+10-30 16:55:07.656 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:07.918 I/nieo    ( 9227): 原生触摸 DOWN 1235,1057
+10-30 16:55:08.159 I/nieo    ( 9227): 原生触摸 UP 1203,1025
+10-30 16:55:08.430 I/nieo    ( 9227): 原生触摸 DOWN 1183,954
+10-30 16:55:08.682 I/nieo    ( 9227): 原生触摸 UP 1197,971
+10-30 16:55:08.932 I/nieo    ( 9227): 原生触摸 DOWN 1195,1013
+10-30 16:55:09.221 I/nieo    ( 9227): 原生触摸 DOWN 1419,491
+10-30 16:55:09.470 I/nieo    ( 9227): 原生触摸 UP 1405,492
+10-30 16:55:09.664 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:09.701 I/nieo    ( 9227): 原生触摸 DOWN 1046,533
+10-30 16:55:09.947 I/nieo    ( 9227): 原生触摸 UP 1040,513
+10-30 16:55:10.169 I/nieo    ( 9227): 原生触摸 UP 1416,260
+10-30 16:55:10.619 I/nieo    ( 9227): 原生触摸 DOWN 607,498
+10-30 16:55:10.968 I/nieo    ( 9227): 原生触摸 DOWN 1092,1028
+10-30 16:55:11.191 I/nieo    ( 9227): 原生触摸 DOWN 1153,1058
+10-30 16:55:11.435 I/nieo    ( 9227): 原生触摸 DOWN 1158,963
+10-30 16:55:11.602 I/nieo    ( 9146): 采样器 找到 pid=9227 但读不到 CPU 时间（第 21 次）
+10-30 16:55:11.686 I/nieo    ( 9227): 原生触摸 DOWN 1742,656
+10-30 16:55:11.919 I/nieo    ( 9227): 原生触摸 DOWN 1920,498
+10-30 16:55:12.179 I/nieo    ( 9227): 原生触摸 UP 1899,346
+10-30 16:55:12.439 I/nieo    ( 9227): 原生触摸 DOWN 1929,159
+10-30 16:55:12.690 I/nieo    ( 9227): 原生触摸 UP 1852,141
+10-30 16:55:13.253 I/nieo    ( 9227): 原生触摸 DOWN 640,545
+10-30 16:55:13.517 I/nieo    ( 9227): 原生触摸 UP 585,787
+10-30 16:55:13.680 I/nieo    ( 9146): [端] （同类异常又出现 1 次，已折叠）
+10-30 16:55:13.763 I/nieo    ( 9227): 原生触摸 DOWN 496,907
+10-30 16:55:14.111 I/nieo    ( 9227): 原生触摸 UP 745,973
+10-30 16:55:14.324 I/nieo    ( 9227): 原生触摸 UP 831,1011
+10-30 16:55:14.559 I/nieo    ( 9227): 原生触摸 DOWN 1160,992
+10-30 16:55:14.685 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:14.791 I/nieo    ( 9227): 原生触摸 UP 1172,1018
+10-30 16:55:15.689 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:17.067 I/nieo    ( 9146): 活动 onStart com.nieo.server.MainActivity
+10-30 16:55:17.069 I/nieo    ( 9146): 活动 onResume com.nieo.server.MainActivity
+10-30 16:55:17.700 I/nieo    ( 9146): [端] 未捕获异常 TypeError: Error #2007
+10-30 16:55:17.966 I/nieo    ( 9227): AIR 活动已销毁，结束 AIR 进程，下次进入重新初始化运行时
+10-30 16:55:18.630 I/nieo    ( 9146): 采样器 未找到 :air 进程（第 1 次）
