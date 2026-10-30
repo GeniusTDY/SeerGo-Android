@@ -19,6 +19,14 @@ echo "[2/4] 网页与资源覆盖层 -> $NIEO"
 mkdir -p "$NIEO"
 rsync -a "$ROOT/web/" "$NIEO/"
 
+# 可选的资源缓存快照（/opt/NieoData/resource 不收在 web/ 里，体积大）
+# 生成快照：rsync -a /opt/NieoData/resource/ /workspace/server/resource_cache/
+if [ -d "$ROOT/resource_cache" ]; then
+  echo "  资源缓存快照 -> $NIEO/resource"
+  mkdir -p "$NIEO/resource"
+  rsync -a "$ROOT/resource_cache/" "$NIEO/resource/"
+fi
+
 echo "[3/4] 检查可执行文件"
 if [ ! -x "$SEER/output/nieoserver" ]; then
   echo "  未找到二进制，尝试 go build ..."
