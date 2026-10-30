@@ -1,0 +1,585 @@
+设备 Xiaomi 24094RAD4C / Android 14 (API 34) / air.com.nieo.coexist
+构建 v192 / 服务端 运行中
+
+=== 诊断 ===
+Bean #23 完成 com.robot.app.cmd.TeamChatCmdListener
+Bean #24 完成 com.robot.app.cmd.AdviceTeamMateCmdListener
+Bean #25 完成 com.robot.app.cmd.AchieveTitleCmdListener
+Bean #26 完成 com.robot.app.cmd.SetTitleCmdListener
+Bean #27 完成 com.robot.app.cmd.SpecialSkillCmdListener
+Bean #28 完成 com.robot.app.cmd.HeartCmdListener
+Bean #29 完成 com.robot.app.newspaper.NewsPaper
+Bean #30 完成 com.robot.core.cmd.MailCmdListener
+Bean #31 完成 com.robot.app.cmd.TaskCmdListener
+Bean #32 完成 com.robot.app.user.UserInfoController
+Bean #33 完成 com.robot.core.pet.PetInfoController
+Bean #34 完成 com.robot.app.npc.NpcInfoController
+Bean #35 完成 com.robot.app.fightNote.FightNoteCmdListener
+Bean #36 完成 com.robot.app.task.TaskMain
+Bean #37 完成 com.robot.app.cmd.BossCmdListener
+Bean #38 完成 com.robot.app.buyItem.ItemCmdListener
+Bean #39 完成 com.robot.app.petUpdate.PetUpdateCmdListener
+Bean #40 完成 com.robot.app.ogre.OgreCmdListener
+Bean #41 完成 com.robot.app.ogre.SpecialPetCmdListener
+Bean #42 完成 com.robot.app.ogre.BossCmdListener
+Bean #43 完成 com.robot.app.teacher.TeacherCmdListener
+Bean #44 完成 com.robot.app.cmd.BuyCmdListener
+Bean #45 完成 com.robot.core.cmd.EnergyXishouCmdListener
+Bean #46 完成 com.robot.core.cmd.SpringGiftNoticeCmdListener
+Bean #47 完成 com.robot.app.systems.MessageAlarm
+Bean #48 完成 com.robot.app.cmd.TranUserCmdListener
+Bean #49 完成 com.robot.app.cmd.GameOverCmdListener
+Bean #50 完成 com.robot.core.cmd.ShowLogoCmdListener
+Bean #51 完成 com.robot.core.teamInstallation.ShowTeamLogo
+Bean #52 完成 com.robot.core.cmd.SpeedupCmdListener
+Bean #53 完成 com.robot.app.getplate.PlateCmdListener
+Bean #54 完成 com.robot.core.cmd.TransformCmdListener
+全部 Bean 完成，开始进图
+影子 MCLoader 装载字节 resource/map/515.swf 964368
+影子 MCLoader 加载完成 resource/map/515.swf
+影子 MCLoader 装载字节 resource/module/bag/bagUI.swf 16431
+影子 MCLoader 加载完成 resource/module/bag/bagUI.swf
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+影子 MCLoader 装载字节 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf 14459
+影子 MCLoader 加载完成 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030  ×4
+
+
+=== 服务端日志 ===
+=== 服务端日志 ===
+[资源校验] 通过（抽样 1836 个，16ms）
+资源校验通过，跳过下载
+[32m[2026-10-30 09:19:46] INFO[0m 日志模块已初始化
+[UserDB] 数据库路径: /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/data/users.json
+[UserDB] 加载了 1 个用户
+[32m[2026-10-30 09:19:46] INFO[0m 初始化 29 个服务器
+[32m[2026-10-30 09:19:46] INFO[0m 游戏服务器启动在端口 28610
+[32m[2026-10-30 09:19:46] INFO[0m 资源服务器启动在端口 41520
+[32m[2026-10-30 09:19:46] INFO[0m 登录IP服务器启动在端口 29180
+[32m[2026-10-30 09:19:46] INFO[0m 登录服务器启动在端口 22973
+[32m[2026-10-30 09:19:46] INFO[0m 服务器ID: 1
+[32m[2026-10-30 09:19:46] INFO[0m 游戏服务器端口: 28610
+[32m[2026-10-30 09:19:46] INFO[0m 所有服务器已启动
+[32m[2026-10-30 09:19:48] INFO[0m [CONFIG] dll.xml 已被战斗补丁改写，改用 dll.xml.orig（仅装载真实核心）
+[32m[2026-10-30 09:19:48] INFO[0m [GET] /config/dll.xml 5493 bytes
+[32m[2026-10-30 09:19:48] INFO[0m [GET] /dll/nieo_patch.swf 10608 bytes
+[32m[2026-10-30 09:19:48] INFO[0m [SWF加载] /dll/nieo_patch.swf (10608 bytes)
+[32m[2026-10-30 09:19:48] INFO[0m [dll] /dll/NieoCore.swf 是战斗补丁(10608 字节)，改用真实核心 core_v191.bin(2169585 字节)
+[32m[2026-10-30 09:19:48] INFO[0m [GET] /dll/NieoCore.swf 2169585 bytes
+[32m[2026-10-30 09:19:48] INFO[0m [SWF加载] /dll/NieoCore.swf (2169585 bytes)
+[32m[2026-10-30 09:19:48] INFO[0m [GET] /resource/module/PetFightDLL.swf 8832287 bytes
+[32m[2026-10-30 09:19:48] INFO[0m [SWF加载] /resource/module/PetFightDLL.swf (8832287 bytes)
+[32m[2026-10-30 09:19:49] INFO[0m [GET] /login/Login.swf 5280462 bytes
+[32m[2026-10-30 09:19:49] INFO[0m [SWF加载] /login/Login.swf (5280462 bytes)
+[32m[2026-10-30 09:19:49] INFO[0m [dll] /dll/NieoCore.swf 是战斗补丁(10608 字节)，改用真实核心 core_v191.bin(2169585 字节)
+[32m[2026-10-30 09:19:49] INFO[0m [GET] /dll/NieoCore.swf 2169585 bytes
+[32m[2026-10-30 09:19:49] INFO[0m [SWF加载] /dll/NieoCore.swf (2169585 bytes)
+[32m[2026-10-30 09:19:49] INFO[0m [回退] /crossdomain.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/crossdomain.xml
+[32m[2026-10-30 09:19:49] INFO[0m [GET] /crossdomain.xml 199 bytes
+[32m[2026-10-30 09:19:49] INFO[0m [回退] /config/doorConfig.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/config/doorConfig.xml
+[32m[2026-10-30 09:19:49] INFO[0m [GET] /config/doorConfig.xml 134 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [GET] /resource/main_resource.swf 137111 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [SWF加载] /resource/main_resource.swf (137111 bytes)
+[32m[2026-10-30 09:19:50] INFO[0m [GET] /config/ServerR.xml 2332 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:19:50] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:19:50] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:19:50] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:19:51] INFO[0m [CONFIG] dll.xml 已被战斗补丁改写，改用 dll.xml.orig（仅装载真实核心）
+[32m[2026-10-30 09:19:51] INFO[0m [GET] /config/dll.xml 5493 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [dll] /dll/NieoCore.swf 是战斗补丁(10608 字节)，改用真实核心 core_v191.bin(2169585 字节)
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /dll/NieoCore.swf 2169585 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [SWF加载] /dll/NieoCore.swf (2169585 bytes)
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /login/Login.swf 5280462 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [SWF加载] /login/Login.swf (5280462 bytes)
+[32m[2026-10-30 09:21:22] INFO[0m [回退] /config/doorConfig.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/config/doorConfig.xml
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /config/doorConfig.xml 134 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [回退] /crossdomain.xml -> 资源根目录 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/crossdomain.xml
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /crossdomain.xml 199 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /resource/main_resource.swf 137111 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [SWF加载] /resource/main_resource.swf (137111 bytes)
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /config/ServerR.xml 2332 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:21:22] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:21:22] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:21:23] INFO[0m [GET] /version.swf 20512 bytes
+[32m[2026-10-30 09:21:23] INFO[0m [SWF加载] /version.swf (20512 bytes)
+[32m[2026-10-30 09:21:23] INFO[0m [CONFIG] dll.xml 已被战斗补丁改写，改用 dll.xml.orig（仅装载真实核心）
+[32m[2026-10-30 09:21:23] INFO[0m [GET] /config/dll.xml 5493 bytes
+[32m[2026-10-30 09:21:40] INFO[0m [Local Mode] ✓ 返回登录服务器地址(TCP): 127.0.0.1:22973
+[32m[2026-10-30 09:21:40] INFO[0m 新登录连接: 127.0.0.1:39666
+[32m[2026-10-30 09:21:40] INFO[0m 数据包长度: 157
+[32m[2026-10-30 09:21:40] INFO[0m 数据包前20字节: 0000009d31000000680000000000000000757365
+[32m[2026-10-30 09:21:40] INFO[0m 完整数据包: 0000009d3100000068000000000000000075736572353339393539333638406578616d706c652e636f6d00000000000000000000000000000000000000000000000000000000000000000000000000000065313061646333393439626135396162626535366530353766323066383833650000001e0000000200000000302e31352e3000000000000000000000302e31332e3000000000000000000000
+[32m[2026-10-30 09:21:40] INFO[0m 格式1解析成功: CMD=104 UID=0 SEQ=0 LEN=157
+[32m[2026-10-30 09:21:40] INFO[0m [LOGIN-104] 邮箱登录请求: email=user539959368@example.com
+[32m[2026-10-30 09:21:40] INFO[0m [LOGIN-104] 登录成功: userId=100000001, email=user539959368@example.com
+[32m[2026-10-30 09:21:40] INFO[0m [LOGIN-104] Session已保存: 10a36282ed3f4402419bcd5f26592a9d
+[32m[2026-10-30 09:21:40] INFO[0m 发送登录响应: CMD=104 UID=100000001 ERROR=0 LEN=37
+[32m[2026-10-30 09:21:40] INFO[0m ╔══════════════════════════════════════════════════════════════╗
+[32m[2026-10-30 09:21:40] INFO[0m ║ ✅ 登录成功！米米号: 100000001
+[32m[2026-10-30 09:21:40] INFO[0m ║ 👤 角色状态: 已创建
+[32m[2026-10-30 09:21:40] INFO[0m ╚══════════════════════════════════════════════════════════════╝
+[32m[2026-10-30 09:21:40] INFO[0m 客户端断开连接: 127.0.0.1:39666
+[32m[2026-10-30 09:21:40] INFO[0m 新登录连接: 127.0.0.1:39668
+[32m[2026-10-30 09:21:40] INFO[0m 数据包长度: 37
+[32m[2026-10-30 09:21:40] INFO[0m 数据包前20字节: 00000025310000006905f5e1010000000010a362
+[32m[2026-10-30 09:21:40] INFO[0m 完整数据包: 00000025310000006905f5e1010000000010a36282ed3f4402419bcd5f26592a9d00000000
+[32m[2026-10-30 09:21:40] INFO[0m 格式1解析成功: CMD=105 UID=100000001 SEQ=0 LEN=37
+[32m[2026-10-30 09:21:40] INFO[0m 发送登录响应: CMD=105 UID=100000001 SEQ=0 LEN=67
+[32m[2026-10-30 09:21:40] INFO[0m CMD 105 已返回 1 个服务器（游戏服 127.0.0.1:28610）
+[32m[2026-10-30 09:21:41] INFO[0m [GET] /dll/Assets.swf 882146 bytes
+[32m[2026-10-30 09:21:41] INFO[0m [SWF加载] /dll/Assets.swf (882146 bytes)
+[32m[2026-10-30 09:21:41] INFO[0m 客户端断开连接: 127.0.0.1:39668
+[32m[2026-10-30 09:21:41] INFO[0m 新连接: 127.0.0.1:58236
+[32m[2026-10-30 09:21:41] INFO[0m 收到登录请求: CMD=1001 UID=100000001 SEQ=1 LEN=33
+[32m[2026-10-30 09:21:41] INFO[0m 登录请求包体长度: 16
+[32m[2026-10-30 09:21:41] INFO[0m 包体第0字节: 10
+[32m[2026-10-30 09:21:41] INFO[0m 包体第1字节: A3
+[32m[2026-10-30 09:21:41] INFO[0m 包体第2字节: 62
+[32m[2026-10-30 09:21:41] INFO[0m 包体第3字节: 82
+[32m[2026-10-30 09:21:41] INFO[0m 包体第4字节: ED
+[32m[2026-10-30 09:21:41] INFO[0m 包体第5字节: 3F
+[32m[2026-10-30 09:21:41] INFO[0m 包体第6字节: 44
+[32m[2026-10-30 09:21:41] INFO[0m 包体第7字节: 02
+[32m[2026-10-30 09:21:41] INFO[0m 包体第8字节: 41
+[32m[2026-10-30 09:21:41] INFO[0m 包体第9字节: 9B
+[32m[2026-10-30 09:21:41] INFO[0m 包体第10字节: CD
+[32m[2026-10-30 09:21:41] INFO[0m 包体第11字节: 5F
+[32m[2026-10-30 09:21:41] INFO[0m 包体第12字节: 26
+[32m[2026-10-30 09:21:41] INFO[0m 包体第13字节: 59
+[32m[2026-10-30 09:21:41] INFO[0m 包体第14字节: 2A
+[32m[2026-10-30 09:21:41] INFO[0m 包体第15字节: 9D
+[32m[2026-10-30 09:21:41] INFO[0m 处理登录请求包体
+[32m[2026-10-30 09:21:41] INFO[0m 登录任务状态编码完成: totalTasks=1
+[32m[2026-10-30 09:21:41] INFO[0m 登录响应数据: UID=100000001 Nick=Nieo MapID=1 Pets=0 Clothes=0 Tasks=1 BodyLen=1650
+[32m[2026-10-30 09:21:41] INFO[0m 发送 CMD=1001 SEQ=1 LEN=1667
+[32m[2026-10-30 09:21:42] INFO[0m [GET] /resource/ui.swf 1806956 bytes
+[32m[2026-10-30 09:21:42] INFO[0m [SWF加载] /resource/ui.swf (1806956 bytes)
+[32m[2026-10-30 09:21:42] INFO[0m [GET] /resource/taskIcon.swf 367479 bytes
+[32m[2026-10-30 09:21:42] INFO[0m [SWF加载] /resource/taskIcon.swf (367479 bytes)
+[32m[2026-10-30 09:21:42] INFO[0m [GET] /resource/aimat/aimatUI.swf 824407 bytes
+[32m[2026-10-30 09:21:42] INFO[0m [SWF加载] /resource/aimat/aimatUI.swf (824407 bytes)
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=1002 UID=100000001 SEQ=2 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=1002 SEQ=2 LEN=25
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=1002 UID=100000001 SEQ=3 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=1002 SEQ=3 LEN=25
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=1002 UID=100000001 SEQ=4 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=1002 SEQ=4 LEN=25
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=2757 UID=100000001 SEQ=5 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=2757 SEQ=5 LEN=21
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=9003 UID=100000001 SEQ=6 LEN=21
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=9003 SEQ=6 LEN=107
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=2150 UID=100000001 SEQ=7 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=2150 SEQ=7 LEN=25
+[32m[2026-10-30 09:21:42] INFO[0m 收到 CMD=70001 UID=100000001 SEQ=8 LEN=17
+[32m[2026-10-30 09:21:42] INFO[0m 发送 CMD=70001 SEQ=8 LEN=21
+[32m[2026-10-30 09:21:42] INFO[0m [GET] /resource/map/515.swf 964368 bytes
+[32m[2026-10-30 09:21:42] INFO[0m [SWF加载] /resource/map/515.swf (964368 bytes)
+[32m[2026-10-30 09:21:43] INFO[0m 收到 CMD=2201 UID=100000001 SEQ=9 LEN=21
+[32m[2026-10-30 09:21:43] INFO[0m 发送 CMD=2201 SEQ=9 LEN=21
+[32m[2026-10-30 09:21:43] INFO[0m 收到 CMD=2354 UID=100000001 SEQ=10 LEN=17
+[32m[2026-10-30 09:21:43] INFO[0m 发送 CMD=2354 SEQ=10 LEN=21
+[32m[2026-10-30 09:21:46] INFO[0m [GET] /resource/module/bag/bagUI.swf 16431 bytes
+[32m[2026-10-30 09:21:46] INFO[0m [SWF加载] /resource/module/bag/bagUI.swf (16431 bytes)
+[32m[2026-10-30 09:21:46] INFO[0m 收到 CMD=2605 UID=100000001 SEQ=11 LEN=29
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品列表请求: 范围 100001-101000, 2 (用户总物品数: 10)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300001 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300025 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300650 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500001 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500502 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500503 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 添加物品: ID=100027 Count=1 ExpireTime=360000
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 添加物品: ID=100028 Count=1 ExpireTime=360000
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300011 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300035 不在范围内 (范围: 100001-101000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 返回物品列表: 数量=2 BodyLen=36
+[32m[2026-10-30 09:21:46] INFO[0m 发送 CMD=2605 SEQ=11 LEN=53
+[32m[2026-10-30 09:21:46] INFO[0m 收到 CMD=1106 UID=100000001 SEQ=12 LEN=17
+[32m[2026-10-30 09:21:46] INFO[0m 发送 CMD=1106 SEQ=12 LEN=21
+[32m[2026-10-30 09:21:46] INFO[0m 收到 CMD=2605 UID=100000001 SEQ=13 LEN=29
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品列表请求: 范围 1300001-1400000, 2 (用户总物品数: 10)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300011 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300035 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300001 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300025 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 300650 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500001 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500502 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 500503 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 100027 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 物品 100028 不在范围内 (范围: 1300001-1400000, 2)
+[32m[2026-10-30 09:21:46] INFO[0m [2605] 返回物品列表: 数量=0 BodyLen=4
+[32m[2026-10-30 09:21:46] INFO[0m 发送 CMD=2605 SEQ=13 LEN=21
+[32m[2026-10-30 09:21:48] INFO[0m 收到 CMD=80008 UID=100000001 SEQ=14 LEN=17
+[32m[2026-10-30 09:21:51] INFO[0m [GET] /module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf 14459 bytes
+[32m[2026-10-30 09:21:51] INFO[0m [SWF加载] /module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf (14459 bytes)
+[32m[2026-10-30 09:21:54] INFO[0m 收到 CMD=80008 UID=100000001 SEQ=15 LEN=17
+[32m[2026-10-30 09:21:56] INFO[0m 收到 CMD=2202 UID=100000001 SEQ=16 LEN=25
+[32m[2026-10-30 09:21:56] INFO[0m [2202] 新手选宠: PetID=1 DV=19 Nature=22
+[32m[2026-10-30 09:21:56] INFO[0m 发送 CMD=2202 SEQ=16 LEN=33
+[32m[2026-10-30 09:21:56] INFO[0m 收到 CMD=2304 UID=100000001 SEQ=17 LEN=25
+[32m[2026-10-30 09:21:56] INFO[0m 正在加载精灵数据...
+[32m[2026-10-30 09:21:57] INFO[0m 加载了 2176 个精灵数据
+[32m[2026-10-30 09:21:57] INFO[0m 正在加载技能数据...
+[32m[2026-10-30 09:21:57] INFO[0m 加载了 5612 个技能数据
+[32m[2026-10-30 09:21:57] INFO[0m 链接了 4691 个技能效果
+[32m[2026-10-30 09:21:57] INFO[0m [buildFullPetInfo] PetID=1 Level=5 Skills: validCount=2
+[32m[2026-10-30 09:21:57] INFO[0m   Skill[0]: ID=10001 PP=35
+[32m[2026-10-30 09:21:57] INFO[0m   Skill[1]: ID=20001 PP=40
+[32m[2026-10-30 09:21:57] INFO[0m 发送 CMD=2304 SEQ=17 LEN=183
+[32m[2026-10-30 09:21:57] INFO[0m [2304] 精灵仓库互转: catchID=1768449793 flag=1 respFlag=1
+[32m[2026-10-30 09:22:03] INFO[0m 收到 CMD=2201 UID=100000001 SEQ=18 LEN=21
+[32m[2026-10-30 09:22:03] INFO[0m 发送 CMD=2201 SEQ=18 LEN=21
+[32m[2026-10-30 09:22:09] INFO[0m 收到 CMD=2052 UID=100000001 SEQ=19 LEN=21
+[32m[2026-10-30 09:22:09] INFO[0m 发送 CMD=2052 SEQ=19 LEN=273
+[32m[2026-10-30 09:22:09] INFO[0m [2052] 获取详细用户信息: targetID=100000001
+[32m[2026-10-30 09:22:18] INFO[0m 收到 CMD=2052 UID=100000001 SEQ=20 LEN=21
+[32m[2026-10-30 09:22:18] INFO[0m 发送 CMD=2052 SEQ=20 LEN=273
+[32m[2026-10-30 09:22:18] INFO[0m [2052] 获取详细用户信息: targetID=100000001
+[32m[2026-10-30 09:22:20] INFO[0m 收到 CMD=2052 UID=100000001 SEQ=21 LEN=21
+[32m[2026-10-30 09:22:20] INFO[0m 发送 CMD=2052 SEQ=21 LEN=273
+[32m[2026-10-30 09:22:20] INFO[0m [2052] 获取详细用户信息: targetID=100000001
+[32m[2026-10-30 09:22:24] INFO[0m 收到 CMD=80008 UID=100000001 SEQ=22 LEN=17
+[32m[2026-10-30 09:22:28] INFO[0m 客户端断开连接
+[UserDB] 数据已保存到磁盘
+[32m[2026-10-30 09:22:28] INFO[0m 用户 100000001 已离线
+[32m[2026-10-30 09:22:28] INFO[0m [2003] 用户离开地图后广播: MapID=1
+
+
+=== 客户端日志 ===
+=== boot.log ===
+引导 启动 Fri Oct 30 17:21:22 GMT+0800 2026 player=Desktop
+构造 进入 v54
+已声明 crossdomain.xml
+已挂未捕获异常监听
+构造 1 mainBG ok
+构造 2 firstLoading ok
+心跳已启动
+构造 3 stage=[object Stage]
+构造 4 stage 设置完成 960x560
+构造 右键菜单 抛错 TypeError: Error #1009
+步骤 读取 doorConfig.xml
+构造 6 已发起 doorConfig.xml
+预取完成 http://127.0.0.1:41520/dll/NieoCore.swf 2169585
+doorConfig 解析完成 isOpen=1
+步骤 加载 main_resource.swf
+start 加载 http://127.0.0.1:41520/resource/main_resource.swf
+预取完成 http://127.0.0.1:41520/login/Login.swf 5280462
+启动图已显示
+main_resource.swf 加载完成
+步骤 读取 ServerR.xml
+加载 ServerR.xml
+ServerR.xml 分段=2
+步骤 ServerR.xml 分段=2
+initPVM 开始
+已发起 version.swf
+version.swf 头部加载完成
+version.swf 主体加载完成
+步骤 环境信息加载完成
+步骤 加载 DLL 模块
+init 开始 DLL 加载
+请求 dll.xml http://127.0.0.1:41520/config/dll.xml
+dll.xml 解析完成 模块数=1
+DLL 使用预取字节 2169585
+步骤 装载核心模块，请稍候（首次约 1-2 分钟）
+装载 DLL 字节码 开始 2169585
+DLL 装载完成 核心资源，剩余 0，耗时 0.5 秒
+DLL 全部装载完成
+DLL加载完成
+步骤 DLL 加载完成
+Bean 看门狗已挂 共 54 个
+http 探测地址修正为 http://127.0.0.1:41520/ip.txt
+配置已注入，开始加载登录界面
+步骤 加载 Login.swf
+Login.swf 下载完成 5280462 字节，开始装载
+步骤 装载登录界面，请稍候（首次约 1 分钟）
+装载 Login.swf 字节码 开始 5280462
+Login.swf 加载完成 耗时 0.1 秒
+Login.swf 加载完成
+Login 入舞台 开始 ExternalInterface=false
+stage.quality=MEDIUM
+Login 入舞台 结束 耗时 0.0 秒
+按钮 startBtn 区域 400,486 161x55
+按钮 loginBtn 区域 18,488 149x60
+按钮 parentBtn 区域 83,417 171x65
+按钮 addBtn 区域 186,486 153x61
+登录点击监听已挂载 按钮数=4
+贴片就绪 startOver
+登录背景图已就绪
+预渲染登录图已显示
+CLICK 收到点击 685,435
+未命中任何按钮
+CLICK 收到点击 535,505
+命中按钮 startBtn
+已切换到登录背景
+CLICK 收到点击 387,482
+派发后 登录面板 0 -> 1
+CLICK 收到点击 514,155
+CLICK 点 514,155 被弹窗拦住
+CLICK 收到点击 407,217
+CLICK 点 407,217 被弹窗拦住
+CLICK 收到点击 424,219
+CLICK 点 424,219 被弹窗拦住
+CLICK 收到点击 414,223
+CLICK 点 414,223 被弹窗拦住
+CLICK 收到点击 424,258
+CLICK 点 424,258 被弹窗拦住
+CLICK 收到点击 417,257
+CLICK 点 417,257 被弹窗拦住
+CLICK 收到点击 498,191
+CLICK 点 498,191 被弹窗拦住
+CLICK 收到点击 536,199
+CLICK 点 536,199 被弹窗拦住
+CLICK 收到点击 407,262
+CLICK 点 407,262 被弹窗拦住
+CLICK 收到点击 463,323
+CLICK 点 463,323 被弹窗拦住
+CLICK 收到点击 466,304
+CLICK 点 466,304 被弹窗拦住
+收到登录成功事件
+影子 MCLoader 构造 dll/Assets.swf title=正在加载核心资源
+影子 MCLoader 拉取 http://127.0.0.1:41520/dll/Assets.swf
+MainEntry.setup 完成，进入游戏
+UI 探测已启动
+影子 MCLoader 装载字节 dll/Assets.swf 882146
+影子 MCLoader 加载完成 dll/Assets.swf
+影子 MCLoader 构造 resource/ui.swf title=正在加载星球
+影子 MCLoader 拉取 http://127.0.0.1:41520/resource/ui.swf
+影子 MCLoader 装载字节 resource/ui.swf 1806956
+影子 MCLoader 加载完成 resource/ui.swf
+影子 MCLoader 构造 resource/taskIcon.swf title=正在加载任务信息
+影子 MCLoader 拉取 http://127.0.0.1:41520/resource/taskIcon.swf
+影子 MCLoader 装载字节 resource/taskIcon.swf 367479
+影子 MCLoader 加载完成 resource/taskIcon.swf
+影子 MCLoader 构造 resource/aimat/aimatUI.swf title=正在加载任务信息
+影子 MCLoader 拉取 http://127.0.0.1:41520/resource/aimat/aimatUI.swf
+影子 MCLoader 装载字节 resource/aimat/aimatUI.swf 824407
+影子 MCLoader 加载完成 resource/aimat/aimatUI.swf
+Bean #1 完成 com.robot.core.cmd.SysTimeCmdListener
+Bean #2 完成 com.robot.core.manager.LeftToolBarManager
+Bean #3 完成 com.robot.app.toolBar.ToolBarController
+Bean #4 完成 com.robot.core.cmd.VipCmdListener
+Bean #5 完成 com.robot.core.cmd.UserListCmdListener
+Bean #6 完成 com.robot.core.cmd.WalkCmdListener
+Bean #7 完成 com.robot.core.cmd.ChangeClothCmdListener
+Bean #8 完成 com.robot.core.cmd.ChangeColorCmdListener
+Bean #9 完成 com.robot.core.cmd.ChangeNameCmdListener
+Bean #10 完成 com.robot.core.cmd.ChangeDoodleCmdListener
+Bean #11 完成 com.robot.core.cmd.AimatCmdListener
+Bean #12 完成 com.robot.core.cmd.PetCmdListener
+Bean #13 完成 com.robot.core.cmd.SpecialCmdListener
+Bean #14 完成 com.robot.core.net.BefLoad
+Bean #15 完成 com.robot.core.cmd.nono.OnOffCmdListener
+Bean #16 完成 com.robot.core.cmd.nono.ChangeColorCmdListener
+Bean #17 完成 com.robot.core.cmd.nono.ChangeNameCmdListener
+Bean #18 完成 com.robot.core.cmd.nono.ChargeCmdListener
+Bean #19 完成 com.robot.core.cmd.nono.NonoPlayCmdListener
+Bean #20 完成 com.robot.core.cmd.nono.FollowCmdListener
+Bean #21 完成 com.robot.core.cmd.nono.ToolCmdListener
+Bean #22 完成 com.robot.app.cmd.TestCmdListener
+Bean #23 完成 com.robot.app.cmd.TeamChatCmdListener
+Bean #24 完成 com.robot.app.cmd.AdviceTeamMateCmdListener
+Bean #25 完成 com.robot.app.cmd.AchieveTitleCmdListener
+Bean #26 完成 com.robot.app.cmd.SetTitleCmdListener
+Bean #27 完成 com.robot.app.cmd.SpecialSkillCmdListener
+Bean #28 完成 com.robot.app.cmd.HeartCmdListener
+Bean #29 完成 com.robot.app.newspaper.NewsPaper
+Bean #30 完成 com.robot.core.cmd.MailCmdListener
+Bean #31 完成 com.robot.app.cmd.TaskCmdListener
+Bean #32 完成 com.robot.app.user.UserInfoController
+Bean #33 完成 com.robot.core.pet.PetInfoController
+Bean #34 完成 com.robot.app.npc.NpcInfoController
+Bean #35 完成 com.robot.app.fightNote.FightNoteCmdListener
+Bean #36 完成 com.robot.app.task.TaskMain
+Bean #37 完成 com.robot.app.cmd.BossCmdListener
+Bean #38 完成 com.robot.app.buyItem.ItemCmdListener
+Bean #39 完成 com.robot.app.petUpdate.PetUpdateCmdListener
+Bean #40 完成 com.robot.app.ogre.OgreCmdListener
+Bean #41 完成 com.robot.app.ogre.SpecialPetCmdListener
+Bean #42 完成 com.robot.app.ogre.BossCmdListener
+Bean #43 完成 com.robot.app.teacher.TeacherCmdListener
+Bean #44 完成 com.robot.app.cmd.BuyCmdListener
+Bean #45 完成 com.robot.core.cmd.EnergyXishouCmdListener
+Bean #46 完成 com.robot.core.cmd.SpringGiftNoticeCmdListener
+Bean #47 完成 com.robot.app.systems.MessageAlarm
+Bean #48 完成 com.robot.app.cmd.TranUserCmdListener
+Bean #49 完成 com.robot.app.cmd.GameOverCmdListener
+Bean #50 完成 com.robot.core.cmd.ShowLogoCmdListener
+Bean #51 完成 com.robot.core.teamInstallation.ShowTeamLogo
+Bean #52 完成 com.robot.core.cmd.SpeedupCmdListener
+Bean #53 完成 com.robot.app.getplate.PlateCmdListener
+Bean #54 完成 com.robot.core.cmd.TransformCmdListener
+全部 Bean 完成，开始进图
+影子 MCLoader 构造  title=加载地图
+影子 MCLoader 拉取 http://127.0.0.1:41520/resource/map/515.swf
+影子 MCLoader 装载字节 resource/map/515.swf 964368
+影子 MCLoader 加载完成 resource/map/515.swf
+探测1 UIManager.loader=[object Loader]
+探测1 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+探测1 ToolBarMC 实例化成功 [object ToolBarMC]
+探测1 news_Icon 实例化成功 [object news_Icon]
+探测1 Map_Icon 实例化成功 [object Map_Icon]
+探测1 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+点击目标 flash.text::TextField 690,432
+转发对话框点击 continueBtn 690,432
+点击目标 flash.display::MovieClip 1646,1054
+影子 MCLoader 构造 resource/module/bag/bagUI.swf title=正在打开储存箱
+影子 MCLoader 拉取 http://127.0.0.1:41520/resource/module/bag/bagUI.swf
+影子 MCLoader 装载字节 resource/module/bag/bagUI.swf 16431
+影子 MCLoader 加载完成 resource/module/bag/bagUI.swf
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+
+探测2 UIManager.loader=[object Loader]
+探测2 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+探测2 ToolBarMC 实例化成功 [object ToolBarMC]
+探测2 news_Icon 实例化成功 [object news_Icon]
+探测2 Map_Icon 实例化成功 [object Map_Icon]
+探测2 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+点击目标 Close_Btn 433,135
+点击目标 flash.display::SimpleButton 709,462
+点击目标 flash.display::MovieClip 695,455
+转发对话框点击 continueBtn 695,455
+点击目标 flash.display::MovieClip 1653,1087
+探测3 UIManager.loader=[object Loader]
+探测3 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+探测3 ToolBarMC 实例化成功 [object ToolBarMC]
+探测3 news_Icon 实例化成功 [object news_Icon]
+探测3 Map_Icon 实例化成功 [object Map_Icon]
+探测3 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+点击目标 flash.text::TextField 688,446
+转发对话框点击 continueBtn 688,446
+点击目标 flash.display::MovieClip 1643,1074
+点击目标 flash.display::MovieClip 698,455
+转发对话框点击 continueBtn 698,455
+点击目标 flash.display::MovieClip 1657,1086
+点击目标 flash.text::TextField 706,451
+转发对话框点击 continueBtn 706,451
+点击目标 flash.display::MovieClip 1668,1081
+影子 MCLoader 构造 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf title=正在打开选择精灵面板
+影子 MCLoader 拉取 http://127.0.0.1:41520/module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf
+影子 MCLoader 装载字节 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf 14459
+影子 MCLoader 加载完成 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf
+探测4 UIManager.loader=[object Loader]
+探测4 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+探测4 ToolBarMC 实例化成功 [object ToolBarMC]
+探测4 news_Icon 实例化成功 [object news_Icon]
+探测4 Map_Icon 实例化成功 [object Map_Icon]
+探测4 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+点击目标 flash.display::SimpleButton 397,301
+探测5 UIManager.loader=[object Loader]
+探测5 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+探测5 ToolBarMC 实例化成功 [object ToolBarMC]
+探测5 news_Icon 实例化成功 [object news_Icon]
+探测5 Map_Icon 实例化成功 [object Map_Icon]
+探测5 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+UI 探测结束
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+
+点击目标 Apply_Btn 480,352
+点击目标 flash.display::MovieClip 628,440
+点击目标 flash.display::MovieClip 566,326
+点击目标 flash.display::MovieClip 586,314
+点击目标 flash.display::Sprite 440,422
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+
+点击目标 flash.text::TextField 429,437
+点击目标 flash.display::MovieClip 485,333
+点击目标 flash.display::SimpleButton 580,142
+点击目标 flash.display::MovieClip 550,327
+点击目标 flash.display::MovieClip 601,370
+点击目标 flash.display::MovieClip 611,377
+点击目标 flash.display::MovieClip 608,380
+点击目标 flash.display::SimpleButton 507,344
+点击目标 flash.display::MovieClip 511,312
+点击目标 flash.display::MovieClip 563,381
+点击目标 flash.display::MovieClip 615,409
+点击目标 515_fla::ToolBarMC_180 847,515
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+
+DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+=== air.log ===
+(空)
+=== AIR 应用缓存目录 ===
+eb519b27-18be-4ed0-ad79-d4a8a6ecaabc/
+  .adobe/
+    Flash_Player/
+      AssetCache/
+  assets/
+    ClientBoot.swf  26272B
+    LoginBg.png  178889B
+    LoginHome.png  1277168B
+    LoginStartDown.png  10290B
+    LoginStartOver.png  11595B
+    META-INF/
+      AIR/
+    base.version  6B
+    core.version  6B
+    resource/
+      newNpc/
+
+=== 客户端运行日志 ===
+10-30 17:21:48.561 I/nieo    ( 4934): [端] 探测2 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+10-30 17:21:48.562 I/nieo    ( 4934): [端] 探测2 ToolBarMC 实例化成功 [object ToolBarMC]
+10-30 17:21:48.563 I/nieo    ( 4934): [端] 探测2 news_Icon 实例化成功 [object news_Icon]
+10-30 17:21:48.564 I/nieo    ( 4934): [端] 探测2 Map_Icon 实例化成功 [object Map_Icon]
+10-30 17:21:48.566 I/nieo    ( 4934): [端] 探测2 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+10-30 17:21:48.978 I/nieo    ( 5412): 原生触摸 DOWN 1056,261
+10-30 17:21:49.408 I/nieo    ( 4934): 采样器 找到 pid=5412 但读不到 CPU 时间（第 51 次）
+10-30 17:21:49.572 I/nieo    ( 4934): [端] 点击目标 Close_Btn 433,135
+10-30 17:21:49.755 I/nieo    ( 5412): 原生触摸 DOWN 1589,891
+10-30 17:21:50.357 I/nieo    ( 5412): 原生触摸 DOWN 1562,878
+10-30 17:21:50.578 I/nieo    ( 4934): [端] 点击目标 flash.display::SimpleButton 709,462
+10-30 17:21:50.579 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 695,455
+10-30 17:21:50.580 I/nieo    ( 4934): [端] 转发对话框点击 continueBtn 695,455
+10-30 17:21:50.581 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 1653,1087
+10-30 17:21:50.822 I/nieo    ( 5412): 原生触摸 DOWN 1548,860
+10-30 17:21:51.264 I/nieo    ( 5412): 原生触摸 DOWN 1568,877
+10-30 17:21:51.589 I/nieo    ( 4934): [端] 探测3 UIManager.loader=[object Loader]
+10-30 17:21:51.591 I/nieo    ( 4934): [端] 探测3 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+10-30 17:21:51.592 I/nieo    ( 4934): [端] 探测3 ToolBarMC 实例化成功 [object ToolBarMC]
+10-30 17:21:51.594 I/nieo    ( 4934): [端] 探测3 news_Icon 实例化成功 [object news_Icon]
+10-30 17:21:51.595 I/nieo    ( 4934): [端] 探测3 Map_Icon 实例化成功 [object Map_Icon]
+10-30 17:21:51.596 I/nieo    ( 4934): [端] 探测3 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+10-30 17:21:51.597 I/nieo    ( 4934): [端] 点击目标 flash.text::TextField 688,446
+10-30 17:21:51.598 I/nieo    ( 4934): [端] 转发对话框点击 continueBtn 688,446
+10-30 17:21:51.599 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 1643,1074
+10-30 17:21:51.600 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 698,455
+10-30 17:21:51.601 I/nieo    ( 4934): [端] 转发对话框点击 continueBtn 698,455
+10-30 17:21:51.601 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 1657,1086
+10-30 17:21:51.674 I/nieo    ( 5412): 原生触摸 DOWN 1583,869
+10-30 17:21:52.607 I/nieo    ( 4934): [端] 点击目标 flash.text::TextField 706,451
+10-30 17:21:52.608 I/nieo    ( 4934): [端] 转发对话框点击 continueBtn 706,451
+10-30 17:21:52.609 I/nieo    ( 4934): [端] 点击目标 flash.display::MovieClip 1668,1081
+10-30 17:21:52.609 I/nieo    ( 4934): [端] 影子 MCLoader 构造 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf title=正在打开选择精灵面板
+10-30 17:21:52.610 I/nieo    ( 4934): [端] 影子 MCLoader 拉取 http://127.0.0.1:41520/module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf
+10-30 17:21:52.611 I/nieo    ( 4934): [端] 影子 MCLoader 装载字节 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf 14459
+10-30 17:21:53.319 I/nieo    ( 5412): 原生触摸 DOWN 1339,609
+10-30 17:21:53.614 I/nieo    ( 4934): [端] 影子 MCLoader 加载完成 module/com/robot/module/task/NewNoviceTaskChoicePetPanel.swf
+10-30 17:21:54.541 I/nieo    ( 5412): 原生触摸 UP 1515,761
+10-30 17:21:54.618 I/nieo    ( 4934): [端] 探测4 UIManager.loader=[object Loader]
+10-30 17:21:54.932 I/nieo    ( 5412): 原生触摸 DOWN 1003,576
+10-30 17:21:55.624 I/nieo    ( 4934): [端] 探测4 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+10-30 17:21:55.626 I/nieo    ( 4934): [端] 探测4 ToolBarMC 实例化成功 [object ToolBarMC]
+10-30 17:21:55.627 I/nieo    ( 4934): [端] 探测4 news_Icon 实例化成功 [object news_Icon]
+10-30 17:21:55.628 I/nieo    ( 4934): [端] 探测4 Map_Icon 实例化成功 [object Map_Icon]
+10-30 17:21:55.628 I/nieo    ( 4934): [端] 探测4 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+10-30 17:21:56.498 I/nieo    ( 5412): 原生触摸 UP 1140,802
+10-30 17:21:56.766 I/nieo    ( 5412): 原生触摸 DOWN 988,580
+10-30 17:21:57.639 I/nieo    ( 4934): [端] 点击目标 flash.display::SimpleButton 397,301
+10-30 17:21:57.640 I/nieo    ( 4934): [端] 探测5 UIManager.loader=[object Loader]
+10-30 17:21:57.642 I/nieo    ( 4934): [端] 探测5 定义 ToolBarMC=true news_Icon=true inputTxt=false BatteryMC=false
+10-30 17:21:57.643 I/nieo    ( 4934): [端] 探测5 ToolBarMC 实例化成功 [object ToolBarMC]
+10-30 17:21:57.644 I/nieo    ( 4934): [端] 探测5 news_Icon 实例化成功 [object news_Icon]
+10-30 17:21:57.645 I/nieo    ( 4934): [端] 探测5 Map_Icon 实例化成功 [object Map_Icon]
+10-30 17:21:57.646 I/nieo    ( 4934): [端] 探测5 _fla.n_1m6ur50qrd70_97 实例化成功 [object n_1m6ur50qrd70_97]
+10-30 17:21:57.647 I/nieo    ( 4934): [端] UI 探测结束
+10-30 17:21:57.648 I/nieo    ( 4934): [端] DLL 未捕获异常 Error: Error #2030 | Error: Error #2030
+10-30 17:21:59.426 I/nieo    ( 4934): 采样器 找到 pid=5412 但读不到 CPU 时间（第 61 次）
+10-30 17:22:03.474 I/nieo    ( 5412): 原生触摸 DOWN 1148,679
+10-30 17:22:03.675 I/nieo    ( 4934): [端] 点击目标 Apply_Btn 480,352
+10-30 17:22:05.758 I/nieo    ( 5412): 原生触摸 DOWN 1434,848
