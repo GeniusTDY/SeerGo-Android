@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"time"
 
@@ -58,7 +59,7 @@ func ListenAndServe(addr, nieoDataDir, ipFile string) error {
 		primary := filepath.Join(nieoDataDir, filepath.FromSlash(path))
 		if fi, err := os.Stat(primary); err == nil && fi.Mode().IsRegular() && fi.Size() > 0 {
 			// ruffle 的 wasm（14MB）/ruffle.js 是大头，按需 gzip 并落缓存，首包体积约降到 1/3
-			if wantGzip(r, path, fi.Size()) {
+			if wantGzip(r, primary, path, fi.Size()) {
 				rw := &statusWriter{ResponseWriter: w, code: 200}
 				serveGzipCached(rw, r, primary, filepath.Join(tmpRoot, "gz", filepath.FromSlash(path)+".gz"), path, fi)
 				logRes(r, rw.code, rw.n, "OK gzip", start)
@@ -232,16 +233,34 @@ func setCacheHeaders(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-// wantGzip 只对 ruffle 的 wasm/js 启用（SWF 本身已是 zlib 压缩，再压没有收益）。
-func wantGzip(r *http.Request, path string, size int64) bool {
+// wantGzip 对 ruffle 的 wasm/js 和未压缩（FWS）的 SWF 启用。
+// CWS/ZWS 本身是压缩容器，再 gzip 没有收益；FWS 是裸数据，gzip 后能降 80%+（如 IcicleGame.swf 3.86MB -> 0.64MB）。
+func wantGzip(r *http.Request, file, path string, size int64) bool {
 	if size < 1024 || !strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
 		return false
 	}
 	low := strings.ToLower(path)
-	if !strings.HasPrefix(low, "ruffle/") {
+	if strings.HasSuffix(low, ".wasm") || strings.HasSuffix(low, ".js") {
+		return strings.HasPrefix(low, "ruffle/")
+	}
+	if strings.HasSuffix(low, ".swf") {
+		return isFWS(file)
+	}
+	return false
+}
+
+// isFWS 读 SWF 前 3 字节判断是否为未压缩格式（FWS）。
+func isFWS(file string) bool {
+	f, err := os.Open(file)
+	if err != nil {
 		return false
 	}
-	return strings.HasSuffix(low, ".wasm") || strings.HasSuffix(low, ".js")
+	defer f.Close()
+	var b [3]byte
+	if _, err := f.Read(b[:]); err != nil {
+		return false
+	}
+	return b[0] == 'F' && b[1] == 'W' && b[2] == 'S'
 }
 
 // serveGzipCached 提供 gzip 压缩版本；压缩结果按源文件 mtime 缓存到 tmp/gz/（源文件更新则重新压）。
@@ -259,6 +278,11 @@ func serveGzipCached(w http.ResponseWriter, r *http.Request, src, cache, name st
 	}
 	w.Header().Set("Content-Encoding", "gzip")
 	w.Header().Set("Vary", "Accept-Encoding")
+	// Go 的 ServeContent 在设置了 Content-Encoding 时不会写 Content-Length，
+	// 这里显式补上，避免走 chunked（浏览器可显示进度、少一层分块开销）。
+	if r.Header.Get("Range") == "" {
+		w.Header().Set("Content-Length", strconv.FormatInt(gs.Size(), 10))
+	}
 	if ct := contentTypeFor(name); ct != "application/octet-stream" {
 		w.Header().Set("Content-Type", ct)
 	}
