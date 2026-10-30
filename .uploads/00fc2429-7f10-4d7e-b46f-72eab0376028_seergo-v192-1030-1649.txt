@@ -1,0 +1,88 @@
+设备 Xiaomi 24094RAD4C / Android 14 (API 34) / air.com.nieo.coexist
+构建 v192 / 服务端 运行中
+
+=== 诊断 ===
+（暂无）
+
+
+=== 服务端日志 ===
+=== 服务端日志 ===
+[资源校验] 通过（抽样 1836 个，112ms）
+资源校验通过，跳过下载
+[32m[2026-10-30 08:48:49] INFO[0m 日志模块已初始化
+[UserDB] 数据库路径: /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/data/users.json
+[UserDB] 加载了 1 个用户
+[32m[2026-10-30 08:48:49] INFO[0m 初始化 29 个服务器
+[32m[2026-10-30 08:48:49] INFO[0m 游戏服务器启动在端口 28610
+[32m[2026-10-30 08:48:49] INFO[0m 资源服务器启动在端口 41520
+[32m[2026-10-30 08:48:49] INFO[0m 登录IP服务器启动在端口 29180
+[32m[2026-10-30 08:48:49] INFO[0m 登录服务器启动在端口 22973
+[32m[2026-10-30 08:48:49] INFO[0m 服务器ID: 1
+[32m[2026-10-30 08:48:49] INFO[0m 游戏服务器端口: 28610
+[32m[2026-10-30 08:48:49] INFO[0m 所有服务器已启动
+[32m[2026-10-30 08:48:52] INFO[0m [GET] /config/dll.xml 5619 bytes
+[32m[2026-10-30 08:48:52] INFO[0m [GET] /dll/nieo_patch.swf 10608 bytes
+[32m[2026-10-30 08:48:52] INFO[0m [SWF加载] /dll/nieo_patch.swf (10608 bytes)
+[32m[2026-10-30 08:48:52] INFO[0m [GET] /dll/NieoCore.swf 10608 bytes
+[32m[2026-10-30 08:48:52] INFO[0m [SWF加载] /dll/NieoCore.swf (10608 bytes)
+[32m[2026-10-30 08:48:52] INFO[0m [GET] /resource/module/PetFightDLL.swf 8832287 bytes
+[32m[2026-10-30 08:48:52] INFO[0m [SWF加载] /resource/module/PetFightDLL.swf (8832287 bytes)
+
+
+=== 客户端日志 ===
+=== boot.log ===
+(空)
+=== air.log ===
+(空)
+=== AIR 应用缓存目录 ===
+eb519b27-18be-4ed0-ad79-d4a8a6ecaabc/
+  .adobe/
+    Flash_Player/
+      AssetCache/
+  assets/
+    ClientBoot.swf  26272B
+    META-INF/
+      AIR/
+
+=== 客户端运行日志 ===
+10-30 16:48:51.560 I/nieo    (31038): 进程表 air.com.nieo.coexist:31038 
+10-30 16:48:51.563 I/nieo    (31038): /proc 可见进程 3 个，cmdline 可读 3 个
+10-30 16:48:51.574 I/nieo    (31038): startActivity 已返回
+10-30 16:48:51.575 I/nieo    (31038): 活动 onPause com.nieo.server.MainActivity
+10-30 16:48:51.657 D/OpenGLRenderer(31156): JNI_OnLoad success
+10-30 16:48:51.674 W/libc    (31156): Access denied finding property "ro.vendor.df.effect.conflict"
+10-30 16:48:51.675 I/StartupTime1(31156): :1793350131675
+10-30 16:48:51.675 I/AIR VERSION(31156): :51.4.1.2
+10-30 16:48:51.675 I/DEVICE ARCH(31156): :arm64-v8a
+10-30 16:48:51.737 I/AdobeAIR(31156): No support for camera on this app
+10-30 16:48:51.796 I/nieo    (31156): 回到前台 请求焦点=true 视图=AIRWindowSurfaceView
+10-30 16:48:51.811 W/libc    (31156): Access denied finding property "ro.vendor.perf.scroll_opt"
+10-30 16:48:51.822 W/libc    (31156): Access denied finding property "vendor.migl.debug"
+10-30 16:48:51.845 D/SurfaceView(31156): UPDATE null, mIsCastMode = false
+10-30 16:48:51.948 W/libc    (31156): Access denied finding property "ro.vendor.display.iris_x7.support"
+10-30 16:48:51.950 D/SurfaceView(31156): UPDATE Surface(name=SurfaceView[air.com.nieo.coexist/air.com.nieo.coexist.AppEntry]#159772)/@0x9c582f1, mIsProjectionMode = false
+10-30 16:48:51.956 I/AIR RUNTIME(31156): Version 51,4,1,2 - platform Android-ARM64
+10-30 16:48:51.956 I/AIR RUNTIME(31156): Starting in synchronous mode
+10-30 16:48:51.956 I/nieo    (31156): AIR 启动 xml=/data/user/0/air.com.nieo.coexist/cache/app/eb519b27-18be-4ed0-ad79-d4a8a6ecaabc/META-INF/AIR/application.xml root=/data/user/0/air.com.nieo.coexist/cache/app/eb519b27-18be-4ed0-ad79-d4a8a6ec
+10-30 16:48:52.020 I/AdobeAIR(31156): Exception caught from Java: java.lang.ClassNotFoundException: Didn't find class "com.adobe.fre.FREArray" on path: DexPathList[[zip file "/data/app/~~4S62yIIsKgxSkD8CIWlnbw==/air.com.nieo.coexist-B7WAIFs
+10-30 16:48:52.052 I/AdobeAIR(31156): Security warwning: invalid license or package - application may have been modified after packaging
+10-30 16:48:52.052 E/nieo    (31156): !!!! 触发无效包检查 INVALID_PACKAGE !!!!
+10-30 16:48:52.052 E/AdobeAIR(31156): Security warning - invalid license
+10-30 16:48:52.052 E/AdobeAIR(31156): Your application package may have been modified
+10-30 16:48:52.053 E/nieo    (31156): !!! finish() 已被拦截，不关闭 AIR 活动 !!!
+10-30 16:48:52.271 I/nieo    (31038): 探针 dll.xml 5357 字节 含补丁=true 模块数=3
+10-30 16:48:52.272 I/nieo    (31038): 探针 dll.xml 摘要 <ext> <item name="战斗补丁" path="dll/nieo_patch.swf?v9" ver="v9"/> <item name="战斗补丁2" path="dll/NieoCore.swf?v9" ver="v9"/> <item name="核心资源" path="dll/core_v191.bin?v191" ver="v191"/> </ext>
+10-30 16:48:52.275 I/nieo    (31038): 探针 dll/nieo_patch.swf HTTP 200 长度=10608
+10-30 16:48:52.278 I/nieo    (31038): 探针 dll/NieoCore.swf HTTP 200 长度=10608
+10-30 16:48:52.282 I/nieo    (31038): 探针 resource/module/PetFightDLL.swf HTTP 200 长度=8832287
+10-30 16:48:52.285 I/nieo    (31038): 探针 磁盘 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/NieoData/config/dll.xml 存在=true 长度=5619
+10-30 16:48:52.285 I/nieo    (31038): 探针 磁盘 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/config/dll.xml 存在=false 长度=0
+10-30 16:48:52.286 I/nieo    (31038): 探针 磁盘 /storage/emulated/0/Android/data/air.com.nieo.coexist/files/server/NieoData/config/dll.xml 存在=false 长度=0
+10-30 16:48:52.565 I/nieo    (31038): 采样器 找到 pid=31156 但读不到 CPU 时间（第 1 次）
+10-30 16:48:52.670 I/nieo    (31038): 活动 onStop com.nieo.server.MainActivity
+10-30 16:48:53.335 I/nieo    (31038): 活动 onStart com.nieo.server.MainActivity
+10-30 16:48:53.336 I/nieo    (31038): 活动 onResume com.nieo.server.MainActivity
+10-30 16:48:53.340 I/nieo    (31038): AIR 入口仅停留 1790ms 就返回（客户端未起来）
+10-30 16:48:54.149 I/nieo    (31156): AIR 活动已销毁，结束 AIR 进程，下次进入重新初始化运行时
+10-30 16:48:54.572 I/nieo    (31038): 采样器 未找到 :air 进程（第 1 次）
+10-30 16:48:55.289 I/nieo    (31038): 探针 文件树 启动后3秒 外部目录=/storage/emulated/0/Android/data/air.com.nieo.coexist/files 存在=true | 共14项 server/   .installed_v13(0B)   data/   tables/   configs/   static/ dl/   NieoData.part0(120927324B) NieoData
